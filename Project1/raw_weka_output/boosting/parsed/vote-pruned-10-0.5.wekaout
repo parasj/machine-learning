@@ -1,0 +1,6 @@
+Options: -P 100 -S 1 -I 10 -W weka.classifiers.trees.J48 -- -C 0.5 -M 2 
+Number of performed Iterations: 10
+Correctly Classified Instances         301               98.6885 %
+Correctly Classified Instances         124               95.3846 %
+Time taken to build model: 0.18 seconds
+Time taken to test model on training split: 0 seconds

@@ -1,0 +1,2110 @@
+
+Options: -P 100 -S 1 -I 10 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2 
+
+AdaBoostM1: Base classifiers and their weights: 
+
+J48 pruned tree
+------------------
+
+word_freq_remove <= 0
+|   char_freq_$ <= 0.055
+|   |   word_freq_000 <= 0.25
+|   |   |   char_freq_! <= 0.355
+|   |   |   |   word_freq_money <= 0.13
+|   |   |   |   |   word_freq_font <= 0.12
+|   |   |   |   |   |   word_freq_free <= 0.02
+|   |   |   |   |   |   |   word_freq_our <= 1.8
+|   |   |   |   |   |   |   |   word_freq_george <= 0
+|   |   |   |   |   |   |   |   |   word_freq_650 <= 0.26
+|   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.13: 0 (747.0/44.0)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.13
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.82
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.3: 0 (41.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.3: 1 (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.82: 1 (6.0)
+|   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.04: 0 (202.0/1.0)
+|   |   |   |   |   |   |   |   |   word_freq_650 > 0.26
+|   |   |   |   |   |   |   |   |   |   word_freq_hp <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   word_freq_85 <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 1.44: 1 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 1.44: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_85 > 0.51: 0 (3.0)
+|   |   |   |   |   |   |   |   |   |   word_freq_hp > 0.05: 0 (98.0/1.0)
+|   |   |   |   |   |   |   |   word_freq_george > 0: 0 (456.0)
+|   |   |   |   |   |   |   word_freq_our > 1.8
+|   |   |   |   |   |   |   |   word_freq_internet <= 0.27
+|   |   |   |   |   |   |   |   |   word_freq_business <= 0.45
+|   |   |   |   |   |   |   |   |   |   word_freq_address <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 3.57: 0 (33.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_you > 3.57: 1 (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   word_freq_address > 0.36: 1 (2.0)
+|   |   |   |   |   |   |   |   |   word_freq_business > 0.45: 1 (3.0)
+|   |   |   |   |   |   |   |   word_freq_internet > 0.27: 1 (3.0)
+|   |   |   |   |   |   word_freq_free > 0.02
+|   |   |   |   |   |   |   word_freq_george <= 0
+|   |   |   |   |   |   |   |   word_freq_your <= 3.33
+|   |   |   |   |   |   |   |   |   word_freq_people <= 0.17
+|   |   |   |   |   |   |   |   |   |   word_freq_85 <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   word_freq_650 <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_labs <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_original <= 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_meeting <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 1.49
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business <= 0.56
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.005
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_direct <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 0.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.294: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.294: 1 (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 0.4: 0 (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.12: 1 (14.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 > 0.12: 0 (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_direct > 0.17: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.005: 1 (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business > 0.56: 1 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 1.49: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_meeting > 0.45: 0 (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_original > 0.1: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_labs > 0.01: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.1: 0 (21.0)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_650 > 0.12: 1 (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   word_freq_85 > 0.03: 0 (10.0)
+|   |   |   |   |   |   |   |   |   word_freq_people > 0.17: 0 (20.0)
+|   |   |   |   |   |   |   |   word_freq_your > 3.33: 1 (9.0)
+|   |   |   |   |   |   |   word_freq_george > 0: 0 (31.0)
+|   |   |   |   |   word_freq_font > 0.12
+|   |   |   |   |   |   char_freq_; <= 0.895
+|   |   |   |   |   |   |   word_freq_edu <= 0.09: 1 (14.0)
+|   |   |   |   |   |   |   word_freq_edu > 0.09: 0 (4.0)
+|   |   |   |   |   |   char_freq_; > 0.895: 0 (8.0)
+|   |   |   |   word_freq_money > 0.13
+|   |   |   |   |   word_freq_hp <= 0.08
+|   |   |   |   |   |   word_freq_edu <= 0.08
+|   |   |   |   |   |   |   word_freq_project <= 0.17: 1 (21.0/1.0)
+|   |   |   |   |   |   |   word_freq_project > 0.17: 0 (4.0)
+|   |   |   |   |   |   word_freq_edu > 0.08: 0 (5.0)
+|   |   |   |   |   word_freq_hp > 0.08: 0 (6.0)
+|   |   |   char_freq_! > 0.355
+|   |   |   |   capital_run_length_total <= 65
+|   |   |   |   |   word_freq_free <= 0.77
+|   |   |   |   |   |   word_freq_hp <= 0.5
+|   |   |   |   |   |   |   word_freq_business <= 0.27
+|   |   |   |   |   |   |   |   word_freq_re <= 0.23
+|   |   |   |   |   |   |   |   |   char_freq_! <= 3.851
+|   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 7: 0 (53.0/4.0)
+|   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 7
+|   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_meeting <= 1.31
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_85 <= 1.51
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 1.51
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.26: 0 (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.26: 1 (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 1.51: 0 (8.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_85 > 1.51: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_meeting > 1.31: 0 (4.0)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.37: 1 (2.0)
+|   |   |   |   |   |   |   |   |   char_freq_! > 3.851: 1 (5.0)
+|   |   |   |   |   |   |   |   word_freq_re > 0.23: 0 (29.0)
+|   |   |   |   |   |   |   word_freq_business > 0.27: 1 (6.0/1.0)
+|   |   |   |   |   |   word_freq_hp > 0.5: 0 (9.0)
+|   |   |   |   |   word_freq_free > 0.77
+|   |   |   |   |   |   char_freq_! <= 0.475: 0 (2.0)
+|   |   |   |   |   |   char_freq_! > 0.475: 1 (16.0)
+|   |   |   |   capital_run_length_total > 65
+|   |   |   |   |   word_freq_pm <= 0.17
+|   |   |   |   |   |   word_freq_1999 <= 0.18
+|   |   |   |   |   |   |   capital_run_length_average <= 1.794
+|   |   |   |   |   |   |   |   word_freq_your <= 0.61: 0 (6.0)
+|   |   |   |   |   |   |   |   word_freq_your > 0.61: 1 (16.0/1.0)
+|   |   |   |   |   |   |   capital_run_length_average > 1.794: 1 (104.0/4.0)
+|   |   |   |   |   |   word_freq_1999 > 0.18
+|   |   |   |   |   |   |   word_freq_you <= 0.14: 1 (4.0)
+|   |   |   |   |   |   |   word_freq_you > 0.14: 0 (3.0)
+|   |   |   |   |   word_freq_pm > 0.17: 0 (10.0/1.0)
+|   |   word_freq_000 > 0.25
+|   |   |   capital_run_length_longest <= 8
+|   |   |   |   word_freq_internet <= 0.22: 0 (4.0)
+|   |   |   |   word_freq_internet > 0.22: 1 (2.0)
+|   |   |   capital_run_length_longest > 8: 1 (34.0/2.0)
+|   char_freq_$ > 0.055
+|   |   word_freq_hp <= 0.42
+|   |   |   capital_run_length_longest <= 9
+|   |   |   |   word_freq_free <= 0.68
+|   |   |   |   |   word_freq_email <= 0.19: 0 (13.0)
+|   |   |   |   |   word_freq_email > 0.19
+|   |   |   |   |   |   word_freq_will <= 0.25: 1 (5.0)
+|   |   |   |   |   |   word_freq_will > 0.25: 0 (2.0)
+|   |   |   |   word_freq_free > 0.68: 1 (3.0)
+|   |   |   capital_run_length_longest > 9
+|   |   |   |   word_freq_1999 <= 0
+|   |   |   |   |   char_freq_! <= 0.122
+|   |   |   |   |   |   word_freq_edu <= 0.12
+|   |   |   |   |   |   |   word_freq_650 <= 0.09
+|   |   |   |   |   |   |   |   capital_run_length_average <= 2.646
+|   |   |   |   |   |   |   |   |   word_freq_our <= 0.03
+|   |   |   |   |   |   |   |   |   |   word_freq_people <= 2.94: 0 (6.0)
+|   |   |   |   |   |   |   |   |   |   word_freq_people > 2.94: 1 (2.0)
+|   |   |   |   |   |   |   |   |   word_freq_our > 0.03: 1 (19.0)
+|   |   |   |   |   |   |   |   capital_run_length_average > 2.646: 1 (54.0)
+|   |   |   |   |   |   |   word_freq_650 > 0.09
+|   |   |   |   |   |   |   |   word_freq_order <= 0.23: 0 (2.0)
+|   |   |   |   |   |   |   |   word_freq_order > 0.23: 1 (3.0)
+|   |   |   |   |   |   word_freq_edu > 0.12
+|   |   |   |   |   |   |   word_freq_your <= 0: 1 (2.0)
+|   |   |   |   |   |   |   word_freq_your > 0: 0 (3.0)
+|   |   |   |   |   char_freq_! > 0.122: 1 (277.0/3.0)
+|   |   |   |   word_freq_1999 > 0
+|   |   |   |   |   capital_run_length_average <= 3.281
+|   |   |   |   |   |   word_freq_internet <= 0.46: 0 (9.0)
+|   |   |   |   |   |   word_freq_internet > 0.46: 1 (2.0)
+|   |   |   |   |   capital_run_length_average > 3.281: 1 (10.0)
+|   |   word_freq_hp > 0.42: 0 (49.0)
+word_freq_remove > 0
+|   word_freq_1999 <= 0.14
+|   |   word_freq_data <= 0: 1 (502.0/13.0)
+|   |   word_freq_data > 0
+|   |   |   capital_run_length_average <= 1.813: 0 (3.0)
+|   |   |   capital_run_length_average > 1.813: 1 (22.0)
+|   word_freq_1999 > 0.14
+|   |   word_freq_george <= 0.08
+|   |   |   word_freq_conference <= 0.04: 1 (26.0)
+|   |   |   word_freq_conference > 0.04: 0 (3.0)
+|   |   word_freq_george > 0.08: 0 (10.0)
+
+Number of Leaves  : 	85
+
+Size of the tree : 	169
+
+
+Weight: 3.57
+
+J48 pruned tree
+------------------
+
+word_freq_george <= 0
+|   word_freq_meeting <= 0.45
+|   |   word_freq_hpl <= 0.44
+|   |   |   word_freq_edu <= 0.1
+|   |   |   |   word_freq_pm <= 1.25
+|   |   |   |   |   word_freq_conference <= 0
+|   |   |   |   |   |   word_freq_650 <= 0.68
+|   |   |   |   |   |   |   char_freq_( <= 0.611
+|   |   |   |   |   |   |   |   word_freq_hp <= 0.1
+|   |   |   |   |   |   |   |   |   word_freq_all <= 1.79
+|   |   |   |   |   |   |   |   |   |   word_freq_remove <= 1.65
+|   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.59
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.47
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 4.76
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 6: 0 (21.08/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 7: 1 (19.33/1.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 7: 0 (2.06)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 4.76: 1 (18.82/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 5.14: 1 (36.6)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 5.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 10.63: 0 (3.6)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 10.63: 1 (18.82)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.47: 0 (19.33)
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 1: 0 (35.47/2.06)
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 2.8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 0.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.82
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.552
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_credit <= 1.73
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 5.11: 0 (6.68)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 5.11: 1 (18.3)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_money <= 0.6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet <= 0.82
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.275
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 1.45: 1 (111.86/2.06)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 1.45
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.166: 0 (5.65/1.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.166: 1 (18.82)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.275
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 1.07: 0 (6.68)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 1.07
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.1: 1 (62.1/3.6)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.1: 0 (2.57/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 4: 0 (3.6/1.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology > 0.28: 1 (18.82)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive > 0.28: 1 (39.17/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet > 0.82: 1 (38.66/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_money > 0.6: 1 (18.82)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_credit > 1.73: 1 (18.82)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.552
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 2.48
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.186: 0 (24.67/1.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.186: 1 (2.06)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 2.48
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.915: 0 (7.71/1.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.915: 1 (19.84)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 0.45: 1 (24.47/2.06)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_font <= 0.21: 1 (705.91/19.53)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_font > 0.21
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 1.117: 1 (22.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 1.117: 0 (3.6)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.23: 0 (18.82/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.23
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 1.66
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.08: 0 (6.68/1.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.08: 1 (2.06)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 1.66: 1 (60.45/3.6)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 > 0.09
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.011
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.074: 0 (13.37/1.54)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.074: 1 (3.6/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.011: 1 (12.34)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.82
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email <= 0.55: 1 (100.03/2.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email > 0.55
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.75
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.29: 0 (3.08/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.29: 1 (2.06)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.14: 1 (2.06)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.75: 0 (73.72/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address > 0.05: 1 (11.82/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make > 0.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 10: 0 (42.77/1.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 10
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive <= 1.65: 1 (53.26/1.54)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive > 1.65: 0 (4.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 2.8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 5.32: 0 (30.64)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 5.32: 1 (19.33)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.59
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.051
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.689: 0 (75.67/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.689
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 8: 0 (2.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 8: 1 (4.11/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business > 0.11: 1 (4.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.051
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.3: 0 (3.08/1.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.3: 1 (20.56)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet > 0.08: 1 (32.69/0.51)
+|   |   |   |   |   |   |   |   |   |   word_freq_remove > 1.65
+|   |   |   |   |   |   |   |   |   |   |   word_freq_remove <= 1.78: 0 (37.63/1.03)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_remove > 1.78: 1 (20.05)
+|   |   |   |   |   |   |   |   |   word_freq_all > 1.79
+|   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.765: 0 (27.04/0.51)
+|   |   |   |   |   |   |   |   |   |   char_freq_! > 0.765: 1 (7.2/0.51)
+|   |   |   |   |   |   |   |   word_freq_hp > 0.1
+|   |   |   |   |   |   |   |   |   word_freq_receive <= 0.41
+|   |   |   |   |   |   |   |   |   |   word_freq_data <= 0.98
+|   |   |   |   |   |   |   |   |   |   |   word_freq_project <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_order <= 0.14: 0 (167.07/1.03)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_order > 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.07: 0 (5.14)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.07: 1 (4.63)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_project > 0.36
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl <= 0.19: 0 (3.6)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl > 0.19: 1 (18.3)
+|   |   |   |   |   |   |   |   |   |   word_freq_data > 0.98: 1 (19.84/1.54)
+|   |   |   |   |   |   |   |   |   word_freq_receive > 0.41: 1 (38.14/1.03)
+|   |   |   |   |   |   |   char_freq_( > 0.611
+|   |   |   |   |   |   |   |   capital_run_length_average <= 5.153: 0 (53.05/1.03)
+|   |   |   |   |   |   |   |   capital_run_length_average > 5.153: 1 (3.6/0.51)
+|   |   |   |   |   |   word_freq_650 > 0.68: 0 (27.04/1.03)
+|   |   |   |   |   word_freq_conference > 0
+|   |   |   |   |   |   word_freq_free <= 0.24: 0 (42.46)
+|   |   |   |   |   |   word_freq_free > 0.24: 1 (3.08)
+|   |   |   |   word_freq_pm > 1.25: 0 (27.04/0.51)
+|   |   |   word_freq_edu > 0.1
+|   |   |   |   char_freq_( <= 0.327
+|   |   |   |   |   capital_run_length_total <= 105: 0 (130.98)
+|   |   |   |   |   capital_run_length_total > 105
+|   |   |   |   |   |   word_freq_mail <= 0.32: 0 (72.07/1.54)
+|   |   |   |   |   |   word_freq_mail > 0.32
+|   |   |   |   |   |   |   word_freq_our <= 0.26: 0 (5.14/0.51)
+|   |   |   |   |   |   |   word_freq_our > 0.26: 1 (3.6)
+|   |   |   |   char_freq_( > 0.327
+|   |   |   |   |   capital_run_length_longest <= 20: 0 (10.28/0.51)
+|   |   |   |   |   capital_run_length_longest > 20
+|   |   |   |   |   |   word_freq_mail <= 0.07: 1 (20.87)
+|   |   |   |   |   |   word_freq_mail > 0.07: 0 (2.06)
+|   |   word_freq_hpl > 0.44
+|   |   |   word_freq_free <= 0.51: 0 (119.26/1.54)
+|   |   |   word_freq_free > 0.51
+|   |   |   |   word_freq_will <= 0.3: 1 (3.6/0.51)
+|   |   |   |   word_freq_will > 0.3: 0 (3.08/0.51)
+|   word_freq_meeting > 0.45: 0 (86.15)
+word_freq_george > 0
+|   word_freq_business <= 0.21: 0 (283.55/0.51)
+|   word_freq_business > 0.21
+|   |   word_freq_over <= 0.29: 0 (12.85)
+|   |   word_freq_over > 0.29: 1 (2.57)
+
+Number of Leaves  : 	87
+
+Size of the tree : 	173
+
+
+Weight: 3.84
+
+J48 pruned tree
+------------------
+
+word_freq_credit <= 0.48
+|   capital_run_length_longest <= 136
+|   |   word_freq_internet <= 2.22
+|   |   |   word_freq_original <= 0.12
+|   |   |   |   word_freq_data <= 1.88
+|   |   |   |   |   word_freq_george <= 1.28
+|   |   |   |   |   |   word_freq_free <= 3.7
+|   |   |   |   |   |   |   word_freq_cs <= 0.1
+|   |   |   |   |   |   |   |   word_freq_pm <= 0.76
+|   |   |   |   |   |   |   |   |   word_freq_project <= 0.6
+|   |   |   |   |   |   |   |   |   |   word_freq_mail <= 4.25
+|   |   |   |   |   |   |   |   |   |   |   word_freq_meeting <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_conference <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_original <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_addresses <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_pm <= 0.46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_lab <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 <= 3.57
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 1.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.246
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_font <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.48
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.369
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove <= 0.63
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email <= 1.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology <= 0.72
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 2.35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_george <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email <= 0.55
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# <= 0.035
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address <= 1.15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 1.45
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_order <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 1.46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 123
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.348
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 7.69
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 4.76
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.65
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 6: 0 (12.87)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 7: 1 (11.19/1.84)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 7: 0 (56.94/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.65
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 6.66: 1 (29.36/1.31)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 6.66: 0 (13.02/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 4.76: 1 (9.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 7.69: 0 (12.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 1.35: 1 (75.04/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 1.35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 2.02: 0 (15.88)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 2.02: 1 (9.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 6: 0 (4.46/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 6: 1 (9.61)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.348
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 1.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 3.92: 0 (241.32/3.15)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 3.92
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 10: 0 (28.34)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 10: 1 (10.14/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make > 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 3.377: 0 (13.78)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 3.377: 1 (9.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 1.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 1.32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 20: 1 (9.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 20
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 9: 0 (2.63/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 9: 1 (3.94)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 1.32: 0 (19.03/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_data <= 0.51: 0 (10.24)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_data > 0.51: 1 (9.61/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 29: 0 (18.96/9.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 44: 1 (22.6)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 44: 0 (3.68/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 123
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.017
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 1.79
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.18: 1 (94.82/3.15)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.014: 0 (19.29/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.014: 1 (2.1/0.53)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 0.57: 1 (15.91/0.53)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 1.79: 0 (9.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.017: 0 (17.71/1.58)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 1.46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.63: 1 (38.44)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.63: 0 (9.61)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_order > 0.35: 0 (39.49/1.31)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 1.45
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.054: 0 (46.47)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.054: 1 (2.36)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address > 1.15: 0 (31.75/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# > 0.035
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.036: 0 (40.54/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.036: 1 (2.36/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people > 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 47: 0 (133.1/1.84)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 47
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.013: 0 (15.09/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.013: 1 (2.36)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove > 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.11: 1 (43.17)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.11: 0 (9.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email > 0.55: 0 (80.07/4.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_george > 0: 0 (33.24)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business > 0.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_order <= 2.59: 1 (91.85/1.31)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_order > 2.59: 0 (12.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 0.13: 0 (19.32)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 2.35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 2.06: 0 (6.04)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 2.06: 1 (40.8/1.58)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology > 0.72
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 0.19: 1 (41.82/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 0.19: 0 (7.61)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email > 1.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 0.22: 1 (34.05/1.84)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 0.22: 0 (2.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove > 0.63
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 1.68: 1 (65.08/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 1.68: 0 (9.61/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.369
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 0.85: 0 (66.52/0.53)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 0.85
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 43: 0 (13.78/0.53)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 43: 1 (2.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_000 <= 0.19: 1 (3.68)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_000 > 0.19: 0 (21.55)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.48
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 9.043
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 1.07
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.73
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 2: 1 (12.46/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 2: 0 (39.53/1.84)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.73: 1 (12.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.59: 1 (198.94/7.09)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.59
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.61: 0 (12.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.61: 1 (36.22)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 1.07
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 11: 0 (35.59/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 11: 1 (4.73)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 9.043: 0 (33.0/2.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_font > 0.12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.895: 1 (24.8/1.05)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.895: 0 (2.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.246
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet <= 1.65: 1 (72.05/2.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet > 1.65: 0 (9.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 1.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 35: 0 (2.1/0.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 35: 1 (28.9)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 > 3.57: 1 (25.19/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_lab > 0.03: 0 (39.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_pm > 0.46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 139: 0 (14.56/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 139: 1 (27.03/0.53)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_addresses > 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.014: 0 (3.41/1.05)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.014: 1 (40.29/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_original > 0.01: 1 (26.01/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_conference > 0: 0 (26.94/0.53)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_meeting > 0.06: 0 (61.72/2.1)
+|   |   |   |   |   |   |   |   |   |   word_freq_mail > 4.25: 0 (38.18/0.26)
+|   |   |   |   |   |   |   |   |   word_freq_project > 0.6: 0 (54.98/0.79)
+|   |   |   |   |   |   |   |   word_freq_pm > 0.76: 0 (47.66/0.26)
+|   |   |   |   |   |   |   word_freq_cs > 0.1: 0 (43.31)
+|   |   |   |   |   |   word_freq_free > 3.7: 1 (28.86/0.26)
+|   |   |   |   |   word_freq_george > 1.28: 0 (60.39)
+|   |   |   |   word_freq_data > 1.88: 0 (70.72)
+|   |   |   word_freq_original > 0.12: 0 (117.87/1.58)
+|   |   word_freq_internet > 2.22: 1 (35.88/1.31)
+|   capital_run_length_longest > 136
+|   |   word_freq_hp <= 0: 1 (69.3/1.84)
+|   |   word_freq_hp > 0: 0 (3.68/0.79)
+word_freq_credit > 0.48: 1 (74.87/1.31)
+
+Number of Leaves  : 	99
+
+Size of the tree : 	197
+
+
+Weight: 3.76
+
+J48 pruned tree
+------------------
+
+word_freq_george <= 0
+|   word_freq_hp <= 0.71
+|   |   word_freq_credit <= 0.42
+|   |   |   word_freq_cs <= 0.13
+|   |   |   |   capital_run_length_longest <= 27
+|   |   |   |   |   word_freq_edu <= 0.94
+|   |   |   |   |   |   word_freq_original <= 0.1
+|   |   |   |   |   |   |   word_freq_our <= 0.35
+|   |   |   |   |   |   |   |   word_freq_receive <= 0.5
+|   |   |   |   |   |   |   |   |   word_freq_money <= 0.7
+|   |   |   |   |   |   |   |   |   |   word_freq_address <= 1.05
+|   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.2
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.64
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# <= 0.004
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_project <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 1.94
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 1.11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 6.38
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 2.5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 5.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.114
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.052
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 3.851
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.144
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 6: 0 (4.97)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 6: 1 (19.94/0.81)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.144: 0 (6.91)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 3.851: 1 (6.24)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.29: 1 (9.7/0.13)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.052: 0 (12.46)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.114
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_data <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.256: 0 (31.78)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.256
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.275: 1 (14.62/0.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.275
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.704
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.155
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.25
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 21: 0 (82.5)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 21
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.531
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 1.75
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 3.85: 0 (39.93/0.81)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 3.85: 1 (4.78)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make > 1.75: 1 (4.78)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.531: 1 (11.7)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.25
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 12: 1 (11.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 12
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 1.689: 0 (11.79/0.13)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 1.689: 1 (5.05)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.86: 1 (17.15/1.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.86: 0 (6.24)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.155: 0 (63.71/0.81)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.704
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 3.5: 0 (11.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 3.5: 1 (12.49)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_data > 0.15: 0 (25.89)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.59: 1 (12.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.59: 0 (6.24)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 5.4: 0 (30.03/0.13)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 2.5: 0 (43.14/0.13)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 6.38
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 3.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 7.14: 1 (11.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 7.14: 0 (6.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 3.03: 1 (9.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.47: 0 (72.44/1.48)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 1.11: 1 (28.46/1.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 1.94: 0 (25.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 > 0.09: 0 (27.77/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people > 0.03: 0 (46.42/1.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology > 0.22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 5: 0 (16.44)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 5: 1 (34.39/1.75)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_project > 0.14: 0 (27.94)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# > 0.004: 0 (66.49)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet > 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 0.54
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.8: 0 (17.78/0.54)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.8: 1 (5.99)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 0.54: 1 (23.18/0.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.64
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.054
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.41: 0 (18.92/0.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.41
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 <= 0.73: 1 (12.81/0.13)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 > 0.73: 0 (4.78)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.054: 1 (51.75)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.04: 0 (12.62/0.13)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.31
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 9: 0 (13.04)
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_[ <= 0.058: 1 (48.49/0.13)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_[ > 0.058: 0 (6.24)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.2
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 2: 0 (12.27/0.13)
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_lab <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_direct <= 2.12: 1 (111.76/2.69)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_direct > 2.12: 0 (6.24)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_lab > 0.17: 0 (6.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.25: 0 (9.7/0.13)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_make > 0.22: 0 (16.21/0.27)
+|   |   |   |   |   |   |   |   |   |   word_freq_address > 1.05: 0 (33.66/0.4)
+|   |   |   |   |   |   |   |   |   word_freq_money > 0.7
+|   |   |   |   |   |   |   |   |   |   word_freq_your <= 4.68: 1 (24.96/0.13)
+|   |   |   |   |   |   |   |   |   |   word_freq_your > 4.68: 0 (6.53/1.75)
+|   |   |   |   |   |   |   |   word_freq_receive > 0.5
+|   |   |   |   |   |   |   |   |   word_freq_order <= 0.33: 1 (46.7)
+|   |   |   |   |   |   |   |   |   word_freq_order > 0.33: 0 (6.38)
+|   |   |   |   |   |   |   word_freq_our > 0.35
+|   |   |   |   |   |   |   |   word_freq_hpl <= 0.27
+|   |   |   |   |   |   |   |   |   word_freq_pm <= 0.11
+|   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 12
+|   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.581: 0 (13.08)
+|   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.581: 1 (4.78)
+|   |   |   |   |   |   |   |   |   |   capital_run_length_total > 12
+|   |   |   |   |   |   |   |   |   |   |   word_freq_receive <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_project <= 0.07: 1 (213.13/4.03)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_project > 0.07
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 10: 0 (7.24)
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 10: 1 (6.7/0.27)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_receive > 0.13
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 0.41
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email <= 1.24: 1 (31.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email > 1.24: 0 (16.3/5.76)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 0.41: 0 (21.26/0.67)
+|   |   |   |   |   |   |   |   |   word_freq_pm > 0.11
+|   |   |   |   |   |   |   |   |   |   word_freq_free <= 1.13: 0 (17.67)
+|   |   |   |   |   |   |   |   |   |   word_freq_free > 1.13: 1 (11.52)
+|   |   |   |   |   |   |   |   word_freq_hpl > 0.27
+|   |   |   |   |   |   |   |   |   word_freq_receive <= 0.39: 0 (24.11)
+|   |   |   |   |   |   |   |   |   word_freq_receive > 0.39: 1 (11.03)
+|   |   |   |   |   |   word_freq_original > 0.1: 0 (25.18)
+|   |   |   |   |   word_freq_edu > 0.94
+|   |   |   |   |   |   word_freq_report <= 0.98: 0 (90.98)
+|   |   |   |   |   |   word_freq_report > 0.98: 1 (5.76)
+|   |   |   |   capital_run_length_longest > 27
+|   |   |   |   |   capital_run_length_total <= 73
+|   |   |   |   |   |   word_freq_650 <= 4.16: 0 (41.17/1.07)
+|   |   |   |   |   |   word_freq_650 > 4.16: 1 (6.24)
+|   |   |   |   |   capital_run_length_total > 73
+|   |   |   |   |   |   capital_run_length_longest <= 42
+|   |   |   |   |   |   |   word_freq_make <= 0.09: 1 (377.46/1.48)
+|   |   |   |   |   |   |   word_freq_make > 0.09
+|   |   |   |   |   |   |   |   char_freq_; <= 0.027: 1 (14.04/0.27)
+|   |   |   |   |   |   |   |   char_freq_; > 0.027: 0 (6.65/0.13)
+|   |   |   |   |   |   capital_run_length_longest > 42
+|   |   |   |   |   |   |   word_freq_edu <= 0.08
+|   |   |   |   |   |   |   |   word_freq_your <= 0.41
+|   |   |   |   |   |   |   |   |   word_freq_credit <= 0.08
+|   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.44
+|   |   |   |   |   |   |   |   |   |   |   word_freq_email <= 1.02
+|   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.829
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.19: 0 (93.0/2.15)
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.19: 1 (5.72/0.81)
+|   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.829: 1 (6.57)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_email > 1.02: 1 (6.16)
+|   |   |   |   |   |   |   |   |   |   word_freq_over > 0.44: 1 (12.86/0.13)
+|   |   |   |   |   |   |   |   |   word_freq_credit > 0.08: 1 (11.92)
+|   |   |   |   |   |   |   |   word_freq_your > 0.41
+|   |   |   |   |   |   |   |   |   word_freq_re <= 0.33
+|   |   |   |   |   |   |   |   |   |   word_freq_hp <= 0.09: 1 (179.83/0.54)
+|   |   |   |   |   |   |   |   |   |   word_freq_hp > 0.09
+|   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.099: 0 (2.02)
+|   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.099: 1 (12.0)
+|   |   |   |   |   |   |   |   |   word_freq_re > 0.33
+|   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.11: 0 (12.23/0.81)
+|   |   |   |   |   |   |   |   |   |   word_freq_our > 0.11: 1 (12.21)
+|   |   |   |   |   |   |   word_freq_edu > 0.08
+|   |   |   |   |   |   |   |   word_freq_receive <= 0: 0 (35.73)
+|   |   |   |   |   |   |   |   word_freq_receive > 0: 1 (2.02/0.4)
+|   |   |   word_freq_cs > 0.13: 0 (39.44)
+|   |   word_freq_credit > 0.42: 1 (55.72)
+|   word_freq_hp > 0.71
+|   |   word_freq_order <= 0.16
+|   |   |   word_freq_report <= 0.2
+|   |   |   |   word_freq_free <= 0.61
+|   |   |   |   |   word_freq_project <= 0.09
+|   |   |   |   |   |   word_freq_data <= 0.95: 0 (172.43)
+|   |   |   |   |   |   word_freq_data > 0.95
+|   |   |   |   |   |   |   word_freq_data <= 1.03: 1 (4.78)
+|   |   |   |   |   |   |   word_freq_data > 1.03: 0 (19.99)
+|   |   |   |   |   word_freq_project > 0.09
+|   |   |   |   |   |   word_freq_re <= 0.25: 0 (11.4)
+|   |   |   |   |   |   word_freq_re > 0.25: 1 (4.78)
+|   |   |   |   word_freq_free > 0.61
+|   |   |   |   |   word_freq_email <= 0.74: 0 (7.32/0.4)
+|   |   |   |   |   word_freq_email > 0.74: 1 (5.76)
+|   |   |   word_freq_report > 0.2
+|   |   |   |   word_freq_remove <= 0.08: 0 (7.18)
+|   |   |   |   word_freq_remove > 0.08: 1 (6.24)
+|   |   word_freq_order > 0.16: 1 (14.23/1.48)
+word_freq_george > 0
+|   word_freq_order <= 1.04: 0 (149.38/0.67)
+|   word_freq_order > 1.04: 1 (7.99/1.75)
+
+Number of Leaves  : 	107
+
+Size of the tree : 	213
+
+
+Weight: 4.37
+
+J48 pruned tree
+------------------
+
+word_freq_remove <= 0.04
+|   word_freq_money <= 0
+|   |   word_freq_000 <= 0.52
+|   |   |   char_freq_$ <= 0.194
+|   |   |   |   word_freq_meeting <= 0.46
+|   |   |   |   |   word_freq_george <= 0
+|   |   |   |   |   |   word_freq_table <= 0.12
+|   |   |   |   |   |   |   char_freq_; <= 0.714
+|   |   |   |   |   |   |   |   word_freq_font <= 0.12
+|   |   |   |   |   |   |   |   |   word_freq_conference <= 0.12
+|   |   |   |   |   |   |   |   |   |   word_freq_85 <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 21
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.297
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business <= 0.32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.816
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.458
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.086
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 31
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 6.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.269
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 2.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.111
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_credit <= 6.32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 2: 0 (9.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 4.76
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 5.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 6: 0 (2.45)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 6: 1 (2.49/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.29: 1 (4.84)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 5.14: 0 (2.92)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 7: 0 (11.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.32: 0 (9.5)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 4.76: 1 (2.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_credit > 6.32: 1 (2.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.111: 0 (21.28)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 2.17: 0 (3.23)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 3: 1 (4.91/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.269: 0 (21.76)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 6.02: 1 (5.25/0.41)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 31: 1 (10.09/0.41)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 4: 0 (11.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 0.06: 0 (14.9)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.086: 0 (19.66)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_[ <= 0.003
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.233: 0 (6.66)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.233: 1 (23.53/0.75)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_[ > 0.003: 0 (6.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.458
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.34
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 1.18: 0 (163.35/4.91)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 1.18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 9: 0 (7.23)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 9: 1 (2.63/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.34
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 <= 0.17: 0 (6.38)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 > 0.17: 1 (2.92)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.816
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 0.65
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 3.851: 0 (15.17)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 3.851: 1 (3.16)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 0.65: 1 (16.02/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 0.57: 0 (75.77)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.36: 0 (107.73)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet > 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 2.45
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_order <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 5.97: 0 (20.91)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 5.97: 1 (2.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_order > 0.03: 1 (2.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 2.45: 1 (8.3)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 > 0: 0 (81.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business > 0.32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.65
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.17: 0 (25.59/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.17: 1 (2.49/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.65: 1 (5.58)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.17: 1 (17.88)
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.297
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 6.5: 0 (21.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 6.5: 1 (3.16)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 142
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 4.65
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 26: 1 (16.83/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 26: 0 (3.36)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 4.65: 0 (3.05)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 29: 1 (55.53/3.91)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl <= 0.19: 0 (16.24/0.14)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl > 0.19: 1 (2.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people > 0.15: 1 (7.81)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 142: 0 (6.24/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.19: 0 (10.86)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl > 0.39: 0 (26.58)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.13
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 <= 1.2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address <= 0.46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.74
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.163: 0 (9.44)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.163: 1 (2.98)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.74: 1 (2.92)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 3: 1 (88.26/4.18)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address > 0.46: 0 (8.99/2.92)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive > 0.19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.18: 0 (8.14/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.18: 1 (5.9)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 > 1.2: 0 (7.81)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people > 0.19: 0 (17.56/0.07)
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 21
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 42
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.09: 1 (110.31/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.09
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_data <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_[ <= 0.022
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 <= 4.16: 0 (6.32)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 > 4.16: 1 (6.32)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 50
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email <= 1.69
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.25
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.155: 1 (2.56)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.155: 0 (3.16)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.25: 1 (79.87)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email > 1.69
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address <= 0.45: 0 (2.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address > 0.45: 1 (2.56)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make > 0.11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address <= 0.07: 0 (3.84/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address > 0.07: 1 (2.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_[ > 0.022
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.28: 1 (2.49)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.28: 0 (5.46)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_data > 0.11: 0 (8.37/2.98)
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 42
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 110
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# <= 0.074
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.25: 0 (73.2/0.34)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.25
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.36: 1 (15.09/0.14)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.36: 0 (9.58/0.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# > 0.074: 1 (5.97)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 110: 1 (22.19/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.16: 0 (74.61)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.16: 1 (12.76/0.88)
+|   |   |   |   |   |   |   |   |   |   word_freq_85 > 0.01
+|   |   |   |   |   |   |   |   |   |   |   word_freq_telnet <= 0.97: 0 (65.13/0.07)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_telnet > 0.97: 1 (3.44/1.02)
+|   |   |   |   |   |   |   |   |   word_freq_conference > 0.12
+|   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.13: 0 (79.25)
+|   |   |   |   |   |   |   |   |   |   word_freq_free > 0.13
+|   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.44: 1 (2.92)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.44: 0 (5.59)
+|   |   |   |   |   |   |   |   word_freq_font > 0.12
+|   |   |   |   |   |   |   |   |   word_freq_edu <= 0.09: 1 (47.77)
+|   |   |   |   |   |   |   |   |   word_freq_edu > 0.09: 0 (11.67)
+|   |   |   |   |   |   |   char_freq_; > 0.714: 0 (49.7)
+|   |   |   |   |   |   word_freq_table > 0.12: 0 (44.41)
+|   |   |   |   |   word_freq_george > 0
+|   |   |   |   |   |   word_freq_your <= 2.48: 0 (125.82)
+|   |   |   |   |   |   word_freq_your > 2.48
+|   |   |   |   |   |   |   word_freq_order <= 0.64: 0 (4.0)
+|   |   |   |   |   |   |   word_freq_order > 0.64: 1 (3.16)
+|   |   |   |   word_freq_meeting > 0.46: 0 (134.02)
+|   |   |   char_freq_$ > 0.194
+|   |   |   |   word_freq_edu <= 0.36
+|   |   |   |   |   capital_run_length_average <= 3.732
+|   |   |   |   |   |   char_freq_( <= 0.303
+|   |   |   |   |   |   |   word_freq_order <= 0.14
+|   |   |   |   |   |   |   |   word_freq_re <= 0.5: 1 (36.97/0.14)
+|   |   |   |   |   |   |   |   word_freq_re > 0.5
+|   |   |   |   |   |   |   |   |   word_freq_re <= 0.71: 0 (5.83)
+|   |   |   |   |   |   |   |   |   word_freq_re > 0.71: 1 (6.28/0.07)
+|   |   |   |   |   |   |   word_freq_order > 0.14: 0 (2.49/0.07)
+|   |   |   |   |   |   char_freq_( > 0.303: 0 (17.64/0.14)
+|   |   |   |   |   capital_run_length_average > 3.732: 1 (96.49/0.14)
+|   |   |   |   word_freq_edu > 0.36: 0 (14.22)
+|   |   word_freq_000 > 0.52
+|   |   |   word_freq_order <= 0.47
+|   |   |   |   capital_run_length_total <= 44: 0 (3.57/0.27)
+|   |   |   |   capital_run_length_total > 44: 1 (42.94)
+|   |   |   word_freq_order > 0.47: 0 (2.98/0.07)
+|   word_freq_money > 0
+|   |   capital_run_length_total <= 50
+|   |   |   word_freq_re <= 0.18
+|   |   |   |   word_freq_your <= 4.68: 1 (11.76/0.2)
+|   |   |   |   word_freq_your > 4.68: 0 (2.42)
+|   |   |   word_freq_re > 0.18: 0 (14.94)
+|   |   capital_run_length_total > 50
+|   |   |   word_freq_make <= 0.15
+|   |   |   |   char_freq_( <= 0.263: 1 (174.21/0.82)
+|   |   |   |   char_freq_( > 0.263
+|   |   |   |   |   word_freq_project <= 0.08: 1 (6.34/0.34)
+|   |   |   |   |   word_freq_project > 0.08: 0 (2.92)
+|   |   |   word_freq_make > 0.15
+|   |   |   |   capital_run_length_total <= 152
+|   |   |   |   |   word_freq_report <= 0.11: 0 (15.32/0.75)
+|   |   |   |   |   word_freq_report > 0.11: 1 (5.39)
+|   |   |   |   capital_run_length_total > 152: 1 (26.33/0.2)
+word_freq_remove > 0.04
+|   word_freq_hp <= 0.27
+|   |   word_freq_address <= 0.44
+|   |   |   word_freq_edu <= 0.09
+|   |   |   |   word_freq_direct <= 0.08
+|   |   |   |   |   word_freq_all <= 0.16
+|   |   |   |   |   |   word_freq_re <= 0.3
+|   |   |   |   |   |   |   word_freq_technology <= 0.16
+|   |   |   |   |   |   |   |   char_freq_( <= 0.132
+|   |   |   |   |   |   |   |   |   word_freq_email <= 0.81: 1 (116.2)
+|   |   |   |   |   |   |   |   |   word_freq_email > 0.81
+|   |   |   |   |   |   |   |   |   |   word_freq_you <= 2.48: 1 (8.85)
+|   |   |   |   |   |   |   |   |   |   word_freq_you > 2.48: 0 (4.98/0.14)
+|   |   |   |   |   |   |   |   char_freq_( > 0.132
+|   |   |   |   |   |   |   |   |   word_freq_your <= 0.11: 0 (5.54/0.2)
+|   |   |   |   |   |   |   |   |   word_freq_your > 0.11: 1 (12.8)
+|   |   |   |   |   |   |   word_freq_technology > 0.16
+|   |   |   |   |   |   |   |   word_freq_will <= 1.52: 1 (5.52)
+|   |   |   |   |   |   |   |   word_freq_will > 1.52: 0 (2.42)
+|   |   |   |   |   |   word_freq_re > 0.3
+|   |   |   |   |   |   |   word_freq_re <= 0.63: 0 (5.54/0.14)
+|   |   |   |   |   |   |   word_freq_re > 0.63: 1 (8.71)
+|   |   |   |   |   word_freq_all > 0.16: 1 (83.68/0.07)
+|   |   |   |   word_freq_direct > 0.08
+|   |   |   |   |   word_freq_mail <= 2.41: 1 (8.76)
+|   |   |   |   |   word_freq_mail > 2.41: 0 (4.98/0.14)
+|   |   |   word_freq_edu > 0.09
+|   |   |   |   word_freq_people <= 0.1: 0 (7.83/0.07)
+|   |   |   |   word_freq_people > 0.1: 1 (6.38)
+|   |   word_freq_address > 0.44: 1 (305.28)
+|   word_freq_hp > 0.27
+|   |   capital_run_length_average <= 2.744: 0 (13.01)
+|   |   capital_run_length_average > 2.744: 1 (15.14/0.14)
+
+Number of Leaves  : 	130
+
+Size of the tree : 	259
+
+
+Weight: 4.71
+
+J48 pruned tree
+------------------
+
+word_freq_hp <= 0.1
+|   word_freq_1999 <= 0.2
+|   |   word_freq_edu <= 0.12
+|   |   |   word_freq_meeting <= 0.48
+|   |   |   |   capital_run_length_total <= 48
+|   |   |   |   |   word_freq_mail <= 3.78
+|   |   |   |   |   |   char_freq_$ <= 0.249
+|   |   |   |   |   |   |   word_freq_will <= 0.89
+|   |   |   |   |   |   |   |   word_freq_free <= 0.71
+|   |   |   |   |   |   |   |   |   word_freq_free <= 0.24
+|   |   |   |   |   |   |   |   |   |   word_freq_internet <= 0.42
+|   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 2.077: 0 (103.76/13.09)
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 2.077: 1 (6.05/1.57)
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# <= 0.059
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_data <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_project <= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 2.94
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 2.29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.882
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 3.857
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 2: 0 (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.318: 1 (9.01/0.17)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.318
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.292: 0 (22.84/1.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.292: 1 (16.45/1.83)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 3.857: 0 (8.7/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.882: 1 (4.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 2.29: 1 (6.88)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 2.94: 0 (5.44)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_project > 0.31: 0 (7.81)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_data > 0.51: 0 (5.36)
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# > 0.059: 0 (5.94)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.1: 0 (45.91/1.47)
+|   |   |   |   |   |   |   |   |   |   word_freq_internet > 0.42
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 5: 0 (5.99/1.26)
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 5: 1 (6.63)
+|   |   |   |   |   |   |   |   |   word_freq_free > 0.24: 0 (182.17)
+|   |   |   |   |   |   |   |   word_freq_free > 0.71
+|   |   |   |   |   |   |   |   |   char_freq_[ <= 0.126: 1 (25.18/3.24)
+|   |   |   |   |   |   |   |   |   char_freq_[ > 0.126: 0 (2.69)
+|   |   |   |   |   |   |   word_freq_will > 0.89
+|   |   |   |   |   |   |   |   word_freq_will <= 1.14
+|   |   |   |   |   |   |   |   |   capital_run_length_total <= 21: 1 (138.69/0.03)
+|   |   |   |   |   |   |   |   |   capital_run_length_total > 21
+|   |   |   |   |   |   |   |   |   |   word_freq_remove <= 0.98: 0 (7.27)
+|   |   |   |   |   |   |   |   |   |   word_freq_remove > 0.98: 1 (2.72)
+|   |   |   |   |   |   |   |   word_freq_will > 1.14
+|   |   |   |   |   |   |   |   |   word_freq_receive <= 0.45
+|   |   |   |   |   |   |   |   |   |   word_freq_you <= 5.66: 0 (66.63/3.15)
+|   |   |   |   |   |   |   |   |   |   word_freq_you > 5.66: 1 (8.46/1.57)
+|   |   |   |   |   |   |   |   |   word_freq_receive > 0.45: 1 (3.97)
+|   |   |   |   |   |   char_freq_$ > 0.249: 1 (36.5)
+|   |   |   |   |   word_freq_mail > 3.78: 1 (144.6/8.69)
+|   |   |   |   capital_run_length_total > 48
+|   |   |   |   |   char_freq_; <= 0.212
+|   |   |   |   |   |   capital_run_length_average <= 1.344
+|   |   |   |   |   |   |   word_freq_free <= 0.39
+|   |   |   |   |   |   |   |   word_freq_report <= 0.11
+|   |   |   |   |   |   |   |   |   word_freq_all <= 0.26
+|   |   |   |   |   |   |   |   |   |   word_freq_lab <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   word_freq_order <= 0.03: 1 (7.72/0.07)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_order > 0.03: 0 (4.35)
+|   |   |   |   |   |   |   |   |   |   word_freq_lab > 0.16: 0 (5.45)
+|   |   |   |   |   |   |   |   |   word_freq_all > 0.26: 0 (20.15/1.29)
+|   |   |   |   |   |   |   |   word_freq_report > 0.11: 1 (2.72)
+|   |   |   |   |   |   |   word_freq_free > 0.39: 1 (11.72)
+|   |   |   |   |   |   capital_run_length_average > 1.344
+|   |   |   |   |   |   |   word_freq_your <= 0.85
+|   |   |   |   |   |   |   |   capital_run_length_average <= 1.934
+|   |   |   |   |   |   |   |   |   word_freq_your <= 0.18: 0 (27.37/1.68)
+|   |   |   |   |   |   |   |   |   word_freq_your > 0.18
+|   |   |   |   |   |   |   |   |   |   word_freq_people <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.16: 0 (4.46/0.17)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.16: 1 (4.26)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.07: 1 (19.97/0.07)
+|   |   |   |   |   |   |   |   |   |   word_freq_people > 0.15: 0 (6.08/0.17)
+|   |   |   |   |   |   |   |   capital_run_length_average > 1.934
+|   |   |   |   |   |   |   |   |   word_freq_will <= 0.27
+|   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 80
+|   |   |   |   |   |   |   |   |   |   |   word_freq_pm <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_data <= 0.59
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.493
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.127
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.3: 1 (11.39/1.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.3: 0 (3.13/0.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.127: 1 (23.52/0.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.493: 0 (2.85)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make > 0.35: 0 (3.19)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_data > 0.59: 0 (3.29)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_pm > 0.37: 0 (3.82)
+|   |   |   |   |   |   |   |   |   |   capital_run_length_total > 80
+|   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.018: 1 (199.46/9.57)
+|   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.018
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 69: 1 (8.59/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 69: 0 (3.19)
+|   |   |   |   |   |   |   |   |   word_freq_will > 0.27
+|   |   |   |   |   |   |   |   |   |   word_freq_hpl <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 0.53
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_000 <= 0.07: 0 (20.03/2.58)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_000 > 0.07: 1 (3.05)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_you > 0.53
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.59: 1 (43.75/3.26)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.59
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.83: 0 (6.76/0.38)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.83: 1 (8.35)
+|   |   |   |   |   |   |   |   |   |   word_freq_hpl > 0.15: 0 (8.16)
+|   |   |   |   |   |   |   word_freq_your > 0.85
+|   |   |   |   |   |   |   |   word_freq_our <= 0.23
+|   |   |   |   |   |   |   |   |   char_freq_( <= 0.24
+|   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.72
+|   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.065
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive <= 0.15: 0 (9.41/0.21)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive > 0.15: 1 (5.53/1.59)
+|   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.065
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.44: 1 (47.63/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.44
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.76: 0 (3.13/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.76: 1 (30.18/1.47)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.22: 1 (2.09)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.22: 0 (3.19/0.38)
+|   |   |   |   |   |   |   |   |   |   word_freq_will > 0.72: 1 (106.93/0.38)
+|   |   |   |   |   |   |   |   |   char_freq_( > 0.24
+|   |   |   |   |   |   |   |   |   |   word_freq_remove <= 0.15: 0 (15.18/0.55)
+|   |   |   |   |   |   |   |   |   |   word_freq_remove > 0.15: 1 (5.82)
+|   |   |   |   |   |   |   |   word_freq_our > 0.23: 1 (545.64/2.55)
+|   |   |   |   |   char_freq_; > 0.212
+|   |   |   |   |   |   capital_run_length_longest <= 19: 1 (5.96/0.03)
+|   |   |   |   |   |   capital_run_length_longest > 19: 0 (26.2/1.74)
+|   |   |   word_freq_meeting > 0.48: 0 (57.73)
+|   |   word_freq_edu > 0.12
+|   |   |   word_freq_650 <= 0.12
+|   |   |   |   word_freq_remove <= 0.1: 0 (142.28/2.88)
+|   |   |   |   word_freq_remove > 0.1
+|   |   |   |   |   word_freq_mail <= 0.57: 0 (3.91)
+|   |   |   |   |   word_freq_mail > 0.57: 1 (5.32)
+|   |   |   word_freq_650 > 0.12: 1 (13.87/0.1)
+|   word_freq_1999 > 0.2
+|   |   word_freq_receive <= 0.21
+|   |   |   char_freq_( <= 0.4
+|   |   |   |   word_freq_000 <= 0
+|   |   |   |   |   word_freq_our <= 0.57: 0 (262.71/3.24)
+|   |   |   |   |   word_freq_our > 0.57
+|   |   |   |   |   |   word_freq_make <= 0.41: 0 (12.14/0.07)
+|   |   |   |   |   |   word_freq_make > 0.41: 1 (4.45)
+|   |   |   |   word_freq_000 > 0
+|   |   |   |   |   char_freq_# <= 0: 1 (8.57)
+|   |   |   |   |   char_freq_# > 0: 0 (7.08/0.07)
+|   |   |   char_freq_( > 0.4
+|   |   |   |   capital_run_length_average <= 4.157: 0 (4.6)
+|   |   |   |   capital_run_length_average > 4.157: 1 (10.94)
+|   |   word_freq_receive > 0.21
+|   |   |   word_freq_1999 <= 0.34: 0 (4.6/1.46)
+|   |   |   word_freq_1999 > 0.34: 1 (14.97/0.1)
+word_freq_hp > 0.1
+|   word_freq_free <= 0.42
+|   |   word_freq_000 <= 0.01
+|   |   |   word_freq_credit <= 0.03: 0 (400.94/4.89)
+|   |   |   word_freq_credit > 0.03
+|   |   |   |   word_freq_our <= 0.6: 0 (19.73)
+|   |   |   |   word_freq_our > 0.6: 1 (3.27)
+|   |   word_freq_000 > 0.01
+|   |   |   char_freq_[ <= 0.023: 0 (25.59)
+|   |   |   char_freq_[ > 0.023: 1 (6.25)
+|   word_freq_free > 0.42
+|   |   word_freq_mail <= 0.97
+|   |   |   char_freq_# <= 0.011
+|   |   |   |   word_freq_all <= 0.64: 0 (36.87/1.47)
+|   |   |   |   word_freq_all > 0.64: 1 (2.98/0.03)
+|   |   |   char_freq_# > 0.011: 1 (4.38)
+|   |   word_freq_mail > 0.97: 1 (7.03)
+
+Number of Leaves  : 	90
+
+Size of the tree : 	179
+
+
+Weight: 3.64
+
+J48 pruned tree
+------------------
+
+word_freq_mail <= 4.25
+|   word_freq_lab <= 0.12
+|   |   word_freq_remove <= 0.88
+|   |   |   word_freq_george <= 0.2
+|   |   |   |   word_freq_meeting <= 0.45
+|   |   |   |   |   word_freq_will <= 2.8
+|   |   |   |   |   |   word_freq_our <= 0.97
+|   |   |   |   |   |   |   word_freq_original <= 0.39
+|   |   |   |   |   |   |   |   word_freq_free <= 1.68
+|   |   |   |   |   |   |   |   |   word_freq_make <= 0.93
+|   |   |   |   |   |   |   |   |   |   word_freq_hpl <= 0.45
+|   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.85
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.59
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove <= 0.61
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_pm <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive <= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_money <= 0.9
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.78
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.021
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.87
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_credit <= 6.32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 7: 1 (55.99/7.23)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 7: 0 (5.13)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 1: 0 (42.86)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.22: 1 (73.37/0.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_credit > 6.32: 1 (23.97)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.57: 1 (70.6/0.87)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.87
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 0.81: 0 (18.82/0.82)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 0.81: 1 (25.6/1.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 30
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 1.92
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.031
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.297: 0 (165.62/6.29)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.297
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 <= 1.18: 0 (36.28/0.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 > 1.18: 1 (3.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 0.13: 1 (2.8/0.09)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 0.13: 0 (5.91)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.031
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.535: 0 (27.5/5.41)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.535
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 3.578
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people <= 0.15: 0 (3.78/0.09)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people > 0.15: 1 (3.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 3.578: 1 (10.77)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.1: 1 (6.83)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 1.92
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.43
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.516: 1 (48.01/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.516: 0 (4.83)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.43: 0 (5.56)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 30
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 1.411
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 62: 1 (112.21/3.98)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 62
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0: 0 (8.49/1.54)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0: 1 (7.92/1.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 1.411: 0 (6.99)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 0.09
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.093: 0 (112.79/8.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.093
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_conference <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 6: 0 (14.9/1.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 0.52
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.047: 1 (2.86/0.02)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.047: 0 (6.15)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 0.52: 1 (18.2/0.04)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.08: 0 (2.8)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_conference > 0.05: 0 (3.48)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.021
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.263
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.071
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_conference <= 0.32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_money <= 0.67
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.19: 1 (59.04/3.04)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.19: 0 (2.71/0.75)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_money > 0.67: 0 (2.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_conference > 0.32: 0 (2.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.071: 1 (70.9/1.44)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology <= 0.06: 0 (9.74)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology > 0.06: 1 (2.83/0.05)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.263: 1 (68.3/1.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 0.27: 0 (17.64)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.78
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.857
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 0.32: 0 (2.83)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 0.32: 1 (2.78/0.04)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.857: 1 (70.55/0.02)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_money > 0.9: 1 (52.57/0.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive > 0.31: 1 (96.45/2.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 3: 1 (70.48)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_pm > 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove <= 0.09: 0 (34.18/2.97)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove > 0.09: 1 (2.14/0.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove > 0.61: 0 (27.38/1.14)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.59
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove <= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 101: 0 (96.02/0.02)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 101
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.34: 1 (11.26/0.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.34: 0 (4.11/0.75)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people > 0.17: 0 (3.82/0.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove > 0.02: 1 (6.6)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.85
+|   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.022
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 8: 1 (31.12/0.82)
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 8: 0 (6.61)
+|   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.022: 1 (142.59)
+|   |   |   |   |   |   |   |   |   |   word_freq_hpl > 0.45
+|   |   |   |   |   |   |   |   |   |   |   word_freq_000 <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.59: 0 (92.42)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.59
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.39: 1 (2.9)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.39: 0 (6.07)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_000 > 0.01: 1 (3.08/0.05)
+|   |   |   |   |   |   |   |   |   word_freq_make > 0.93
+|   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.2
+|   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.051: 0 (100.14/0.63)
+|   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.051
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 54: 0 (2.22)
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 54: 1 (3.65/0.02)
+|   |   |   |   |   |   |   |   |   |   word_freq_free > 0.2: 1 (12.75)
+|   |   |   |   |   |   |   |   word_freq_free > 1.68
+|   |   |   |   |   |   |   |   |   word_freq_money <= 0.09
+|   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.1
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 48
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 6: 0 (64.28/0.82)
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 6: 1 (7.19)
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 48: 0 (84.9/0.02)
+|   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.1
+|   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.1: 1 (4.34)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.1: 0 (2.73)
+|   |   |   |   |   |   |   |   |   word_freq_money > 0.09: 1 (7.01)
+|   |   |   |   |   |   |   word_freq_original > 0.39: 0 (30.31/0.02)
+|   |   |   |   |   |   word_freq_our > 0.97
+|   |   |   |   |   |   |   char_freq_( <= 0.169
+|   |   |   |   |   |   |   |   word_freq_your <= 0.48
+|   |   |   |   |   |   |   |   |   word_freq_you <= 1.61: 0 (44.59/0.74)
+|   |   |   |   |   |   |   |   |   word_freq_you > 1.61: 1 (7.0/0.64)
+|   |   |   |   |   |   |   |   word_freq_your > 0.48: 1 (94.24/5.03)
+|   |   |   |   |   |   |   char_freq_( > 0.169: 1 (180.4/0.88)
+|   |   |   |   |   word_freq_will > 2.8: 0 (61.37/2.67)
+|   |   |   |   word_freq_meeting > 0.45: 0 (33.92)
+|   |   |   word_freq_george > 0.2
+|   |   |   |   char_freq_! <= 0.289: 0 (82.66)
+|   |   |   |   char_freq_! > 0.289
+|   |   |   |   |   capital_run_length_longest <= 25: 0 (2.4)
+|   |   |   |   |   capital_run_length_longest > 25: 1 (2.21)
+|   |   word_freq_remove > 0.88: 1 (177.03/2.51)
+|   word_freq_lab > 0.12: 0 (102.32/0.82)
+word_freq_mail > 4.25: 0 (173.57/0.75)
+
+Number of Leaves  : 	85
+
+Size of the tree : 	169
+
+
+Weight: 3.76
+
+J48 pruned tree
+------------------
+
+word_freq_technology <= 0.86
+|   word_freq_george <= 0
+|   |   word_freq_85 <= 0.69
+|   |   |   word_freq_conference <= 0.3
+|   |   |   |   word_freq_edu <= 1.8
+|   |   |   |   |   word_freq_data <= 1.88
+|   |   |   |   |   |   word_freq_technology <= 0.82
+|   |   |   |   |   |   |   word_freq_3d <= 0.21
+|   |   |   |   |   |   |   |   word_freq_addresses <= 0.02
+|   |   |   |   |   |   |   |   |   word_freq_mail <= 5
+|   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.503
+|   |   |   |   |   |   |   |   |   |   |   word_freq_email <= 1.65
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_labs <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_meeting <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business <= 0.63
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 <= 0.46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 5.88
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.611
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove <= 0.88
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_000 <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet <= 2.63
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 1.53
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive <= 0.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# <= 0.003
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.66
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.656
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 1.85
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_money <= 5.98
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 2: 0 (5.75)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.38
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 5: 0 (10.93)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 5: 1 (27.82/3.29)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.38: 1 (24.94/0.41)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_money > 5.98: 1 (14.77)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 1.85: 0 (15.11)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.656: 0 (48.04/0.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_credit <= 6.32
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.7: 0 (4.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.7: 1 (33.16)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.29: 1 (42.93/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_credit > 6.32: 1 (12.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 13: 0 (36.32/0.72)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.51: 0 (54.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.66: 0 (97.94)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.369
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.583
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.39
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 4.36
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 0.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.348: 1 (56.28/1.13)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.348
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 31: 0 (21.54)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 31
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.028: 0 (4.58/0.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.028
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.695: 1 (31.79/0.8)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.695
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 10: 0 (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 10: 1 (2.07)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 15: 0 (18.25)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 29: 1 (26.34)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 0.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.34: 1 (277.01/10.64)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.34
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 <= 0.17: 0 (4.79)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 > 0.17: 1 (16.99)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 0.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_labs <= 0.19: 0 (4.94)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_labs > 0.19: 1 (12.26)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make > 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.99: 0 (11.14)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.99: 1 (16.33/0.84)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 4.36
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 21: 0 (17.59/0.71)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 21: 1 (8.99/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.39
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.816
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.08: 0 (26.7/0.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.08: 1 (3.0/0.37)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.816: 1 (23.84/0.72)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.583
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.913
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.902: 0 (48.74/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.902: 1 (3.07/0.77)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.913: 1 (26.0/1.18)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.369
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 3.407: 0 (21.53/0.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 3.407: 1 (4.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 <= 2.56: 0 (60.92/0.02)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 > 2.56: 1 (17.35/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove > 0.09: 1 (40.01/0.71)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# > 0.003
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 25: 0 (38.35/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 25: 1 (2.93/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# <= 0.011: 0 (75.15/1.53)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# > 0.011: 1 (7.52/0.82)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make > 0.04: 1 (8.75/1.15)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address > 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.41: 1 (68.05/2.43)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.41: 0 (3.72/0.46)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive > 0.17
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 7: 1 (14.1/0.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 411
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.37: 0 (100.57/1.09)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.37
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 18: 0 (14.89)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 18: 1 (3.41)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 411
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.115: 1 (5.7/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.115: 0 (2.16/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 1.53: 0 (52.16/1.06)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet > 2.63: 1 (26.9/0.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_000 > 0.51: 1 (25.06/0.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address > 0.68
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.39
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.78: 1 (4.03/1.04)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.78: 0 (3.57/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.39: 1 (61.72/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_remove > 0.88: 1 (48.86)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.611: 0 (54.81/2.59)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.46: 1 (85.53/1.04)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.46: 0 (6.17/2.25)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 5.88: 1 (27.59/0.02)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_650 > 0.46
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl <= 0.14: 1 (63.2/1.68)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl > 0.14: 0 (3.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business > 0.47: 0 (41.86/1.87)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business > 0.63
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.052
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 0.13: 1 (5.67/0.81)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 0.13: 0 (2.87)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.052: 1 (90.64/0.33)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_meeting > 0.03: 0 (25.12/1.94)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 170: 0 (35.32/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 170: 1 (2.34/0.43)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_labs > 0.39: 0 (44.53/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.571
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet <= 0.07: 0 (8.12/1.78)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet > 0.07: 1 (2.02/0.43)
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.571: 1 (185.58/8.63)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_email > 1.65
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_business <= 0.48: 0 (64.37/4.25)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_business > 0.48: 1 (3.64)
+|   |   |   |   |   |   |   |   |   |   char_freq_; > 0.503
+|   |   |   |   |   |   |   |   |   |   |   word_freq_order <= 0.04: 0 (37.34/0.02)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_order > 0.04: 1 (2.41)
+|   |   |   |   |   |   |   |   |   word_freq_mail > 5: 0 (44.36)
+|   |   |   |   |   |   |   |   word_freq_addresses > 0.02: 1 (80.47/2.95)
+|   |   |   |   |   |   |   word_freq_3d > 0.21: 1 (36.33/0.01)
+|   |   |   |   |   |   word_freq_technology > 0.82: 1 (76.98/1.01)
+|   |   |   |   |   word_freq_data > 1.88: 0 (37.87)
+|   |   |   |   word_freq_edu > 1.8: 0 (50.46/0.39)
+|   |   |   word_freq_conference > 0.3: 0 (54.73/0.34)
+|   |   word_freq_85 > 0.69: 0 (50.37/0.01)
+|   word_freq_george > 0
+|   |   word_freq_business <= 0.35: 0 (103.63/0.42)
+|   |   word_freq_business > 0.35
+|   |   |   word_freq_mail <= 0.44: 0 (2.77)
+|   |   |   word_freq_mail > 0.44: 1 (3.57)
+word_freq_technology > 0.86: 0 (82.35/0.49)
+
+Number of Leaves  : 	95
+
+Size of the tree : 	189
+
+
+Weight: 3.79
+
+J48 pruned tree
+------------------
+
+word_freq_credit <= 0.42
+|   word_freq_project <= 0.8
+|   |   char_freq_# <= 0.147
+|   |   |   word_freq_font <= 0.11
+|   |   |   |   word_freq_money <= 0.28
+|   |   |   |   |   word_freq_receive <= 1.1
+|   |   |   |   |   |   capital_run_length_longest <= 161
+|   |   |   |   |   |   |   word_freq_pm <= 0.76
+|   |   |   |   |   |   |   |   word_freq_telnet <= 0
+|   |   |   |   |   |   |   |   |   word_freq_email <= 1.11
+|   |   |   |   |   |   |   |   |   |   word_freq_650 <= 1.39
+|   |   |   |   |   |   |   |   |   |   |   char_freq_# <= 0.004
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_conference <= 0.12
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 1.19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 0.42
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 3.58
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology <= 0.82
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_addresses <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_direct <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.666
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 <= 0.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address <= 0.33
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.213
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.071
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_report <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.34
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.377
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 1: 0 (9.5)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 2.865
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 2.38: 0 (2.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 2.38: 1 (15.06/1.73)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 2.865: 1 (9.44)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.34
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.468: 0 (141.27/6.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.468: 1 (7.47/1.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.34
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 5: 1 (12.54)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 5: 0 (16.7)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 0.1: 1 (21.37/0.22)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 0.1: 0 (12.16)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 0.03: 1 (75.99/5.44)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.377
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.543: 0 (127.71/0.58)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.543
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.547: 1 (18.26/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.547
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.292
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 2.443
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp <= 1.98: 0 (141.55/4.14)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 1.98
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_data <= 0.51: 0 (7.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_data > 0.51: 1 (6.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 2.443: 1 (7.84/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.292
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 7: 0 (10.28)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 7: 1 (26.9/1.7)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.34
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 15: 0 (22.5)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 15: 1 (51.65/2.23)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 18
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.14: 1 (40.24/2.46)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.14: 0 (9.64/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_report > 0.09: 0 (27.56/0.18)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 0.36: 0 (41.15)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.071
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 0.03: 1 (23.26/0.81)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 0.03: 0 (2.54)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.213: 0 (27.17)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_address > 0.33: 0 (51.58/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_1999 > 0.3: 0 (95.78/0.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.666
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 5.66
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology <= 0.2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.135
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.857
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 1.49
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu <= 1.44
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.023: 0 (78.58/1.09)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.023
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 46: 1 (26.85/1.22)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 46: 0 (24.25/0.95)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_edu > 1.44: 1 (7.29/1.02)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make > 1.49: 1 (7.05)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0.14: 1 (35.26/0.97)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.857: 1 (16.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.7: 1 (15.91)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.135
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet <= 0: 1 (33.19/0.49)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet > 0: 0 (2.12/0.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology > 0.2: 1 (23.36/0.77)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 5.66: 1 (32.72/0.18)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_direct > 0.06: 0 (34.26/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_addresses > 0: 0 (27.39/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_technology > 0.82
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 1.33: 1 (42.74/2.05)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 1.33: 0 (8.14)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hp > 3.58: 0 (42.11)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 0.42
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.035: 0 (212.64/0.59)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.035
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.715: 0 (15.2/0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.715: 1 (2.29/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_business > 0.04: 1 (16.63/1.75)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 1.19
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 2.54: 1 (53.05/3.18)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 2.54: 0 (12.03/0.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.243
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 429
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_project <= 0.72
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl <= 0.69
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.26
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 7.69
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.41
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.33
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.28: 0 (94.85/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.28: 1 (3.0/0.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.33: 0 (15.24)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.41
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive <= 0.24: 1 (4.92/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive > 0.24: 0 (8.67)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 0.29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.037: 0 (14.84/1.91)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.037: 1 (15.55/0.68)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 7.69: 1 (9.56/0.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.26: 1 (11.36/0.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl > 0.69: 1 (19.04/0.89)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_project > 0.72: 1 (21.97)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 429: 1 (43.22/1.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.243: 1 (90.15/0.37)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_conference > 0.12: 0 (38.31/0.59)
+|   |   |   |   |   |   |   |   |   |   |   char_freq_# > 0.004
+|   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.058: 0 (141.5/2.89)
+|   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.058: 1 (8.34/0.01)
+|   |   |   |   |   |   |   |   |   |   word_freq_650 > 1.39: 0 (40.69/0.43)
+|   |   |   |   |   |   |   |   |   word_freq_email > 1.11
+|   |   |   |   |   |   |   |   |   |   char_freq_# <= 0.032
+|   |   |   |   |   |   |   |   |   |   |   word_freq_order <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.74: 1 (112.67/1.46)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.74
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.79: 0 (14.61)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.79: 1 (13.85/1.91)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_order > 0.37: 0 (7.23/0.57)
+|   |   |   |   |   |   |   |   |   |   char_freq_# > 0.032: 0 (13.33/0.0)
+|   |   |   |   |   |   |   |   word_freq_telnet > 0: 0 (30.88/0.0)
+|   |   |   |   |   |   |   word_freq_pm > 0.76: 0 (68.54/0.2)
+|   |   |   |   |   |   capital_run_length_longest > 161: 1 (53.89/2.54)
+|   |   |   |   |   word_freq_receive > 1.1
+|   |   |   |   |   |   capital_run_length_average <= 5.02: 1 (31.23)
+|   |   |   |   |   |   capital_run_length_average > 5.02: 0 (2.1/0.52)
+|   |   |   |   word_freq_money > 0.28
+|   |   |   |   |   char_freq_! <= 0.203
+|   |   |   |   |   |   word_freq_internet <= 0.04
+|   |   |   |   |   |   |   word_freq_our <= 0.52
+|   |   |   |   |   |   |   |   word_freq_money <= 9.75
+|   |   |   |   |   |   |   |   |   char_freq_$ <= 0.139: 0 (39.18/0.6)
+|   |   |   |   |   |   |   |   |   char_freq_$ > 0.139: 1 (6.37)
+|   |   |   |   |   |   |   |   word_freq_money > 9.75: 1 (7.55)
+|   |   |   |   |   |   |   word_freq_our > 0.52: 1 (11.11/0.51)
+|   |   |   |   |   |   word_freq_internet > 0.04: 1 (26.07)
+|   |   |   |   |   char_freq_! > 0.203: 1 (140.47/0.94)
+|   |   |   word_freq_font > 0.11: 1 (34.87/0.96)
+|   |   char_freq_# > 0.147
+|   |   |   word_freq_hp <= 0.23
+|   |   |   |   char_freq_; <= 0.203: 1 (56.97/0.67)
+|   |   |   |   char_freq_; > 0.203: 0 (3.1/0.71)
+|   |   |   word_freq_hp > 0.23: 0 (3.46/0.36)
+|   word_freq_project > 0.8: 0 (76.42/0.39)
+word_freq_credit > 0.42: 1 (53.73/2.52)
+
+Number of Leaves  : 	92
+
+Size of the tree : 	183
+
+
+Weight: 3.76
+
+J48 pruned tree
+------------------
+
+word_freq_remove <= 0.04
+|   word_freq_3d <= 0.21
+|   |   word_freq_hp <= 0.02
+|   |   |   word_freq_meeting <= 0.46
+|   |   |   |   word_freq_meeting <= 0.12
+|   |   |   |   |   char_freq_$ <= 0.037
+|   |   |   |   |   |   word_freq_business <= 0.9
+|   |   |   |   |   |   |   word_freq_receive <= 0.53
+|   |   |   |   |   |   |   |   word_freq_650 <= 0.15
+|   |   |   |   |   |   |   |   |   word_freq_edu <= 0.04
+|   |   |   |   |   |   |   |   |   |   word_freq_money <= 0.57
+|   |   |   |   |   |   |   |   |   |   |   word_freq_lab <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_direct <= 1.72
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet <= 0.55
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_george <= 1.29
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people <= 0.33
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 3.333
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 2.56
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will <= 4.76
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 2: 0 (47.46)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 3.85: 0 (15.45)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 3.85: 1 (6.62/0.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_will > 4.76: 1 (3.61)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 5: 0 (34.49/3.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 2.56: 0 (7.23)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 3.333: 1 (8.7/3.87)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.051: 1 (159.77/14.28)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.051: 0 (13.9)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.823
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_order <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.153
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_credit <= 6.32: 0 (4.99)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_credit > 6.32: 1 (3.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.153: 0 (65.65)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 16
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 4.65
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 2.54
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 1.84
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.554
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 55
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.029
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_george <= 0.54: 1 (27.96/0.59)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_george > 0.54: 0 (3.87)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.029: 0 (13.47)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 4: 0 (25.82)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 55: 1 (15.44/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.554
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_[ <= 0.052
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 31
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.704: 0 (138.33/4.83)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_( > 0.704
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.364: 0 (4.25)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.364: 1 (4.93/0.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 31
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.208: 1 (3.6)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.208: 0 (27.33/0.66)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_our > 0: 1 (4.44/0.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.51: 1 (3.56)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_[ > 0.052
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 0.79: 0 (5.81/0.17)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 0.79: 1 (4.55)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 1.84
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.039
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_85 <= 1.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 20: 1 (43.95/0.21)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 20: 0 (5.27/0.33)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_85 > 1.02: 0 (4.71)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.039: 0 (8.71)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 2.54
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.285: 0 (71.0/0.11)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.285
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 2.425: 1 (8.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 2.425: 0 (25.36/0.22)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 4.65
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 9: 0 (9.68)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 9: 1 (22.19)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.68
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 48
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_parts <= 3.44
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all <= 1.53: 1 (32.22/0.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_all > 1.53: 0 (4.71)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_parts > 3.44: 0 (4.19)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 48: 0 (8.31/0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_receive > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 1.91: 1 (19.95)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 1.91: 0 (9.0/0.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_order > 0.08
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email <= 0.18: 1 (26.81/0.59)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email > 0.18: 0 (8.04)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.823
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 0.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 22: 0 (17.56)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 22: 1 (9.56)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 0.4: 1 (43.6/0.19)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_people > 0.33
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_000 <= 0.55: 0 (48.9/0.75)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_000 > 0.55: 1 (4.34)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_george > 1.29: 0 (26.47)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet > 0.55
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.81
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 18: 0 (4.57)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 18: 1 (39.98)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_over > 0.81: 0 (4.83)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.37
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 1.081: 0 (154.29/0.93)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 1.081
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 5.942: 1 (8.65/0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 5.942: 0 (13.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_internet > 0.28
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.58: 1 (6.51/0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.58: 0 (8.7)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_direct > 1.72: 0 (31.26)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_hpl > 0.13: 0 (43.48)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_lab > 0.06: 0 (40.06)
+|   |   |   |   |   |   |   |   |   |   word_freq_money > 0.57
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.39
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_you <= 12.19: 0 (3.87/0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_you > 12.19: 1 (3.86)
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.39: 1 (22.76/0.26)
+|   |   |   |   |   |   |   |   |   word_freq_edu > 0.04
+|   |   |   |   |   |   |   |   |   |   char_freq_( <= 0.351: 0 (181.2)
+|   |   |   |   |   |   |   |   |   |   char_freq_( > 0.351
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 3.195: 0 (16.63)
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 3.195: 1 (3.47/0.26)
+|   |   |   |   |   |   |   |   word_freq_650 > 0.15
+|   |   |   |   |   |   |   |   |   word_freq_85 <= 0.51
+|   |   |   |   |   |   |   |   |   |   char_freq_[ <= 0.126
+|   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 0.55: 1 (53.28)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_your > 0.55: 0 (4.26)
+|   |   |   |   |   |   |   |   |   |   char_freq_[ > 0.126: 0 (3.7)
+|   |   |   |   |   |   |   |   |   word_freq_85 > 0.51: 0 (7.42)
+|   |   |   |   |   |   |   word_freq_receive > 0.53
+|   |   |   |   |   |   |   |   word_freq_will <= 0.77: 1 (27.77/0.2)
+|   |   |   |   |   |   |   |   word_freq_will > 0.77: 0 (4.51/0.09)
+|   |   |   |   |   |   word_freq_business > 0.9
+|   |   |   |   |   |   |   word_freq_will <= 1.43
+|   |   |   |   |   |   |   |   word_freq_order <= 3.33: 1 (60.8)
+|   |   |   |   |   |   |   |   word_freq_order > 3.33: 0 (4.83)
+|   |   |   |   |   |   |   word_freq_will > 1.43: 0 (8.0/0.01)
+|   |   |   |   |   char_freq_$ > 0.037
+|   |   |   |   |   |   word_freq_edu <= 0.37
+|   |   |   |   |   |   |   word_freq_your <= 2.06
+|   |   |   |   |   |   |   |   capital_run_length_average <= 2.895
+|   |   |   |   |   |   |   |   |   word_freq_you <= 0.23
+|   |   |   |   |   |   |   |   |   |   word_freq_addresses <= 0.15: 0 (14.19/0.48)
+|   |   |   |   |   |   |   |   |   |   word_freq_addresses > 0.15: 1 (3.86)
+|   |   |   |   |   |   |   |   |   word_freq_you > 0.23
+|   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.023
+|   |   |   |   |   |   |   |   |   |   |   word_freq_technology <= 0.25
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.601
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email <= 0.24: 0 (4.57/0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email > 0.24: 1 (4.45)
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.601
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# <= 0.004: 1 (117.8/0.76)
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_# > 0.004
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.199: 1 (4.66/0.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.199: 0 (3.61/0.0)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_technology > 0.25
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_address <= 0.62: 1 (4.66)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_address > 0.62: 0 (3.87)
+|   |   |   |   |   |   |   |   |   |   char_freq_; > 0.023: 0 (9.21/0.51)
+|   |   |   |   |   |   |   |   capital_run_length_average > 2.895: 1 (110.33)
+|   |   |   |   |   |   |   word_freq_your > 2.06
+|   |   |   |   |   |   |   |   char_freq_( <= 0.075: 1 (13.69/0.11)
+|   |   |   |   |   |   |   |   char_freq_( > 0.075
+|   |   |   |   |   |   |   |   |   word_freq_internet <= 0.08: 0 (18.6/0.86)
+|   |   |   |   |   |   |   |   |   word_freq_internet > 0.08: 1 (2.01)
+|   |   |   |   |   |   word_freq_edu > 0.37: 0 (20.45)
+|   |   |   |   word_freq_meeting > 0.12: 1 (27.63/0.78)
+|   |   |   word_freq_meeting > 0.46: 0 (70.47)
+|   |   word_freq_hp > 0.02
+|   |   |   capital_run_length_longest <= 4
+|   |   |   |   word_freq_hpl <= 0.35: 0 (20.95)
+|   |   |   |   word_freq_hpl > 0.35: 1 (17.05/1.06)
+|   |   |   capital_run_length_longest > 4
+|   |   |   |   word_freq_will <= 0.02
+|   |   |   |   |   word_freq_our <= 0.04
+|   |   |   |   |   |   word_freq_receive <= 1.12
+|   |   |   |   |   |   |   word_freq_project <= 0.37
+|   |   |   |   |   |   |   |   word_freq_data <= 0.95: 0 (33.86/0.37)
+|   |   |   |   |   |   |   |   word_freq_data > 0.95: 1 (3.64/0.43)
+|   |   |   |   |   |   |   word_freq_project > 0.37: 1 (3.54/0.33)
+|   |   |   |   |   |   word_freq_receive > 1.12: 1 (3.21)
+|   |   |   |   |   word_freq_our > 0.04: 0 (55.59/0.52)
+|   |   |   |   word_freq_will > 0.02: 0 (346.08/0.31)
+|   word_freq_3d > 0.21: 1 (28.25/0.1)
+word_freq_remove > 0.04
+|   word_freq_1999 <= 0.48
+|   |   word_freq_hp <= 0.27
+|   |   |   word_freq_data <= 0.23
+|   |   |   |   word_freq_email <= 0.22
+|   |   |   |   |   word_freq_technology <= 0.29: 1 (197.06/3.61)
+|   |   |   |   |   word_freq_technology > 0.29
+|   |   |   |   |   |   word_freq_labs <= 0.89: 1 (9.39)
+|   |   |   |   |   |   word_freq_labs > 0.89: 0 (3.61)
+|   |   |   |   word_freq_email > 0.22
+|   |   |   |   |   word_freq_edu <= 0.16
+|   |   |   |   |   |   char_freq_( <= 0.049
+|   |   |   |   |   |   |   word_freq_george <= 0.11
+|   |   |   |   |   |   |   |   word_freq_your <= 0.37: 0 (6.59/0.09)
+|   |   |   |   |   |   |   |   word_freq_your > 0.37
+|   |   |   |   |   |   |   |   |   word_freq_remove <= 1.65: 1 (25.86)
+|   |   |   |   |   |   |   |   |   word_freq_remove > 1.65: 0 (3.82/0.21)
+|   |   |   |   |   |   |   word_freq_george > 0.11: 0 (3.21)
+|   |   |   |   |   |   char_freq_( > 0.049: 1 (67.89/0.1)
+|   |   |   |   |   word_freq_edu > 0.16: 0 (7.31)
+|   |   |   word_freq_data > 0.23
+|   |   |   |   capital_run_length_average <= 1.813: 0 (8.8)
+|   |   |   |   capital_run_length_average > 1.813: 1 (12.61)
+|   |   word_freq_hp > 0.27
+|   |   |   word_freq_000 <= 0.11: 0 (19.28/0.31)
+|   |   |   word_freq_000 > 0.11: 1 (4.82)
+|   word_freq_1999 > 0.48
+|   |   word_freq_george <= 0.08: 1 (8.79)
+|   |   word_freq_george > 0.08: 0 (16.14)
+
+Number of Leaves  : 	116
+
+Size of the tree : 	231
+
+
+Weight: 4.28
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 5.54 seconds
+Time taken to test model on training split: 0.04 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances        3221              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances             3221     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 1948    0 |    a = 0
+    0 1273 |    b = 1
+
+
+=== Error on test split ===
+
+Correctly Classified Instances        1310               94.9275 %
+Incorrectly Classified Instances        70                5.0725 %
+Kappa statistic                          0.8939
+Mean absolute error                      0.0503
+Root mean squared error                  0.2137
+Relative absolute error                 10.539  %
+Root relative squared error             43.7879 %
+Total Number of Instances             1380     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 799  41 |   a = 0
+  29 511 |   b = 1
+

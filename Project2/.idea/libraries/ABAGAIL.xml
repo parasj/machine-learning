@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ABAGAIL">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/ABAGAIL.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

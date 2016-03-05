@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Project2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/Project2/opencsv-3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/Project2/ABAGAIL.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

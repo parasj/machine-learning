@@ -1,0 +1,66 @@
+
+Options: -U -M 2 
+
+J48 unpruned tree
+------------------
+
+physician-fee-freeze = n: democrat (179.71/2.77)
+physician-fee-freeze = y
+|   synfuels-corporation-cutback = n
+|   |   adoption-of-the-budget-resolution = n: republican (85.67/1.56)
+|   |   adoption-of-the-budget-resolution = y
+|   |   |   anti-satellite-test-ban = n
+|   |   |   |   immigration = n: democrat (2.08/0.07)
+|   |   |   |   immigration = y: republican (3.03/0.01)
+|   |   |   anti-satellite-test-ban = y: republican (9.14/0.08)
+|   synfuels-corporation-cutback = y
+|   |   mx-missile = n
+|   |   |   education-spending = n: democrat (3.69/1.28)
+|   |   |   education-spending = y: republican (16.66/2.0)
+|   |   mx-missile = y: democrat (5.02/1.03)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	15
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training split: 0 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         296               97.0492 %
+Incorrectly Classified Instances         9                2.9508 %
+Kappa statistic                          0.9371
+Mean absolute error                      0.0513
+Root mean squared error                  0.148 
+Relative absolute error                 10.8885 %
+Root relative squared error             30.4894 %
+Total Number of Instances              305     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 186   3 |   a = democrat
+   6 110 |   b = republican
+
+
+=== Error on test split ===
+
+Correctly Classified Instances         125               96.1538 %
+Incorrectly Classified Instances         5                3.8462 %
+Kappa statistic                          0.9201
+Mean absolute error                      0.0597
+Root mean squared error                  0.1781
+Relative absolute error                 12.5414 %
+Root relative squared error             36.3182 %
+Total Number of Instances              130     
+
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 75  3 |  a = democrat
+  2 50 |  b = republican
+

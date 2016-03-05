@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>Assignments</title>
+    <link href="/library/skin/tool_base.css" type="text/css" rel="stylesheet" media="all" />
+<link href="/library/skin/gatech/tool.css" type="text/css" rel="stylesheet" media="all" />
+<script type="text/javascript" language="JavaScript" src="/library/js/headscripts.js"></script>
+<script type="text/javascript" language="JavaScript">var sakai = sakai || {}; sakai.editor = sakai.editor || {};  sakai.locale = sakai.locale || {};
+sakai.locale.userCountry = 'US';
+sakai.locale.userLanguage = 'en';
+sakai.locale.userLocale = 'en_US';
+sakai.editor.collectionId = '/group/gtc-f63e-c3b1-5980-a137-31280c08f941/';
+sakai.editor.enableResourceSearch = false;</script>
+<script type="text/javascript" language="JavaScript"></script>
+<script type="text/javascript" language="JavaScript" src="/library/editor/FCKeditor/fckeditor.js"></script>
+<script type="text/javascript" language="JavaScript" src="/library/editor/fckeditor.launch.js"></script>
+	
+    
+    	            
+    
+  </head>
+  <body  onload="setMainFrameHeight('Main135ef94fx71b7x420fx807ex5e6391a31fc7');setFocus(focus_path);"  >
+<!-- $Id$ -->
+<!-- start: chef_assignments_student_view_submission.vm  -->
+<!-- $Id$ -->
+<!-- start:  assignment_macros.vm -->
+<!-- end:  assignment_macros.vm --><script type="text/javascript" src="/library/js/jquery.js"></script>
+<link href="/sakai-assignment-tool/css/assignment.css" type="text/css" rel="stylesheet" media="all" />
+<script type="text/javascript"  src="/sakai-assignment-tool/js/assignments.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    setupToggleAreas('toggleAnchor', 'toggledContent', false, 'fast');
+    $('#submissionFileCount').val(1);
+    $('#addMoreAttachmentControls').click(function(e){
+        e.preventDefault();
+        if ($('#submissionFileCount').val() < 5) {
+            var $input = $('#clonableUpload').clone().removeAttr('id').addClass('cloned').appendTo('#clonedHolder').children('input');
+            $input.val('');
+            var $count = $('#submissionFileCount').val();
+            var $nameCount = "upload"+$count;
+            $input.attr("name", $nameCount);
+            $('#submissionFileCount').val(parseInt($('#submissionFileCount').val(), 10) + 1);
+            if ($('#submissionFileCount').val() == 5) {
+                $('#addMoreAttachmentControls').hide();
+                $('#addMoreAttachmentControlsInactive').show();
+            }
+        }
+        $('.cloned a').show();
+        resizeFrame('grow');
+    });
+    
+});
+var notifyDeleteControl = function(){
+    $('#submissionFileCount').val(parseInt($('#submissionFileCount').val(), 10) - 1);
+    if ($('#submissionFileCount').val() < 5) {
+        $('#addMoreAttachmentControls').show();
+        $('#addMoreAttachmentControlsInactive').hide();
+    }
+};
+
+function submitform(id)
+{
+	var theForm = document.getElementById(id);
+	if(theForm && theForm.onsubmit)
+	{
+		theForm.onsubmit();
+	}
+	if(theForm && theForm.submit)
+	{
+		theForm.submit();
+	}
+}
+		
+</script>
+
+
+<div class="portletBody">
+																				<h3>Assignment
+																	<span class="highlight">
+						 	- In progress
+							</span>
+										</h3>
+																					<p class="instruction">
+								 	Add attachment(s), then choose the appropriate button at the bottom.
+							</p>	
+						<table class="itemSummary"  summary="The assignment info">
+				<tr>
+					<th>
+						Title
+					</th>
+					<td>
+						Randomized Optimization_
+																	</td>
+				</tr>
+				<tr>
+					<th>
+						Due
+					</th>
+					<td>
+						Mar 13, 2016 11:55 pm
+					</td>
+				</tr>
+													<tr>
+						<th>
+							Number of resubmissions allowed
+						</th>
+						<td>
+							Unlimited
+						</td>
+					</tr>
+										<tr>
+						<th>
+							Accept Resubmission Until
+						</th>
+						<td>
+							Mar 14, 2016 1:00 am
+						</td>
+					</tr>
+																	<tr>
+					<th>
+						Status
+					</th>
+					<td>
+																					In progress
+																		</td>
+				</tr>
+																			<tr>	
+							<th>
+								Grade Scale
+							</th>
+							<td>
+								Points
+																	(max 100.0)
+															</td>
+						</tr>
+																								</table>
+		<h4>
+			Instructions
+		</h4>
+		
+					<div class="textPanel"><h2>Numbers</h2>
+<p>The assignment is worth 10% of your final grade.</p>
+<h2>Why?</h2>
+<p>The purpose of this project is to explore random search.  As always, it is important to realize that understanding an algorithm or technique requires more than reading about that algorithm or even implementing it.  One should actually have experience seeing  how it behaves under a variety of circumstances.</p>
+<p>As such, you will be asked to implement or steal several randomized search algorithms. In addition, you will be asked to exercise your creativity in coming up with problems that exercise the strengths of each.</p>
+<p>As always, you may program in any language that you wish insofar as you feel the need to program. As always,&nbsp;<em>it is your responsibility</em> to make sure that we can actually recreate your narrative if necessary.</p>
+<p><strong><em>Read everything below carefully!<br/>
+<br/>
+</em></strong></p>
+<h2>The Problems Given to You</h2>
+<p>You must implement four local random search algorithms.  They are:</p>
+<ol>
+    <li>randomized hill climbing</li>
+    <li>simulated annealing</li>
+    <li>a genetic algorithm</li>
+    <li>MIMIC</li>
+</ol>
+<p>You will then use the first three algorithms to find good weights for a neural network. In particular, you will use them instead of backprop for the neural network you used in assignment #1 on at least one of the problems you created for assignment #1.  Notice that weights in a neural network are continuous and real-valued instead of discrete so you might want to think a little bit about what it means to apply these sorts of algorithms in such a domain.</p>
+<h2>The Problems You Give Us</h2>
+<p>In addition to finding weights for a neural network, you must create (for sufficiently loose values of &quot;create&quot; including &quot;steal&quot;, though it's fairly easy to come up with simple problems on your own in this case) three optimization problem domains.  For the purpose of this assignment an &quot;optimization problem&quot; is just a <em>fitness function</em> one is trying to <em>maximize</em> (as opposed to a cost function one is trying to minimize).  This doesn't make things easier or harder, but picking one over the other makes things easier for us to grade.</p>
+<p>Please note that <em>the problems you create should be over discrete-valued parameter spaces. Bit strings are preferable.</em></p>
+<p>You will apply all four search techniques to these three optimization problems. The first problem should highlight advantages of your genetic algorithm, the second of simulated annealing, and the third of MIMIC. Be creative and thoughtful. It is not required that the problems be complicated or painful. They can be simple. For example, the 4-peaks and k-color problems are rather straightforward, but illustrate relative strengths rather neatly.</p>
+<h2>What to Turn In</h2>
+<p>You must submit a tar or zip file named&nbsp;<i>yourgtaccount</i>.{zip,tar,tar.gz} in t-square that contains a single folder or directory named&nbsp;<i>yourgtaccount</i>&nbsp;that in turn contains: --&gt;</p>
+<ol>
+    <li>A file named&nbsp;<i>README.txt</i>&nbsp;that contains instructions for running your code</li>
+    <li>your code</li>
+    <li>a file named yourgtaccount-<i>analysis.pdf</i>&nbsp;that contains your writeup.</li>
+    <li>any supporting files you need (for example, your datasets).</li>
+</ol>
+<p>The file yourgtaccount-<i>analysis</i>.pdf should contain:&nbsp;</p>
+<ul>
+    <li>the results you obtained running the algorithms on the networks: why did you get the results you did? what sort of changes might you make to each of those algorithms to improve performance? Feel free to include any supporting graphs or tables. And by &quot;feel free to&quot;, of course, I mean &quot;do&quot;.</li>
+    <li>a description of your optimization problems, and why you feel that they are interesting and exercise the strengths and weaknesses of each approach. Think hard about this.</li>
+    <li>analyses of your results. Why did you get the results you did? Compare and contrast the different algorithms. What sort of changes might you make to each of those algorithms to improve performance? How fast were they in terms of wall clock time? Iterations? Which algorithm performed best? How do you define best? Be creative and think of as many questions you can, and as many answers as you can. You know the drill.</li>
+</ul>
+<p>&nbsp;</p>
+<p><b> Note: Analysis writeup is limited to 10 pages total.<br/>
+</b>&nbsp;</p>
+<h2>Grading Criteria</h2>
+<p>At this point you are not surprised to read that you are being graded on your analysis more than anything else. I will refer you to this section from assignment #1 for a more detailed explanation. On the other hand, I will also point out that implementing some of these algorithms is very easy (almost not worth stealing the code, but please feel free to do so anyway) but at least one of them requires some time (luckily, there are now versions of this algorithm out there to steal). You should start now.&nbsp;</p></div>
+																											<hr class="itemSeparator" />
+						<h3>Submission</h3> 
+		
+
+
+					<form name="addSubmissionForm" id="addSubmissionForm" action="https://t-square.gatech.edu/portal/tool/135ef94f-71b7-420f-807e-5e6391a31fc7?panel=Main" method="post" onsubmit="return true;" enctype="multipart/form-data">
+		<input type="hidden" name="eventSubmit_doRead_add_submission_form" value="x" />
+		<input type="hidden" name="option" id="option" value="cancel" />
+		<input type="hidden" name="currentAttachment" value="" />
+		<input type="hidden" name="assignmentId" value="/assignment/a/gtc-f63e-c3b1-5980-a137-31280c08f941/ed7325f6-160b-4bd0-a3af-b01513767a24" />
+																							<p class="instruction">
+																				Your attached submission
+											</p>
+								<div class="highlightPanel" style="background:#ffe">
+					<h3 style="margin-top:0;margin-bottom:.5em">
+						Attachments
+					</h3>	
+																					<p class="instruction">No attachments yet</p>
+																<div class="highlightPanel specialLink" style="margin:0;padding-bottom:.5em;background:#fff">
+																																										<input type="hidden" name="submissionFileCount" id="submissionFileCount" value="1"/>
+									<table border="0" cellpadding="0" cellspacing="0" class="listHier  centerLines" style="width:auto;margin:0">
+										<tr>
+											<td>
+												<span>Select a file from computer</span>
+											</td>
+											<td>
+												<div id="clonableUpload"> 
+													<input type="file" name="upload" class="upload" id="clonableUpload" onchange="javascript:showNotif('submitnotifxxx','post','addSubmissionForm');document.getElementById('addSubmissionForm').action='https://t-square.gatech.edu/portal/tool/135ef94f-71b7-420f-807e-5e6391a31fc7?panel=Main&amp;sakai_action=doAttachUpload';submitform('addSubmissionForm');""/> 
+													<span id="submitnotifxxx" class="messageProgress" style="visibility:hidden">Uploading file(s)</span>
+												</div>
+											</td>
+											<td>
+												<span class="navIntraToolLink">
+													<input
+														class="disableme enabled" 
+														type="button" 
+														value="or select files from workspace or site"
+														name="attach" 
+														id="attach"
+														accesskey="a" 														onclick="document.addSubmissionForm.onsubmit();document.addSubmissionForm.option.value='attach'; document.addSubmissionForm.submit(); return false;"
+													/>
+												</span>	
+											</td>
+										</tr>	
+										<tr>
+											<td></td>
+											<td id="clonedHolder"></td>
+											<td></td>
+											<td></td>										
+											</tr>
+									</table>	
+									
+																					</div>
+																							</div>
+				
+																														<div
+										 class="act messageInformation">
+							<input
+								type="button"
+								class="active"
+																								name="post"
+								accesskey="s"
+								id="post" 
+								value="Submit"
+								onclick="document.addSubmissionForm.onsubmit();showNotif('submitnotif','post','addSubmissionForm'); document.addSubmissionForm.option.value='post'; document.addSubmissionForm.submit(); return false;"
+							/>
+																	<input
+								class="disableme" 
+								type="button" 
+								name="preview" 
+								accesskey="v"
+								id="preview" 
+								value="Preview"
+								onclick="document.addSubmissionForm.onsubmit();showNotif('submitnotif','preview','addSubmissionForm');document.addSubmissionForm.option.value='preview'; document.addSubmissionForm.submit(); return false;"
+							/>
+							<input
+								class="disableme" 
+								type="button" 
+								name="save" 
+								accesskey="d"
+								id="save" 
+								value="Save Draft"
+								onclick="document.addSubmissionForm.onsubmit();showNotif('submitnotif','save','addSubmissionForm');document.addSubmissionForm.option.value='save'; document.addSubmissionForm.submit(); return false;"
+							/>
+														<input 
+								class="disableme"
+								type="button" 
+								name="cancel"
+								accesskey="x"
+								id="cancel" 
+								value="Cancel"
+								onclick="document.addSubmissionForm.onsubmit();document.addSubmissionForm.option.value='cancel'; document.addSubmissionForm.submit(); return false;"
+							/>
+							<span class="messageInformation">Don't forget to save or submit</span>
+									<span id="submitnotif" style="visibility:hidden">Processing......</span>
+			</div>
+			</form>
+	</div>
+<!-- end: chef_assignments_student_view_submission.vm  -->
+</body></html>

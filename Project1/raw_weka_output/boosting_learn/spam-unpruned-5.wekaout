@@ -1,0 +1,470 @@
+
+Options: -P 100 -S 1 -I 10 -W weka.classifiers.trees.J48 -- -U -M 2 
+
+AdaBoostM1: Base classifiers and their weights: 
+
+J48 unpruned tree
+------------------
+
+word_freq_000 <= 0.25
+|   word_freq_remove <= 0.05
+|   |   word_freq_free <= 0.26
+|   |   |   char_freq_$ <= 0.027
+|   |   |   |   word_freq_receive <= 0.05: 0 (131.0/9.0)
+|   |   |   |   word_freq_receive > 0.05
+|   |   |   |   |   word_freq_our <= 0.42: 0 (5.0)
+|   |   |   |   |   word_freq_our > 0.42: 1 (2.0)
+|   |   |   char_freq_$ > 0.027
+|   |   |   |   word_freq_hp <= 0.38: 1 (8.0/1.0)
+|   |   |   |   word_freq_hp > 0.38: 0 (8.0)
+|   |   word_freq_free > 0.26
+|   |   |   word_freq_edu <= 0.25
+|   |   |   |   word_freq_george <= 0.24: 1 (14.0/1.0)
+|   |   |   |   word_freq_george > 0.24: 0 (2.0)
+|   |   |   word_freq_edu > 0.25: 0 (4.0)
+|   word_freq_remove > 0.05
+|   |   word_freq_technology <= 0.13
+|   |   |   word_freq_000 <= 0
+|   |   |   |   word_freq_direct <= 0.17
+|   |   |   |   |   word_freq_your <= 0.35
+|   |   |   |   |   |   char_freq_! <= 0.444: 0 (2.0)
+|   |   |   |   |   |   char_freq_! > 0.444: 1 (3.0)
+|   |   |   |   |   word_freq_your > 0.35: 1 (21.0)
+|   |   |   |   word_freq_direct > 0.17: 0 (2.0/1.0)
+|   |   |   word_freq_000 > 0: 1 (2.0)
+|   |   word_freq_technology > 0.13: 0 (2.0/1.0)
+word_freq_000 > 0.25: 1 (24.0)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+Weight: 2.81
+
+J48 unpruned tree
+------------------
+
+word_freq_george <= 0
+|   word_freq_meeting <= 0
+|   |   word_freq_edu <= 0.09
+|   |   |   word_freq_hpl <= 0.1
+|   |   |   |   word_freq_make <= 0.6
+|   |   |   |   |   word_freq_you <= 1.25
+|   |   |   |   |   |   word_freq_font <= 0
+|   |   |   |   |   |   |   word_freq_project <= 0.02
+|   |   |   |   |   |   |   |   word_freq_free <= 0
+|   |   |   |   |   |   |   |   |   word_freq_address <= 0.11
+|   |   |   |   |   |   |   |   |   |   word_freq_people <= 0
+|   |   |   |   |   |   |   |   |   |   |   char_freq_; <= 0.111
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 6: 0 (2.12)
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 6: 1 (8.85)
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ <= 0.049: 0 (8.48/0.53)
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_$ > 0.049: 1 (3.18/0.53)
+|   |   |   |   |   |   |   |   |   |   |   char_freq_; > 0.111: 0 (2.12)
+|   |   |   |   |   |   |   |   |   |   word_freq_people > 0: 0 (2.12)
+|   |   |   |   |   |   |   |   |   word_freq_address > 0.11: 0 (2.12)
+|   |   |   |   |   |   |   |   word_freq_free > 0: 1 (2.12)
+|   |   |   |   |   |   |   word_freq_project > 0.02: 0 (2.12)
+|   |   |   |   |   |   word_freq_font > 0: 1 (9.91)
+|   |   |   |   |   word_freq_you > 1.25
+|   |   |   |   |   |   word_freq_data <= 0.1
+|   |   |   |   |   |   |   word_freq_3d <= 0
+|   |   |   |   |   |   |   |   word_freq_our <= 0
+|   |   |   |   |   |   |   |   |   word_freq_re <= 0.14
+|   |   |   |   |   |   |   |   |   |   word_freq_mail <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   word_freq_free <= 0.33
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_your <= 0.31
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! <= 0.265
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1: 1 (8.85)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1: 0 (2.12)
+|   |   |   |   |   |   |   |   |   |   |   |   |   char_freq_! > 0.265: 1 (17.69)
+|   |   |   |   |   |   |   |   |   |   |   |   word_freq_your > 0.31: 1 (19.81/0.53)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_free > 0.33: 1 (2.65)
+|   |   |   |   |   |   |   |   |   |   word_freq_mail > 0.11: 1 (3.18/1.06)
+|   |   |   |   |   |   |   |   |   word_freq_re > 0.14: 0 (3.71/1.06)
+|   |   |   |   |   |   |   |   word_freq_our > 0: 1 (38.89)
+|   |   |   |   |   |   |   word_freq_3d > 0: 1 (8.85)
+|   |   |   |   |   |   word_freq_data > 0.1: 1 (9.91)
+|   |   |   |   word_freq_make > 0.6: 0 (10.97/1.06)
+|   |   |   word_freq_hpl > 0.1: 0 (9.01/1.06)
+|   |   word_freq_edu > 0.09: 0 (12.19)
+|   word_freq_meeting > 0: 0 (16.8)
+word_freq_george > 0: 0 (22.26)
+
+Number of Leaves  : 	25
+
+Size of the tree : 	49
+
+
+Weight: 3.65
+
+J48 unpruned tree
+------------------
+
+word_freq_lab <= 0.02
+|   char_freq_! <= 0.14
+|   |   word_freq_000 <= 0.27
+|   |   |   word_freq_free <= 1.33
+|   |   |   |   capital_run_length_average <= 1.104
+|   |   |   |   |   word_freq_mail <= 2.43
+|   |   |   |   |   |   word_freq_your <= 0.31
+|   |   |   |   |   |   |   word_freq_you <= 2.37
+|   |   |   |   |   |   |   |   capital_run_length_total <= 6: 0 (2.45)
+|   |   |   |   |   |   |   |   capital_run_length_total > 6: 1 (5.35/0.82)
+|   |   |   |   |   |   |   word_freq_you > 2.37: 1 (5.08/0.54)
+|   |   |   |   |   |   word_freq_your > 0.31: 1 (9.08)
+|   |   |   |   |   word_freq_mail > 2.43: 0 (10.45)
+|   |   |   |   capital_run_length_average > 1.104
+|   |   |   |   |   word_freq_font <= 0: 0 (56.36/2.99)
+|   |   |   |   |   word_freq_font > 0: 1 (4.54)
+|   |   |   word_freq_free > 1.33: 1 (11.0)
+|   |   word_freq_000 > 0.27: 1 (12.09)
+|   char_freq_! > 0.14
+|   |   word_freq_free <= 0
+|   |   |   word_freq_you <= 2.66
+|   |   |   |   char_freq_$ <= 0.049: 0 (5.71/0.54)
+|   |   |   |   char_freq_$ > 0.049: 1 (2.72/0.27)
+|   |   |   word_freq_you > 2.66: 1 (21.69/1.09)
+|   |   word_freq_free > 0: 1 (68.69/0.27)
+word_freq_lab > 0.02: 0 (14.8)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+Weight: 3.53
+
+J48 unpruned tree
+------------------
+
+word_freq_money <= 0
+|   word_freq_free <= 0.66
+|   |   word_freq_font <= 0
+|   |   |   word_freq_direct <= 0.22
+|   |   |   |   word_freq_our <= 0.85
+|   |   |   |   |   word_freq_pm <= 0
+|   |   |   |   |   |   word_freq_business <= 0.42
+|   |   |   |   |   |   |   word_freq_your <= 0.51: 0 (73.9/7.43)
+|   |   |   |   |   |   |   word_freq_your > 0.51
+|   |   |   |   |   |   |   |   word_freq_remove <= 0.62
+|   |   |   |   |   |   |   |   |   word_freq_your <= 0.64: 1 (7.01)
+|   |   |   |   |   |   |   |   |   word_freq_your > 0.64
+|   |   |   |   |   |   |   |   |   |   word_freq_our <= 0.13: 0 (15.96)
+|   |   |   |   |   |   |   |   |   |   word_freq_our > 0.13: 1 (3.17/0.28)
+|   |   |   |   |   |   |   |   word_freq_remove > 0.62: 1 (4.79)
+|   |   |   |   |   |   word_freq_business > 0.42: 1 (5.63/0.56)
+|   |   |   |   |   word_freq_pm > 0: 0 (11.15)
+|   |   |   |   word_freq_our > 0.85: 1 (6.47/0.7)
+|   |   |   word_freq_direct > 0.22: 1 (6.92/1.26)
+|   |   word_freq_font > 0: 1 (7.27)
+|   word_freq_free > 0.66: 1 (25.67/0.28)
+word_freq_money > 0: 1 (62.05/0.42)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	23
+
+
+Weight: 3.0
+
+J48 unpruned tree
+------------------
+
+word_freq_george <= 0
+|   char_freq_; <= 0.046
+|   |   word_freq_edu <= 0
+|   |   |   word_freq_you <= 5
+|   |   |   |   word_freq_will <= 1.36
+|   |   |   |   |   char_freq_( <= 0.069: 1 (122.53/7.23)
+|   |   |   |   |   char_freq_( > 0.069
+|   |   |   |   |   |   char_freq_[ <= 0.03
+|   |   |   |   |   |   |   word_freq_hp <= 0.49
+|   |   |   |   |   |   |   |   char_freq_; <= 0.011
+|   |   |   |   |   |   |   |   |   char_freq_$ <= 0.523
+|   |   |   |   |   |   |   |   |   |   capital_run_length_average <= 1.488: 0 (3.17/0.07)
+|   |   |   |   |   |   |   |   |   |   capital_run_length_average > 1.488: 1 (24.04/0.22)
+|   |   |   |   |   |   |   |   |   char_freq_$ > 0.523: 0 (2.82)
+|   |   |   |   |   |   |   |   char_freq_; > 0.011: 0 (2.52)
+|   |   |   |   |   |   |   word_freq_hp > 0.49: 0 (2.21)
+|   |   |   |   |   |   char_freq_[ > 0.03: 0 (3.04)
+|   |   |   |   word_freq_will > 1.36
+|   |   |   |   |   word_freq_internet <= 0.02: 0 (7.61/0.15)
+|   |   |   |   |   word_freq_internet > 0.02: 1 (2.97)
+|   |   |   word_freq_you > 5: 0 (9.3/1.3)
+|   |   word_freq_edu > 0: 0 (11.14/0.29)
+|   char_freq_; > 0.046: 0 (13.89/0.15)
+word_freq_george > 0: 0 (24.76)
+
+Number of Leaves  : 	13
+
+Size of the tree : 	25
+
+
+Weight: 3.15
+
+J48 unpruned tree
+------------------
+
+word_freq_money <= 0
+|   word_freq_meeting <= 0
+|   |   word_freq_hp <= 0.68
+|   |   |   word_freq_make <= 0.6
+|   |   |   |   word_freq_edu <= 0.06
+|   |   |   |   |   char_freq_; <= 0.008
+|   |   |   |   |   |   word_freq_you <= 1.97
+|   |   |   |   |   |   |   word_freq_project <= 0.02
+|   |   |   |   |   |   |   |   word_freq_free <= 0.23
+|   |   |   |   |   |   |   |   |   word_freq_will <= 0.66
+|   |   |   |   |   |   |   |   |   |   word_freq_over <= 0.2
+|   |   |   |   |   |   |   |   |   |   |   word_freq_remove <= 0.3
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 6: 0 (6.47)
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest <= 3: 1 (15.48/1.39)
+|   |   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_longest > 3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re <= 0.51: 0 (7.17/0.68)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_re > 0.51: 1 (2.12/0.04)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_remove > 0.3: 0 (2.41/0.04)
+|   |   |   |   |   |   |   |   |   |   word_freq_over > 0.2: 1 (2.9/0.08)
+|   |   |   |   |   |   |   |   |   word_freq_will > 0.66: 0 (5.61)
+|   |   |   |   |   |   |   |   word_freq_free > 0.23: 1 (2.26)
+|   |   |   |   |   |   |   word_freq_project > 0.02: 0 (2.6)
+|   |   |   |   |   |   word_freq_you > 1.97
+|   |   |   |   |   |   |   word_freq_re <= 1.6
+|   |   |   |   |   |   |   |   word_freq_mail <= 1.66
+|   |   |   |   |   |   |   |   |   word_freq_over <= 0.17: 1 (36.48/0.11)
+|   |   |   |   |   |   |   |   |   word_freq_over > 0.17: 0 (2.39/0.92)
+|   |   |   |   |   |   |   |   word_freq_mail > 1.66: 0 (2.24)
+|   |   |   |   |   |   |   word_freq_re > 1.6: 0 (2.62)
+|   |   |   |   |   char_freq_; > 0.008: 0 (6.02/0.94)
+|   |   |   |   word_freq_edu > 0.06: 0 (5.31)
+|   |   |   word_freq_make > 0.6: 0 (17.3)
+|   |   word_freq_hp > 0.68
+|   |   |   word_freq_free <= 0.19: 0 (28.84)
+|   |   |   word_freq_free > 0.19: 1 (2.24/0.77)
+|   word_freq_meeting > 0: 0 (40.87)
+word_freq_money > 0
+|   word_freq_edu <= 0.08: 1 (36.23/0.77)
+|   word_freq_edu > 0.08: 0 (2.43/0.9)
+
+Number of Leaves  : 	21
+
+Size of the tree : 	41
+
+
+Weight: 3.52
+
+J48 unpruned tree
+------------------
+
+char_freq_! <= 0.414
+|   word_freq_font <= 0
+|   |   word_freq_remove <= 0.04
+|   |   |   capital_run_length_total <= 3: 1 (7.82/1.22)
+|   |   |   capital_run_length_total > 3
+|   |   |   |   word_freq_george <= 0
+|   |   |   |   |   capital_run_length_average <= 1.103
+|   |   |   |   |   |   capital_run_length_total <= 6: 0 (2.06)
+|   |   |   |   |   |   capital_run_length_total > 6
+|   |   |   |   |   |   |   capital_run_length_total <= 12: 1 (8.03/0.68)
+|   |   |   |   |   |   |   capital_run_length_total > 12: 0 (2.01/0.66)
+|   |   |   |   |   capital_run_length_average > 1.103
+|   |   |   |   |   |   capital_run_length_longest <= 19
+|   |   |   |   |   |   |   word_freq_over <= 0.05: 0 (50.12/1.47)
+|   |   |   |   |   |   |   word_freq_over > 0.05: 1 (3.24/1.48)
+|   |   |   |   |   |   capital_run_length_longest > 19
+|   |   |   |   |   |   |   word_freq_email <= 0.02
+|   |   |   |   |   |   |   |   word_freq_re <= 0
+|   |   |   |   |   |   |   |   |   capital_run_length_total <= 116: 0 (2.35/0.69)
+|   |   |   |   |   |   |   |   |   capital_run_length_total > 116: 1 (2.12/0.62)
+|   |   |   |   |   |   |   |   word_freq_re > 0: 1 (2.01/0.42)
+|   |   |   |   |   |   |   word_freq_email > 0.02: 0 (2.03/0.04)
+|   |   |   |   word_freq_george > 0: 0 (56.14)
+|   |   word_freq_remove > 0.04: 1 (11.02/1.63)
+|   word_freq_font > 0: 1 (11.81)
+char_freq_! > 0.414
+|   word_freq_re <= 0.42: 1 (65.5/1.14)
+|   word_freq_re > 0.42: 0 (3.73/1.68)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+Weight: 2.92
+
+J48 unpruned tree
+------------------
+
+word_freq_all <= 0.44
+|   word_freq_make <= 0.17
+|   |   word_freq_receive <= 0.31
+|   |   |   word_freq_650 <= 0
+|   |   |   |   capital_run_length_total <= 321
+|   |   |   |   |   word_freq_lab <= 0.02
+|   |   |   |   |   |   word_freq_you <= 1.27: 0 (65.83/5.14)
+|   |   |   |   |   |   word_freq_you > 1.27
+|   |   |   |   |   |   |   capital_run_length_total <= 14
+|   |   |   |   |   |   |   |   word_freq_edu <= 1.31
+|   |   |   |   |   |   |   |   |   word_freq_you <= 5: 1 (3.48)
+|   |   |   |   |   |   |   |   |   word_freq_you > 5: 0 (8.85)
+|   |   |   |   |   |   |   |   word_freq_edu > 1.31: 0 (13.24)
+|   |   |   |   |   |   |   capital_run_length_total > 14
+|   |   |   |   |   |   |   |   char_freq_( <= 0.022: 1 (16.0/1.32)
+|   |   |   |   |   |   |   |   char_freq_( > 0.022: 0 (2.32/1.09)
+|   |   |   |   |   word_freq_lab > 0.02: 0 (8.54)
+|   |   |   |   capital_run_length_total > 321
+|   |   |   |   |   capital_run_length_total <= 354: 1 (5.85)
+|   |   |   |   |   capital_run_length_total > 354: 0 (2.1/0.8)
+|   |   |   word_freq_650 > 0: 0 (23.71)
+|   |   word_freq_receive > 0.31
+|   |   |   word_freq_all <= 0.18: 1 (11.15)
+|   |   |   word_freq_all > 0.18: 0 (3.88)
+|   word_freq_make > 0.17: 1 (8.85/1.33)
+word_freq_all > 0.44
+|   word_freq_make <= 0.6: 1 (50.99/1.94)
+|   word_freq_make > 0.6: 0 (5.23/0.8)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+Weight: 2.86
+
+J48 unpruned tree
+------------------
+
+word_freq_george <= 0
+|   word_freq_meeting <= 0
+|   |   word_freq_edu <= 0.09
+|   |   |   char_freq_[ <= 0.039
+|   |   |   |   word_freq_our <= 0.38
+|   |   |   |   |   word_freq_telnet <= 0
+|   |   |   |   |   |   word_freq_hp <= 0.69
+|   |   |   |   |   |   |   word_freq_will <= 1.9
+|   |   |   |   |   |   |   |   capital_run_length_total <= 6
+|   |   |   |   |   |   |   |   |   word_freq_mail <= 2.43
+|   |   |   |   |   |   |   |   |   |   word_freq_you <= 2.37: 0 (3.17)
+|   |   |   |   |   |   |   |   |   |   word_freq_you > 2.37: 1 (2.21/0.38)
+|   |   |   |   |   |   |   |   |   word_freq_mail > 2.43: 0 (3.93)
+|   |   |   |   |   |   |   |   capital_run_length_total > 6
+|   |   |   |   |   |   |   |   |   char_freq_( <= 0.262
+|   |   |   |   |   |   |   |   |   |   word_freq_project <= 0
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 7: 1 (32.21)
+|   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 7
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total <= 14: 0 (3.08)
+|   |   |   |   |   |   |   |   |   |   |   |   capital_run_length_total > 14
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_85 <= 0.06
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email <= 0.59
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 0.58: 1 (32.44/0.58)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_make > 0.58: 0 (2.33)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_email > 0.59: 0 (2.4/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   word_freq_85 > 0.06: 1 (3.7)
+|   |   |   |   |   |   |   |   |   |   word_freq_project > 0
+|   |   |   |   |   |   |   |   |   |   |   word_freq_make <= 0.78: 0 (2.62)
+|   |   |   |   |   |   |   |   |   |   |   word_freq_make > 0.78: 1 (3.7)
+|   |   |   |   |   |   |   |   |   char_freq_( > 0.262
+|   |   |   |   |   |   |   |   |   |   word_freq_make <= 0.1: 0 (7.96)
+|   |   |   |   |   |   |   |   |   |   word_freq_make > 0.1: 1 (3.8)
+|   |   |   |   |   |   |   word_freq_will > 1.9: 0 (5.84)
+|   |   |   |   |   |   word_freq_hp > 0.69: 0 (7.56)
+|   |   |   |   |   word_freq_telnet > 0: 0 (6.34)
+|   |   |   |   word_freq_our > 0.38: 1 (43.99/0.24)
+|   |   |   char_freq_[ > 0.039: 0 (9.38/0.1)
+|   |   word_freq_edu > 0.09: 0 (13.62)
+|   word_freq_meeting > 0: 0 (13.53)
+word_freq_george > 0: 0 (26.17)
+
+Number of Leaves  : 	21
+
+Size of the tree : 	41
+
+
+Weight: 5.16
+
+J48 unpruned tree
+------------------
+
+char_freq_$ <= 0.146
+|   word_freq_remove <= 0.05
+|   |   capital_run_length_average <= 1.423
+|   |   |   word_freq_re <= 0.13
+|   |   |   |   word_freq_george <= 0.24
+|   |   |   |   |   word_freq_edu <= 0.12
+|   |   |   |   |   |   capital_run_length_total <= 6: 0 (4.3/0.92)
+|   |   |   |   |   |   capital_run_length_total > 6: 1 (26.1/2.75)
+|   |   |   |   |   word_freq_edu > 0.12: 0 (3.57)
+|   |   |   |   word_freq_george > 0.24: 0 (6.51)
+|   |   |   word_freq_re > 0.13: 0 (26.66)
+|   |   capital_run_length_average > 1.423
+|   |   |   char_freq_! <= 0.028: 0 (84.0/0.17)
+|   |   |   char_freq_! > 0.028
+|   |   |   |   word_freq_you <= 0.39: 1 (3.75/0.13)
+|   |   |   |   word_freq_you > 0.39
+|   |   |   |   |   word_freq_re <= 0.33
+|   |   |   |   |   |   char_freq_! <= 0.414: 0 (6.34/0.3)
+|   |   |   |   |   |   char_freq_! > 0.414: 1 (2.56)
+|   |   |   |   |   word_freq_re > 0.33: 0 (20.25)
+|   word_freq_remove > 0.05
+|   |   char_freq_$ <= 0.013: 1 (11.44)
+|   |   char_freq_$ > 0.013
+|   |   |   word_freq_internet <= 0.04: 0 (2.33/0.1)
+|   |   |   word_freq_internet > 0.04: 1 (2.71/0.05)
+char_freq_$ > 0.146
+|   char_freq_( <= 0.294: 1 (25.53/0.0)
+|   char_freq_( > 0.294: 0 (3.94)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+Weight: 3.93
+
+Number of performed Iterations: 10
+
+
+Time taken to build model: 0.27 seconds
+Time taken to test model on training split: 0 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances         230              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances              230     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 147   0 |   a = 0
+   0  83 |   b = 1
+
+
+=== Error on test split ===
+
+Correctly Classified Instances        3940               90.1396 %
+Incorrectly Classified Instances       431                9.8604 %
+Kappa statistic                          0.793 
+Mean absolute error                      0.1002
+Root mean squared error                  0.306 
+Relative absolute error                 21.2715 %
+Root relative squared error             62.4342 %
+Total Number of Instances             4371     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2446  195 |    a = 0
+  236 1494 |    b = 1
+

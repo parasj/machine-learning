@@ -1,0 +1,7 @@
+Options: -C 0.5 -M 2 
+Number of Leaves  : 	139
+Size of the tree : 	277
+Correctly Classified Instances        3176               98.6029 %
+Correctly Classified Instances        1281               92.8261 %
+Time taken to build model: 0.81 seconds
+Time taken to test model on training split: 0.02 seconds
