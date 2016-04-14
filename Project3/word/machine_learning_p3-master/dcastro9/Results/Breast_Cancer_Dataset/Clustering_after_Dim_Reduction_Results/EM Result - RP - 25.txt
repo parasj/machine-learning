@@ -1,0 +1,174 @@
+=== Run information ===
+
+Scheme:weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 100
+Relation:     breastcancerdiagnostic-weka.filters.unsupervised.attribute.RandomProjection-N25-R42-DSparse1
+Instances:    569
+Attributes:   26
+              K1
+              K2
+              K3
+              K4
+              K5
+              K6
+              K7
+              K8
+              K9
+              K10
+              K11
+              K12
+              K13
+              K14
+              K15
+              K16
+              K17
+              K18
+              K19
+              K20
+              K21
+              K22
+              K23
+              K24
+              K25
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+EM
+==
+
+Number of clusters: 2
+
+
+              Cluster
+Attribute           0         1
+               (0.31)    (0.69)
+================================
+K1
+  mean       2061.3431  941.2698
+  std. dev.   605.7032  233.5158
+
+K2
+  mean        286.5428  172.3341
+  std. dev.    50.4286   27.1932
+
+K3
+  mean       2666.2044  972.4696
+  std. dev.   976.8489  285.2002
+
+K4
+  mean      -1815.7034  -775.568
+  std. dev.   573.0571  213.5745
+
+K5
+  mean        -49.6336  -42.1697
+  std. dev.     10.022    10.022
+
+K6
+  mean        189.0739   124.311
+  std. dev.    27.1248   17.6126
+
+K7
+  mean       2542.9518  954.9534
+  std. dev.   899.3744  277.9935
+
+K8
+  mean         33.5813   22.0702
+  std. dev.     5.0283    2.9449
+
+K9
+  mean      -1886.1639 -835.0345
+  std. dev.   574.4966  215.0296
+
+K10
+  mean        182.6681  115.0921
+  std. dev.    30.5197   16.9047
+
+K11
+  mean         -0.5537    0.0572
+  std. dev.     0.6659    0.2295
+
+K12
+  mean      -1595.8438 -664.7505
+  std. dev.    525.026  190.0942
+
+K13
+  mean       -358.8229 -176.6888
+  std. dev.   135.2739   28.7806
+
+K14
+  mean        208.5041  135.4328
+  std. dev.    31.9043   19.3734
+
+K15
+  mean        266.0629   157.457
+  std. dev.     49.488   24.5729
+
+K16
+  mean      -4332.6405 -1665.696
+  std. dev.  1477.4702  472.2807
+
+K17
+  mean       -142.7422  -39.5787
+  std. dev.   109.4665   15.1918
+
+K18
+  mean      -1889.6709 -828.7829
+  std. dev.   579.6443  217.5331
+
+K19
+  mean       -141.7313  -47.9419
+  std. dev.   105.8123   16.9642
+
+K20
+  mean          -47.21   -27.134
+  std. dev.    10.0768    4.0229
+
+K21
+  mean          3.8173    2.0653
+  std. dev.     1.0718     0.749
+
+K22
+  mean        249.5027  159.8902
+  std. dev.    38.6194   22.7174
+
+K23
+  mean      -2419.7732 -836.5591
+  std. dev.   927.5247  260.3122
+
+K24
+  mean         76.9275   56.1615
+  std. dev.     10.546    8.1362
+
+K25
+  mean       -280.2738 -161.8873
+  std. dev.    53.0316   30.2425
+
+
+
+Time taken to build model (full training data) : 0.29 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      180 ( 32%)
+1      389 ( 68%)
+
+
+Log likelihood: -128.59662
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 171  41 | M
+   9 348 | B
+
+Cluster 0 <-- M
+Cluster 1 <-- B
+
+Incorrectly clustered instances : 50.0    8.7873 %
+

@@ -1,0 +1,77 @@
+
+
+=== Clustering stats for training data ===
+
+
+EM
+==
+
+Number of clusters: 2
+Number of iterations performed: 18
+
+
+             Cluster
+Attribute          0        1
+              (0.73)   (0.27)
+==============================
+K1
+  mean        -1.4111    0.218
+  std. dev.    7.7083    2.673
+
+K2
+  mean         3.2651   1.0218
+  std. dev.    8.3246   4.9787
+
+K3
+  mean        -3.9739  -4.1291
+  std. dev.    6.3114    6.102
+
+K4
+  mean         18.766 275.5354
+  std. dev.   18.8907 607.4429
+
+K5
+  mean       -14.3107-250.6709
+  std. dev.   15.4291 566.2488
+
+K6
+  mean         0.9619    0.796
+  std. dev.    3.4695   6.8725
+
+K7
+  mean        18.2726 273.5212
+  std. dev.   17.2727 607.3448
+
+K8
+  mean         -5.612  -6.4922
+  std. dev.    6.4387   4.8126
+
+K9
+  mean        19.2783 272.6574
+  std. dev.   15.6236 606.8426
+
+K10
+  mean        -2.1096  -3.7216
+  std. dev.    3.7722   3.5764
+
+Clustered Instances
+
+0      3344 ( 73%)
+1      1257 ( 27%)
+
+
+Log likelihood: -40.03441
+
+
+Class attribute: class
+Classes to Clusters:
+
+    0    1  <-- assigned to cluster
+ 2441  347 | 0
+  903  910 | 1
+
+Cluster 0 <-- 0
+Cluster 1 <-- 1
+
+Incorrectly clustered instances :	1250.0	 27.168  %
+

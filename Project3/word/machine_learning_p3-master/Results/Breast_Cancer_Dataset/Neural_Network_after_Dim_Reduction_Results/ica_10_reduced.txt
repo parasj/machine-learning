@@ -1,0 +1,148 @@
+
+Options: -L 0.03 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    4.662306491783322
+    Node 2    -1.9828483925384421
+    Node 3    -0.34636013952847106
+    Node 4    -1.912769162803401
+    Node 5    -4.748900329623406
+    Node 6    1.424767078943447
+    Node 7    1.5393961997789452
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -4.665581315885488
+    Node 2    2.014512635615968
+    Node 3    0.2837171051315553
+    Node 4    1.90867829998117
+    Node 5    4.743030079629582
+    Node 6    -1.434396268646047
+    Node 7    -1.5235080588627663
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.22483915928872342
+    Attrib ica0    -2.1030596430093813
+    Attrib ica1    -1.1823777352715712
+    Attrib ica2    1.839291496086455
+    Attrib ica3    -1.9487538359834085
+    Attrib ica4    0.7997795578224971
+    Attrib ica5    -3.094064900646205
+    Attrib ica6    -0.6552873150603452
+    Attrib ica7    -0.46584572877218083
+    Attrib ica8    -0.5699398643198424
+    Attrib ica9    -2.8816158205034306
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.6536279106162464
+    Attrib ica0    -0.470906539164544
+    Attrib ica1    -0.9618576438390304
+    Attrib ica2    0.6514499453710788
+    Attrib ica3    -0.5844600108350058
+    Attrib ica4    0.467565286261969
+    Attrib ica5    -0.7656660080150881
+    Attrib ica6    -0.35348124663947833
+    Attrib ica7    -0.5354176480648072
+    Attrib ica8    -0.35479084483796786
+    Attrib ica9    -0.7134605294853096
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.22808805463122023
+    Attrib ica0    -2.068083815057758
+    Attrib ica1    -1.0866863757204113
+    Attrib ica2    1.8689062663106868
+    Attrib ica3    -2.015104731035476
+    Attrib ica4    0.7956884234855294
+    Attrib ica5    -2.9680439933225005
+    Attrib ica6    -0.7078253508354836
+    Attrib ica7    -0.500018019533098
+    Attrib ica8    -0.2827469337980083
+    Attrib ica9    -2.767895628910916
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.9599428603651832
+    Attrib ica0    -0.8682142654997058
+    Attrib ica1    -2.4852898842113076
+    Attrib ica2    -0.9303559985496497
+    Attrib ica3    -9.060779727875671
+    Attrib ica4    0.7344026018894693
+    Attrib ica5    -3.3708679094792093
+    Attrib ica6    -2.9244809891400827
+    Attrib ica7    -1.8610305539614564
+    Attrib ica8    -1.2197124461196582
+    Attrib ica9    -2.797927687085439
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.038634579796177675
+    Attrib ica0    0.7302347865607025
+    Attrib ica1    0.18001127251690172
+    Attrib ica2    -0.4448166418087035
+    Attrib ica3    -1.0634256900374244
+    Attrib ica4    -0.3845653871699075
+    Attrib ica5    0.2965734986672313
+    Attrib ica6    -0.08640194555045515
+    Attrib ica7    -0.13171376447166835
+    Attrib ica8    -0.08360121683203504
+    Attrib ica9    0.22205690759952862
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.03662939604207936
+    Attrib ica0    0.8196087796010451
+    Attrib ica1    0.28969090267603514
+    Attrib ica2    -0.4473716639553215
+    Attrib ica3    -1.0782505900932784
+    Attrib ica4    -0.41654889401452855
+    Attrib ica5    0.3102270481182681
+    Attrib ica6    -0.06066587206207666
+    Attrib ica7    -0.09770371184588654
+    Attrib ica8    -0.018866777133879187
+    Attrib ica9    0.21458531566895186
+Class 0.000000
+    Input
+    Node 0
+Class 1.000000
+    Input
+    Node 1
+
+
+Time taken to build model: 0.61 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         421               73.9895 %
+Incorrectly Classified Instances       148               26.0105 %
+Kappa statistic                          0.3659
+Mean absolute error                      0.3706
+Root mean squared error                  0.4318
+Relative absolute error                 79.2436 %
+Root relative squared error             89.3047 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  74 138 |   a = 0.000000
+  10 347 |   b = 1.000000
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         407               71.529  %
+Incorrectly Classified Instances       162               28.471  %
+Kappa statistic                          0.3074
+Mean absolute error                      0.3966
+Root mean squared error                  0.4487
+Relative absolute error                 84.8077 %
+Root relative squared error             92.8006 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+  68 144 |   a = 0.000000
+  18 339 |   b = 1.000000
+

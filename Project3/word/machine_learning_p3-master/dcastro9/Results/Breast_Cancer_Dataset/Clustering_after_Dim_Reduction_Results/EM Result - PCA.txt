@@ -1,0 +1,99 @@
+=== Run information ===
+
+Scheme:weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 100
+Relation:     breastcancerdiagnostic_principal components-weka.filters.unsupervised.attribute.PrincipalComponents-R0.95-A5-M-1
+Instances:    569
+Attributes:   11
+              0.261concavePointsMean+0.258concavityMean+0.251concavePointsWorst+0.239compactnessMean+0.237perimeterWorst...
+              0.367fractalDimensionMean+0.28 fractalDimensionSE+0.275fractalDimensionWorst-0.234radiusMean+0.233compactnessSE...
+              0.375textureSE+0.309smoothnessSE+0.289symmetrySE-0.271symmetryWorst+0.268radiusSE...
+              0.633textureWorst+0.603textureMean+0.36 textureSE-0.159smoothnessMean-0.108areaSE...
+              -0.365smoothnessMean+0.354concavitySE-0.324smoothnessWorst-0.306symmetryMean+0.28 compactnessSE...
+              -0.499symmetryWorst-0.49symmetrySE+0.369smoothnessWorst-0.356symmetryMean+0.343smoothnessSE...
+              -0.375fractalDimensionWorst+0.37 concavePointsSE-0.347areaSE-0.315perimeterSE-0.312radiusSE...
+              -0.573smoothnessSE+0.475textureSE+0.289smoothnessMean+0.232symmetryMean-0.228symmetryWorst...
+              -0.358concavitySE+0.304symmetrySE-0.273concavePointsSE-0.256symmetryMean-0.25radiusSE...
+              -0.572symmetryMean-0.368fractalDimensionSE+0.317symmetrySE+0.312concavityWorst+0.289textureSE...
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+EM
+==
+
+Number of clusters: 2
+
+
+                                                                                                                     Cluster
+Attribute                                                                                                                  0       1
+                                                                                                                      (0.78)  (0.22)
+=====================================================================================================================================
+0.261concavePointsMean+0.258concavityMean+0.251concavePointsWorst+0.239compactnessMean+0.237perimeterWorst...
+  mean                                                                                                                -0.7436  2.5733
+  std. dev.                                                                                                            2.8998  4.6372
+
+0.367fractalDimensionMean+0.28 fractalDimensionSE+0.275fractalDimensionWorst-0.234radiusMean+0.233compactnessSE...
+  mean                                                                                                                -0.4077   1.411
+  std. dev.                                                                                                            1.6745  3.6156
+
+0.375textureSE+0.309smoothnessSE+0.289symmetrySE-0.271symmetryWorst+0.268radiusSE...
+  mean                                                                                                                -0.3121  1.0801
+  std. dev.                                                                                                            1.2168  2.4331
+
+0.633textureWorst+0.603textureMean+0.36 textureSE-0.159smoothnessMean-0.108areaSE...
+  mean                                                                                                                -0.0472  0.1633
+  std. dev.                                                                                                            1.2552  1.8255
+
+-0.365smoothnessMean+0.354concavitySE-0.324smoothnessWorst-0.306symmetryMean+0.28 compactnessSE...
+  mean                                                                                                                 0.0475 -0.1645
+  std. dev.                                                                                                            0.8924  2.1333
+
+-0.499symmetryWorst-0.49symmetrySE+0.369smoothnessWorst-0.356symmetryMean+0.343smoothnessSE...
+  mean                                                                                                                 0.0178 -0.0616
+  std. dev.                                                                                                            0.8528  1.6896
+
+-0.375fractalDimensionWorst+0.37 concavePointsSE-0.347areaSE-0.315perimeterSE-0.312radiusSE...
+  mean                                                                                                                 0.0465 -0.1609
+  std. dev.                                                                                                            0.5745  1.3531
+
+-0.573smoothnessSE+0.475textureSE+0.289smoothnessMean+0.232symmetryMean-0.228symmetryWorst...
+  mean                                                                                                                 0.0011 -0.0038
+  std. dev.                                                                                                            0.5207  1.0882
+
+-0.358concavitySE+0.304symmetrySE-0.273concavePointsSE-0.256symmetryMean-0.25radiusSE...
+  mean                                                                                                                 -0.045  0.1559
+  std. dev.                                                                                                            0.4126  1.1118
+
+-0.572symmetryMean-0.368fractalDimensionSE+0.317symmetrySE+0.312concavityWorst+0.289textureSE...
+  mean                                                                                                                 -0.003  0.0105
+  std. dev.                                                                                                            0.4234  0.9701
+
+
+
+Time taken to build model (full training data) : 0.15 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      450 ( 79%)
+1      119 ( 21%)
+
+
+Log likelihood: -15.01261
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 151  61 | M
+ 299  58 | B
+
+Cluster 0 <-- B
+Cluster 1 <-- M
+
+Incorrectly clustered instances : 209.0  36.7311 %
+

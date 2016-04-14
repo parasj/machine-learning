@@ -1,0 +1,109 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 10
+Relation:     breastcancerdiagnostic
+Instances:    569
+Attributes:   31
+              radiusMean
+              textureMean
+              perimeterMean
+              areaMean
+              smoothnessMean
+              compactnessMean
+              concavityMean
+              concavePointsMean
+              symmetryMean
+              fractalDimensionMean
+              radiusSE
+              textureSE
+              perimeterSE
+              areaSE
+              smoothnessSE
+              compactnessSE
+              concavitySE
+              concavePointsSE
+              symmetrySE
+              fractalDimensionSE
+              radiusWorst
+              textureWorst
+              perimeterWorst
+              areaWorst
+              smoothnessWorst
+              compactnessWorst
+              concavityWorst
+              concavePointsWorst
+              symmetryWorst
+              fractalDimensionWorst
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 8
+Within cluster sum of squared errors: 215.83831972044862
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                   Cluster#
+Attribute               Full Data         0         1
+                            (569)     (380)     (189)
+=====================================================
+radiusMean                14.1273   12.3764   17.6477
+textureMean               19.2896   18.2361    21.408
+perimeterMean              91.969   79.5282  116.9824
+areaMean                 654.8891  482.7058 1001.0778
+smoothnessMean             0.0964    0.0922    0.1047
+compactnessMean            0.1043    0.0781     0.157
+concavityMean              0.0888    0.0442    0.1786
+concavePointsMean          0.0489    0.0263    0.0944
+symmetryMean               0.1812    0.1733    0.1969
+fractalDimensionMean       0.0628    0.0621    0.0642
+radiusSE                   0.4052     0.289    0.6388
+textureSE                  1.2169    1.2128     1.225
+perimeterSE                2.8661    2.0252    4.5566
+areaSE                    40.3371   22.1685   76.8665
+smoothnessSE                0.007    0.0071     0.007
+compactnessSE              0.0255    0.0199    0.0367
+concavitySE                0.0319    0.0231    0.0497
+concavePointsSE            0.0118    0.0095    0.0163
+symmetrySE                 0.0205    0.0201    0.0214
+fractalDimensionSE         0.0038    0.0033    0.0047
+radiusWorst               16.2692   13.6993   21.4361
+textureWorst              25.6772   24.0523   28.9443
+perimeterWorst           107.2612   89.0463  143.8838
+areaWorst                880.5831  589.7789 1465.2688
+smoothnessWorst            0.1324    0.1252    0.1467
+compactnessWorst           0.2543    0.1806    0.4024
+concavityWorst             0.2722    0.1645    0.4886
+concavePointsWorst         0.1146    0.0763    0.1916
+symmetryWorst              0.2901    0.2713    0.3277
+fractalDimensionWorst      0.0839    0.0786    0.0947
+
+
+
+
+Time taken to build model (full training data) : 0.03 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      380 ( 67%)
+1      189 ( 33%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  32 180 | M
+ 348   9 | B
+
+Cluster 0 <-- B
+Cluster 1 <-- M
+
+Incorrectly clustered instances :  41.0     7.2056 %

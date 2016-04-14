@@ -1,0 +1,71 @@
+
+
+=== Clustering stats for training data ===
+
+
+kMeans
+======
+
+Number of iterations: 15
+Within cluster sum of squared errors: 301.1926207848259
+
+Initial starting points (random):
+
+Cluster 0: 0.832129,0.526433,0.881545,-0.06192,-0.267937,0.49905,0.204642,0.358089,0.757775,-0.393142,0.175711,-0.7424,-0.085345,-0.350603,-0.362461,-0.440753,-0.19221,0.201581,0.154713,-0.279324,0.016874,0.182982,-0.512176,-0.225699,0.144398,-0.087933,1.03771,-0.198173
+Cluster 1: -0.29173,-1.041248,0.357364,-0.520067,0.247868,0.141162,-0.132942,0.321641,-0.575213,0.547722,-0.855999,-0.731089,-0.380181,0.078994,-0.586176,-0.082376,0.036623,-0.032981,0.14653,0.246519,0.290592,0.156167,-0.049241,0.006112,-0.174298,0.170931,-0.171095,-0.055412
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                                                                                                                     Cluster#
+Attribute                                                                                                                                Full Data          0          1
+                                                                                                                                          (4601.0)   (1118.0)   (3483.0)
+========================================================================================================================================================================
+-0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...                                  -0      1.184    -0.3801
+0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...                                 -0     2.3918    -0.7677
+-0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...           -0     0.2166    -0.0695
+0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...                                          -0     0.1961    -0.0629
+0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...                                          0     0.0057    -0.0018
+0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...                                    0      0.238    -0.0764
+-0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...                                0    -0.0723     0.0232
+-0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...                                             0     0.0946    -0.0304
+0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...                                            -0     0.1646    -0.0528
+0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...                                                    -0     -0.023     0.0074
+-0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...                                         -0     0.1892    -0.0607
+0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...                                               -0     0.0928    -0.0298
+0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...                                         -0     0.1468    -0.0471
+-0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...                                              0     0.0937    -0.0301
+0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...                                         0    -0.0756     0.0243
+-0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...                            -0     0.0586    -0.0188
+-0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...                                         -0     0.0555    -0.0178
+-0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...                                          0     0.0328    -0.0105
+0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...                                        0    -0.0016     0.0005
+-0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...                                       0     0.0275    -0.0088
+0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...                                       0    -0.0212     0.0068
+-0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...                         0    -0.0339     0.0109
+0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...                                    0     0.0769    -0.0247
+0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...                                            -0    -0.0288     0.0093
+0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...                                      0    -0.0349     0.0112
+-0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...                                          0    -0.0909     0.0292
+-0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...                                           0    -0.0284     0.0091
+-0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...                                               -0     0.0083    -0.0027
+
+
+Clustered Instances
+
+0      1118 ( 24%)
+1      3483 ( 76%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+    0    1  <-- assigned to cluster
+   78 2710 | 0
+ 1040  773 | 1
+
+Cluster 0 <-- 1
+Cluster 1 <-- 0
+
+Incorrectly clustered instances :	851.0	 18.496  %
+

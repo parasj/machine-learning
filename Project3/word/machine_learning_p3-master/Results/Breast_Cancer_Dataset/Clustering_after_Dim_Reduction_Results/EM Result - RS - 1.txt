@@ -1,0 +1,124 @@
+=== Run information ===
+
+Scheme:weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 100
+Relation:     breastcancerdiagnostic-weka.filters.unsupervised.attribute.RandomSubset-N0.5-S1
+Instances:    569
+Attributes:   16
+              textureMean
+              perimeterMean
+              smoothnessMean
+              concavityMean
+              perimeterSE
+              areaSE
+              compactnessSE
+              concavitySE
+              concavePointsSE
+              symmetrySE
+              fractalDimensionSE
+              textureWorst
+              perimeterWorst
+              concavePointsWorst
+              fractalDimensionWorst
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+EM
+==
+
+Number of clusters: 2
+
+
+                         Cluster
+Attribute                      0        1
+                          (0.59)   (0.41)
+==========================================
+textureMean
+  mean                    18.0921  20.9893
+  std. dev.                 4.123   3.9529
+
+perimeterMean
+  mean                     79.294 109.9578
+  std. dev.               12.0962  25.8193
+
+smoothnessMean
+  mean                     0.0917    0.103
+  std. dev.                0.0123   0.0137
+
+concavityMean
+  mean                     0.0377   0.1613
+  std. dev.                0.0248   0.0742
+
+perimeterSE
+  mean                     1.9043    4.231
+  std. dev.                0.6673   2.4626
+
+areaSE
+  mean                    21.1001  67.6386
+  std. dev.                8.2888  60.2457
+
+compactnessSE
+  mean                     0.0165   0.0382
+  std. dev.                0.0081   0.0202
+
+concavitySE
+  mean                     0.0186   0.0507
+  std. dev.                0.0119   0.0373
+
+concavePointsSE
+  mean                     0.0085   0.0164
+  std. dev.                0.0036   0.0061
+
+symmetrySE
+  mean                     0.0195    0.022
+  std. dev.                0.0064   0.0102
+
+fractalDimensionSE
+  mean                     0.0028   0.0052
+  std. dev.                0.0012   0.0034
+
+textureWorst
+  mean                    24.0077  28.0467
+  std. dev.                5.7743     5.86
+
+perimeterWorst
+  mean                    88.8656 133.3688
+  std. dev.               14.5018  35.5877
+
+concavePointsWorst
+  mean                     0.0733   0.1732
+  std. dev.                0.0355   0.0529
+
+fractalDimensionWorst
+  mean                     0.0769   0.0939
+  std. dev.                0.0103   0.0216
+
+
+
+Time taken to build model (full training data) : 0.2 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      333 ( 59%)
+1      236 ( 41%)
+
+
+Log likelihood: 5.99112
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  22 190 | M
+ 311  46 | B
+
+Cluster 0 <-- B
+Cluster 1 <-- M
+
+Incorrectly clustered instances : 68.0   11.9508 %
+

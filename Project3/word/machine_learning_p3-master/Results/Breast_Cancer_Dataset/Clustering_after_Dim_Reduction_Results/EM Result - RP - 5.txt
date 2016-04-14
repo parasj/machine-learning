@@ -1,0 +1,74 @@
+=== Run information ===
+
+Scheme:weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 100
+Relation:     breastcancerdiagnostic-weka.filters.unsupervised.attribute.RandomProjection-N5-R42-DSparse1
+Instances:    569
+Attributes:   6
+              K1
+              K2
+              K3
+              K4
+              K5
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+EM
+==
+
+Number of clusters: 2
+
+
+              Cluster
+Attribute           0         1
+               (0.69)    (0.31)
+================================
+K1
+  mean        945.9988 2080.3612
+  std. dev.   236.2305  602.1258
+
+K2
+  mean        172.8735  288.3526
+  std. dev.    27.5756   49.7222
+
+K3
+  mean         978.505 2697.4882
+  std. dev.   289.7443  969.8339
+
+K4
+  mean       -779.8211-1833.6774
+  std. dev.   215.9311   569.704
+
+K5
+  mean        -42.2302  -49.6946
+  std. dev.    10.0007   10.0975
+
+
+
+Time taken to build model (full training data) : 0.06 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      395 ( 69%)
+1      174 ( 31%)
+
+
+Log likelihood: -30.94445
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  45 167 | M
+ 350   7 | B
+
+Cluster 0 <-- B
+Cluster 1 <-- M
+
+Incorrectly clustered instances : 52.0    9.1388 %
+

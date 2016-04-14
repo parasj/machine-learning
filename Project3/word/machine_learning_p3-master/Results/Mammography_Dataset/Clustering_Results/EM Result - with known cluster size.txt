@@ -1,0 +1,74 @@
+=== Run information ===
+
+Scheme:weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 100
+Relation:     mammographic_classification
+Instances:    961
+Attributes:   6
+              biRadsAssessment
+              age
+              shape
+              margin
+              density
+Ignored:
+              severity
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+EM
+==
+
+Number of clusters: 2
+
+
+                   Cluster
+Attribute                0       1
+                    (0.63)  (0.37)
+===================================
+biRadsAssessment
+  mean               4.5857  3.9443
+  std. dev.          2.1834   0.438
+
+age
+  mean              60.0554 47.7164
+  std. dev.         12.5243 14.1457
+
+shape
+  mean               3.3957  1.5747
+  std. dev.          0.9363  0.6734
+
+margin
+  mean               3.8522       1
+  std. dev.          0.8285  1.5269
+
+density
+  mean               2.9387  2.8631
+  std. dev.           0.339  0.4007
+
+
+
+Time taken to build model (full training data) : 0.07 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      556 ( 58%)
+1      405 ( 42%)
+
+
+Log likelihood: -8.97009
+
+
+Class attribute: severity
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 155 361 | 0
+ 401  44 | 1
+
+Cluster 0 <-- 1
+Cluster 1 <-- 0
+
+Incorrectly clustered instances : 199.0  20.7076 %
+

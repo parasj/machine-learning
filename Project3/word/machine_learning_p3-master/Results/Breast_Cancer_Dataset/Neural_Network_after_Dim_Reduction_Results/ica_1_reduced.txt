@@ -1,0 +1,64 @@
+
+Options: -L 0.03 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    0.7579884205564543
+    Node 2    -1.7237545025181278
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.7633192279539402
+    Node 2    1.7308567300451028
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.9753878192781968
+    Attrib ica0    2.4258431628253234
+Class 0.000000
+    Input
+    Node 0
+Class 1.000000
+    Input
+    Node 1
+
+
+Time taken to build model: 0.25 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         359               63.0931 %
+Incorrectly Classified Instances       210               36.9069 %
+Kappa statistic                          0.0118
+Mean absolute error                      0.4647
+Root mean squared error                  0.4818
+Relative absolute error                 99.3765 %
+Root relative squared error             99.6408 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   2 210 |   a = 0.000000
+   0 357 |   b = 1.000000
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         357               62.7417 %
+Incorrectly Classified Instances       212               37.2583 %
+Kappa statistic                          0     
+Mean absolute error                      0.4678
+Root mean squared error                  0.4832
+Relative absolute error                100.0374 %
+Root relative squared error             99.932  %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   0 212 |   a = 0.000000
+   0 357 |   b = 1.000000
+

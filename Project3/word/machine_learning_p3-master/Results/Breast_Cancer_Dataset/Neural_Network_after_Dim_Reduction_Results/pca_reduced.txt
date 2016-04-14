@@ -1,0 +1,148 @@
+
+Options: -L 0.03 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    7.221576155406204
+    Node 2    -3.3324023944574908
+    Node 3    -1.2853970307587521
+    Node 4    -3.399167205890715
+    Node 5    -7.6422506826657495
+    Node 6    -2.0581728478477497
+    Node 7    -0.15415806297840048
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -7.219868639958712
+    Node 2    3.366832169539797
+    Node 3    1.222041002310834
+    Node 4    3.3979098918749657
+    Node 5    7.638474440265596
+    Node 6    2.055305052598327
+    Node 7    0.17605200426974946
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.6765087564876393
+    Attrib 0.261concavePointsMean+0.258concavityMean+0.251concavePointsWorst+0.239compactnessMean+0.237perimeterWorst...    -5.166464293921684
+    Attrib 0.367fractalDimensionMean+0.28 fractalDimensionSE+0.275fractalDimensionWorst-0.234radiusMean+0.233compactnessSE...    2.7265139160157474
+    Attrib 0.375textureSE+0.309smoothnessSE+0.289symmetrySE-0.271symmetryWorst+0.268radiusSE...    0.9468700892408313
+    Attrib 0.633textureWorst+0.603textureMean+0.36 textureSE-0.159smoothnessMean-0.108areaSE...    -0.6734109537867047
+    Attrib -0.365smoothnessMean+0.354concavitySE-0.324smoothnessWorst-0.306symmetryMean+0.28 compactnessSE...    1.3196184743150596
+    Attrib -0.499symmetryWorst-0.49symmetrySE+0.369smoothnessWorst-0.356symmetryMean+0.343smoothnessSE...    -0.26053368888410616
+    Attrib -0.375fractalDimensionWorst+0.37 concavePointsSE-0.347areaSE-0.315perimeterSE-0.312radiusSE...    -0.16874651954978195
+    Attrib -0.573smoothnessSE+0.475textureSE+0.289smoothnessMean+0.232symmetryMean-0.228symmetryWorst...    0.8127271409555188
+    Attrib -0.358concavitySE+0.304symmetrySE-0.273concavePointsSE-0.256symmetryMean-0.25radiusSE...    0.7316821939362523
+    Attrib -0.572symmetryMean-0.368fractalDimensionSE+0.317symmetrySE+0.312concavityWorst+0.289textureSE...    -0.3469865086309814
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -1.290840010473705
+    Attrib 0.261concavePointsMean+0.258concavityMean+0.251concavePointsWorst+0.239compactnessMean+0.237perimeterWorst...    -2.651149049190601
+    Attrib 0.367fractalDimensionMean+0.28 fractalDimensionSE+0.275fractalDimensionWorst-0.234radiusMean+0.233compactnessSE...    1.410529938625721
+    Attrib 0.375textureSE+0.309smoothnessSE+0.289symmetrySE-0.271symmetryWorst+0.268radiusSE...    0.7340890751059742
+    Attrib 0.633textureWorst+0.603textureMean+0.36 textureSE-0.159smoothnessMean-0.108areaSE...    -0.4521185206783258
+    Attrib -0.365smoothnessMean+0.354concavitySE-0.324smoothnessWorst-0.306symmetryMean+0.28 compactnessSE...    0.7491097055925806
+    Attrib -0.499symmetryWorst-0.49symmetrySE+0.369smoothnessWorst-0.356symmetryMean+0.343smoothnessSE...    -0.1845669369435903
+    Attrib -0.375fractalDimensionWorst+0.37 concavePointsSE-0.347areaSE-0.315perimeterSE-0.312radiusSE...    -0.2232744822602953
+    Attrib -0.573smoothnessSE+0.475textureSE+0.289smoothnessMean+0.232symmetryMean-0.228symmetryWorst...    0.3679633266006664
+    Attrib -0.358concavitySE+0.304symmetrySE-0.273concavePointsSE-0.256symmetryMean-0.25radiusSE...    0.24088961587827845
+    Attrib -0.572symmetryMean-0.368fractalDimensionSE+0.317symmetrySE+0.312concavityWorst+0.289textureSE...    -0.1426281097250981
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.680923510550954
+    Attrib 0.261concavePointsMean+0.258concavityMean+0.251concavePointsWorst+0.239compactnessMean+0.237perimeterWorst...    -5.218229068043477
+    Attrib 0.367fractalDimensionMean+0.28 fractalDimensionSE+0.275fractalDimensionWorst-0.234radiusMean+0.233compactnessSE...    2.762580872438519
+    Attrib 0.375textureSE+0.309smoothnessSE+0.289symmetrySE-0.271symmetryWorst+0.268radiusSE...    0.964343620411686
+    Attrib 0.633textureWorst+0.603textureMean+0.36 textureSE-0.159smoothnessMean-0.108areaSE...    -0.7169914233400725
+    Attrib -0.365smoothnessMean+0.354concavitySE-0.324smoothnessWorst-0.306symmetryMean+0.28 compactnessSE...    1.3145985687143915
+    Attrib -0.499symmetryWorst-0.49symmetrySE+0.369smoothnessWorst-0.356symmetryMean+0.343smoothnessSE...    -0.2422516325742136
+    Attrib -0.375fractalDimensionWorst+0.37 concavePointsSE-0.347areaSE-0.315perimeterSE-0.312radiusSE...    -0.19361732194541917
+    Attrib -0.573smoothnessSE+0.475textureSE+0.289smoothnessMean+0.232symmetryMean-0.228symmetryWorst...    0.8030252132246615
+    Attrib -0.358concavitySE+0.304symmetrySE-0.273concavePointsSE-0.256symmetryMean-0.25radiusSE...    0.7867531547214976
+    Attrib -0.572symmetryMean-0.368fractalDimensionSE+0.317symmetrySE+0.312concavityWorst+0.289textureSE...    -0.3168353454594127
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -2.579842696951973
+    Attrib 0.261concavePointsMean+0.258concavityMean+0.251concavePointsWorst+0.239compactnessMean+0.237perimeterWorst...    -9.828286902802077
+    Attrib 0.367fractalDimensionMean+0.28 fractalDimensionSE+0.275fractalDimensionWorst-0.234radiusMean+0.233compactnessSE...    5.277169313246657
+    Attrib 0.375textureSE+0.309smoothnessSE+0.289symmetrySE-0.271symmetryWorst+0.268radiusSE...    1.5670831670747876
+    Attrib 0.633textureWorst+0.603textureMean+0.36 textureSE-0.159smoothnessMean-0.108areaSE...    -1.0896819439059122
+    Attrib -0.365smoothnessMean+0.354concavitySE-0.324smoothnessWorst-0.306symmetryMean+0.28 compactnessSE...    2.531103578532143
+    Attrib -0.499symmetryWorst-0.49symmetrySE+0.369smoothnessWorst-0.356symmetryMean+0.343smoothnessSE...    -0.33832908500096986
+    Attrib -0.375fractalDimensionWorst+0.37 concavePointsSE-0.347areaSE-0.315perimeterSE-0.312radiusSE...    -0.2515639980409487
+    Attrib -0.573smoothnessSE+0.475textureSE+0.289smoothnessMean+0.232symmetryMean-0.228symmetryWorst...    1.6551746853678295
+    Attrib -0.358concavitySE+0.304symmetrySE-0.273concavePointsSE-0.256symmetryMean-0.25radiusSE...    1.7327963628380778
+    Attrib -0.572symmetryMean-0.368fractalDimensionSE+0.317symmetrySE+0.312concavityWorst+0.289textureSE...    -0.6549910859241572
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -1.4584887759902851
+    Attrib 0.261concavePointsMean+0.258concavityMean+0.251concavePointsWorst+0.239compactnessMean+0.237perimeterWorst...    -3.6334918594181076
+    Attrib 0.367fractalDimensionMean+0.28 fractalDimensionSE+0.275fractalDimensionWorst-0.234radiusMean+0.233compactnessSE...    1.918436481258537
+    Attrib 0.375textureSE+0.309smoothnessSE+0.289symmetrySE-0.271symmetryWorst+0.268radiusSE...    0.7775341463173091
+    Attrib 0.633textureWorst+0.603textureMean+0.36 textureSE-0.159smoothnessMean-0.108areaSE...    -0.5107040096946622
+    Attrib -0.365smoothnessMean+0.354concavitySE-0.324smoothnessWorst-0.306symmetryMean+0.28 compactnessSE...    0.9439046751743355
+    Attrib -0.499symmetryWorst-0.49symmetrySE+0.369smoothnessWorst-0.356symmetryMean+0.343smoothnessSE...    -0.21703653483439123
+    Attrib -0.375fractalDimensionWorst+0.37 concavePointsSE-0.347areaSE-0.315perimeterSE-0.312radiusSE...    -0.1780259000270977
+    Attrib -0.573smoothnessSE+0.475textureSE+0.289smoothnessMean+0.232symmetryMean-0.228symmetryWorst...    0.5372727393294876
+    Attrib -0.358concavitySE+0.304symmetrySE-0.273concavePointsSE-0.256symmetryMean-0.25radiusSE...    0.40814308740933564
+    Attrib -0.572symmetryMean-0.368fractalDimensionSE+0.317symmetrySE+0.312concavityWorst+0.289textureSE...    -0.19957172593760952
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.8673297892170637
+    Attrib 0.261concavePointsMean+0.258concavityMean+0.251concavePointsWorst+0.239compactnessMean+0.237perimeterWorst...    -1.4960409651991577
+    Attrib 0.367fractalDimensionMean+0.28 fractalDimensionSE+0.275fractalDimensionWorst-0.234radiusMean+0.233compactnessSE...    0.7696942082432506
+    Attrib 0.375textureSE+0.309smoothnessSE+0.289symmetrySE-0.271symmetryWorst+0.268radiusSE...    0.499421144566874
+    Attrib 0.633textureWorst+0.603textureMean+0.36 textureSE-0.159smoothnessMean-0.108areaSE...    -0.2830147070586279
+    Attrib -0.365smoothnessMean+0.354concavitySE-0.324smoothnessWorst-0.306symmetryMean+0.28 compactnessSE...    0.397221790493797
+    Attrib -0.499symmetryWorst-0.49symmetrySE+0.369smoothnessWorst-0.356symmetryMean+0.343smoothnessSE...    -0.11103565202853263
+    Attrib -0.375fractalDimensionWorst+0.37 concavePointsSE-0.347areaSE-0.315perimeterSE-0.312radiusSE...    -0.1757365484044654
+    Attrib -0.573smoothnessSE+0.475textureSE+0.289smoothnessMean+0.232symmetryMean-0.228symmetryWorst...    0.20184488468326814
+    Attrib -0.358concavitySE+0.304symmetrySE-0.273concavePointsSE-0.256symmetryMean-0.25radiusSE...    0.06431648010358261
+    Attrib -0.572symmetryMean-0.368fractalDimensionSE+0.317symmetrySE+0.312concavityWorst+0.289textureSE...    -0.11166227256692089
+Class M
+    Input
+    Node 0
+Class B
+    Input
+    Node 1
+
+
+Time taken to build model: 0.67 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         560               98.4183 %
+Incorrectly Classified Instances         9                1.5817 %
+Kappa statistic                          0.966 
+Mean absolute error                      0.0366
+Root mean squared error                  0.1185
+Relative absolute error                  7.8285 %
+Root relative squared error             24.5009 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 205   7 |   a = M
+   2 355 |   b = B
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         553               97.188  %
+Incorrectly Classified Instances        16                2.812  %
+Kappa statistic                          0.9395
+Mean absolute error                      0.0445
+Root mean squared error                  0.1449
+Relative absolute error                  9.5081 %
+Root relative squared error             29.9653 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 201  11 |   a = M
+   5 352 |   b = B
+

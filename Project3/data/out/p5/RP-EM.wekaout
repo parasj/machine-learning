@@ -1,0 +1,173 @@
+
+Options: -L 0.3 -M 0.1 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -22.371443374710914
+    Node 2    13.576253972246038
+    Node 3    -4.909815665919563
+    Node 4    3.096352409178764
+    Node 5    6.6521692862553605
+    Node 6    3.5725428749290358
+    Node 7    9.002816523209441
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    22.378722512314884
+    Node 2    -13.57812477394423
+    Node 3    4.910028197524076
+    Node 4    -3.1386487080980343
+    Node 5    -6.6527292968035265
+    Node 6    -3.536778549447605
+    Node 7    -9.002187545685036
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -77.19932459666018
+    Attrib K1    4.488531735159421
+    Attrib K2    1.8561764951716704
+    Attrib K3    0.5307155407648368
+    Attrib K4    -8.494046706739907
+    Attrib K5    56.34765680390166
+    Attrib K6    -11.130089117739264
+    Attrib K7    -8.230507634277702
+    Attrib K8    3.747446856444914
+    Attrib K9    -9.086180865355697
+    Attrib K10    1.2262321940111955
+    Attrib class=1    0.47895348295131546
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    1.7373914230118115
+    Attrib K1    2.0564224316433566
+    Attrib K2    3.5890857164801653
+    Attrib K3    4.164478502436733
+    Attrib K4    1.5600229498366145
+    Attrib K5    -3.4608169369800144
+    Attrib K6    1.657188820689284
+    Attrib K7    1.2483387755229145
+    Attrib K8    5.853969083458358
+    Attrib K9    1.4240311578030982
+    Attrib K10    1.453629466204954
+    Attrib class=1    -2.3596459876171414
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -15.33593437530762
+    Attrib K1    3.8518184695038533
+    Attrib K2    -1.27191957213691
+    Attrib K3    0.017042888593151395
+    Attrib K4    -5.4008680403287554
+    Attrib K5    16.110553421581155
+    Attrib K6    7.008492403089068
+    Attrib K7    -5.060730092713812
+    Attrib K8    2.5083332347517815
+    Attrib K9    -5.1026263820296665
+    Attrib K10    0.7490676419358252
+    Attrib class=1    -13.984141580739314
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -35.678606156028565
+    Attrib K1    0.5301934442097159
+    Attrib K2    -2.4370127992728046
+    Attrib K3    -8.976753876688006
+    Attrib K4    -5.007802812411483
+    Attrib K5    27.817752781796823
+    Attrib K6    5.859614041619373
+    Attrib K7    -4.121863732052752
+    Attrib K8    -5.769122196158648
+    Attrib K9    -4.798668120105843
+    Attrib K10    -2.2593985622594634
+    Attrib class=1    -0.43012903349375947
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -14.991477001838783
+    Attrib K1    3.4773324150118636
+    Attrib K2    -1.710082664889398
+    Attrib K3    1.8598899976631234
+    Attrib K4    -4.970072635603888
+    Attrib K5    15.189152266134675
+    Attrib K6    6.452084741637241
+    Attrib K7    -4.570252501468348
+    Attrib K8    4.747626405671075
+    Attrib K9    -4.582333860516157
+    Attrib K10    -0.7927654797021205
+    Attrib class=1    -13.203112527324487
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -59.558316730289455
+    Attrib K1    -1.6257680337866736
+    Attrib K2    1.2999053633445885
+    Attrib K3    3.2474725140051346
+    Attrib K4    -7.729221647321212
+    Attrib K5    44.127379894992686
+    Attrib K6    5.5409578586173485
+    Attrib K7    -7.152242454662932
+    Attrib K8    -0.8491048996519277
+    Attrib K9    -7.575024074363563
+    Attrib K10    1.6112654416173544
+    Attrib class=1    1.0986042173613866
+Class cluster1
+    Input
+    Node 0
+Class cluster2
+    Input
+    Node 1
+
+
+Time taken to build model: 6.01 seconds
+Time taken to test model on training split: 0.07 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances        3172               98.4787 %
+Incorrectly Classified Instances        49                1.5213 %
+Kappa statistic                          0.9619
+Mean absolute error                      0.023 
+Root mean squared error                  0.1094
+Relative absolute error                  5.8531 %
+Root relative squared error             24.6727 %
+Coverage of cases (0.95 level)          99.8448 %
+Mean rel. region size (0.95 level)      53.2909 %
+Total Number of Instances             3221     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.980    0.002    0.999      0.980    0.989      0.963    1.000     1.000     cluster1
+                 0.998    0.020    0.948      0.998    0.972      0.963    1.000     0.999     cluster2
+Weighted Avg.    0.985    0.007    0.985      0.985    0.985      0.963    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2308   47 |    a = cluster1
+    2  864 |    b = cluster2
+
+
+=== Error on test split ===
+
+Correctly Classified Instances        1358               98.4058 %
+Incorrectly Classified Instances        22                1.5942 %
+Kappa statistic                          0.9614
+Mean absolute error                      0.0238
+Root mean squared error                  0.1104
+Relative absolute error                  5.9512 %
+Root relative squared error             24.4776 %
+Coverage of cases (0.95 level)          99.9275 %
+Mean rel. region size (0.95 level)      53.2609 %
+Total Number of Instances             1380     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.978    0.000    1.000      0.978    0.989      0.962    1.000     1.000     cluster1
+                 1.000    0.022    0.947      1.000    0.973      0.962    1.000     0.999     cluster2
+Weighted Avg.    0.984    0.006    0.985      0.984    0.984      0.962    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 967  22 |   a = cluster1
+   0 391 |   b = cluster2
+

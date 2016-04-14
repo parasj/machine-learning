@@ -1,0 +1,53 @@
+
+
+=== Clustering stats for training data ===
+
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 1449.0
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                      Cluster#
+Attribute                                 Full Data          0          1
+                                              (435)      (207)      (228)
+=========================================================================
+handicapped-infants                               n          n          y
+water-project-cost-sharing                        y          y          n
+adoption-of-the-budget-resolution                 y          n          y
+physician-fee-freeze                              n          y          n
+el-salvador-aid                                   y          y          n
+religious-groups-in-schools                       y          y          n
+anti-satellite-test-ban                           y          n          y
+aid-to-nicaraguan-contras                         y          n          y
+mx-missile                                        y          n          y
+immigration                                       y          y          y
+synfuels-corporation-cutback                      n          n          n
+education-spending                                n          y          n
+superfund-right-to-sue                            y          y          n
+crime                                             y          y          n
+duty-free-exports                                 n          n          y
+export-administration-act-south-africa            y          y          y
+
+
+Clustered Instances
+
+0      207 ( 48%)
+1      228 ( 52%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  50 217 | democrat
+ 157  11 | republican
+
+Cluster 0 <-- republican
+Cluster 1 <-- democrat
+
+Incorrectly clustered instances :	61.0	 14.023  %
+

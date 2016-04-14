@@ -1,0 +1,73 @@
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm phvr7t
+mktextfm phvb7t
+mktextfm nullfont
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm phvr7t
+mktextfm phvb7t
+mktextfm nullfont
+mktextfm ptmb7t
+mktextfm nullfont
+mktextfm ptmrc7t
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm phvr7t
+mktextfm phvb7t
+mktextfm nullfont
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm phvr7t
+mktextfm phvb7t
+mktextfm nullfont
+mktextfm ptmb7t
+mktextfm nullfont
+mktextfm ptmrc7t
+mktextfm ptmri7t
+mktextfm ptmr7t
+mktexpk --mfmode / --bdpi 600 --mag 0+540/600 --dpi 540 ptmri7t
+mktexpk --mfmode / --bdpi 600 --mag 0+540/600 --dpi 540 ptmri7t
+mktexpk --mfmode / --bdpi 600 --mag 0+540/600 --dpi 540 ptmri7t
+mktexpk --mfmode ljfour --bdpi 8000 --mag 1+2598/(2*4000) --dpi 10598 phvb7t
+mktexpk --mfmode ljfour --bdpi 8000 --mag 1+0/(2*4000) --dpi 8000 ptmr7t
+mktexpk --mfmode ljfour --bdpi 8000 --mag 1+832/(2*4000) --dpi 8832 phvb7t
+mktexpk --mfmode ljfour --bdpi 8000 --mag 0+7200/(2*4000) --dpi 7200 ptmr7t
+mktexpk --mfmode ljfour --bdpi 8000 --mag 0+7200/(2*4000) --dpi 7200 ptmb7t
+mktexpk --mfmode ljfour --bdpi 8000 --mag 0+7200/(2*4000) --dpi 7200 ptmrc7t
+mktexpk --mfmode ljfour --bdpi 8000 --mag 0+6400/(2*4000) --dpi 6400 ptmr7t
+mktexpk --mfmode ljfour --bdpi 8000 --mag 0+7200/(2*4000) --dpi 7200 ptmri7t
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm phvr7t
+mktextfm phvb7t
+mktextfm nullfont
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm phvr7t
+mktextfm phvb7t
+mktextfm nullfont
+mktextfm ptmb7t
+mktextfm nullfont
+mktextfm ptmrc7t
+mktexpk --mfmode / --bdpi 600 --mag 0+540/600 --dpi 540 ptmri7t
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm phvr7t
+mktextfm phvb7t
+mktextfm nullfont
+mktextfm ptmr7t
+mktextfm ptmr7t
+mktextfm phvr7t
+mktextfm phvb7t
+mktextfm nullfont
+mktextfm ptmb7t
+mktextfm nullfont
+mktextfm ptmrc7t
+mktexpk --mfmode / --bdpi 600 --mag 0+540/600 --dpi 540 ptmri7t

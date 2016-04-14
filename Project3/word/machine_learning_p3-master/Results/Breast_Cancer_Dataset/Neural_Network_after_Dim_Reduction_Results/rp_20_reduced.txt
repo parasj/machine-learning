@@ -1,0 +1,333 @@
+
+Options: -L 0.03 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.75102558155245
+    Node 2    -1.9631361916427783
+    Node 3    -3.5046002155364424
+    Node 4    1.0647229115332932
+    Node 5    -3.36311731279297
+    Node 6    -1.2247153831414113
+    Node 7    -0.6431273711786191
+    Node 8    -1.0416116045097532
+    Node 9    -1.2985939493307435
+    Node 10    4.921666816095647
+    Node 11    3.3450029968977555
+    Node 12    1.120541126844662
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.7249362295863637
+    Node 2    1.8821643153965975
+    Node 3    3.46430881236282
+    Node 4    -1.0641351685922131
+    Node 5    3.447933421682858
+    Node 6    1.1942472420811863
+    Node 7    0.602257030721259
+    Node 8    1.0825556522332391
+    Node 9    1.3358421508596456
+    Node 10    -4.927711649791085
+    Node 11    -3.3372961989398493
+    Node 12    -1.1374798451680592
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.2371780690078018
+    Attrib K1    0.4680685260497503
+    Attrib K2    -1.299297274842985
+    Attrib K3    -0.5084063166313215
+    Attrib K4    -0.600441542368146
+    Attrib K5    0.5423842824505991
+    Attrib K6    -0.675591204183801
+    Attrib K7    -0.5476810234867706
+    Attrib K8    -0.0734991831786021
+    Attrib K9    -0.5100888191172382
+    Attrib K10    -0.32209237265220236
+    Attrib K11    -0.9581248773400888
+    Attrib K12    -0.7124266784169504
+    Attrib K13    0.27227788762792654
+    Attrib K14    -0.20074813235519573
+    Attrib K15    -1.3937449474622594
+    Attrib K16    0.0959026562819634
+    Attrib K17    0.11180554135235238
+    Attrib K18    -0.5433922072886609
+    Attrib K19    0.06930790429315983
+    Attrib K20    1.274369359552711
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -2.0458779704836076
+    Attrib K1    0.9167514062250472
+    Attrib K2    -2.1113853338054613
+    Attrib K3    -0.853700464640616
+    Attrib K4    -1.0782532305563712
+    Attrib K5    1.0666881887102428
+    Attrib K6    -0.9847432543760006
+    Attrib K7    -0.8677855125077453
+    Attrib K8    -0.07718317460762024
+    Attrib K9    -1.0347995916636283
+    Attrib K10    -0.37149438711154187
+    Attrib K11    -1.7710397982985862
+    Attrib K12    -1.3897626591708203
+    Attrib K13    0.5050368640959331
+    Attrib K14    -0.1569861499883714
+    Attrib K15    -2.37833500229224
+    Attrib K16    0.16297504708789792
+    Attrib K17    0.3302809118573626
+    Attrib K18    -0.9556035230000693
+    Attrib K19    0.21382748802248353
+    Attrib K20    2.273719858275649
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.3118762821489788
+    Attrib K1    -0.27829972012001725
+    Attrib K2    0.5204715599991799
+    Attrib K3    0.21929344887166502
+    Attrib K4    0.2848627422484582
+    Attrib K5    -0.16555977650268344
+    Attrib K6    0.17230293381725523
+    Attrib K7    0.23882701425704977
+    Attrib K8    -0.07436430052721556
+    Attrib K9    0.2232683260066651
+    Attrib K10    0.03622772722763617
+    Attrib K11    0.35039841113585996
+    Attrib K12    0.36036170945422735
+    Attrib K13    -0.25762625532626227
+    Attrib K14    -0.06304049093572678
+    Attrib K15    0.5917496501684788
+    Attrib K16    -0.10776339727972391
+    Attrib K17    -0.23426505428798663
+    Attrib K18    0.2298513623586308
+    Attrib K19    -0.2219259590227152
+    Attrib K20    -0.5736001087839789
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -2.0008618071406943
+    Attrib K1    0.9598265714478693
+    Attrib K2    -2.063424469347061
+    Attrib K3    -0.8153204067215363
+    Attrib K4    -0.9887401024835109
+    Attrib K5    1.0125023131957989
+    Attrib K6    -1.050051574532666
+    Attrib K7    -0.9391009359088203
+    Attrib K8    -0.06746532830334981
+    Attrib K9    -0.9994470766732966
+    Attrib K10    -0.3661665834348152
+    Attrib K11    -1.6914324504319551
+    Attrib K12    -1.3361577265604392
+    Attrib K13    0.43948110031914056
+    Attrib K14    -0.14211122240681068
+    Attrib K15    -2.3244081338295017
+    Attrib K16    0.12035269199887073
+    Attrib K17    0.29620096274839436
+    Attrib K18    -0.981930340994137
+    Attrib K19    0.22261838585321866
+    Attrib K20    2.2302700757039333
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.8180479900368809
+    Attrib K1    0.3051012012149
+    Attrib K2    -0.8847821295968099
+    Attrib K3    -0.30352968239362205
+    Attrib K4    -0.31065623992206964
+    Attrib K5    0.3657370341332914
+    Attrib K6    -0.49878010565619374
+    Attrib K7    -0.4225954481922548
+    Attrib K8    -0.08904398594389243
+    Attrib K9    -0.256975037906037
+    Attrib K10    -0.25514859965933345
+    Attrib K11    -0.5771983636919583
+    Attrib K12    -0.36902301220593137
+    Attrib K13    0.17738026843399213
+    Attrib K14    -0.1675914174347494
+    Attrib K15    -0.9167104203687803
+    Attrib K16    0.11077313403121737
+    Attrib K17    0.027952717522891333
+    Attrib K18    -0.3101238709628183
+    Attrib K19    -0.0037316003007528947
+    Attrib K20    0.8881535071040719
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.4264101105217123
+    Attrib K1    0.03292969244565078
+    Attrib K2    -0.5278693151442241
+    Attrib K3    -0.2060176344155648
+    Attrib K4    -0.09720163835384378
+    Attrib K5    0.15946661355487482
+    Attrib K6    -0.3134186361862344
+    Attrib K7    -0.25027998539307167
+    Attrib K8    -0.12075758179871819
+    Attrib K9    -0.06094508107674719
+    Attrib K10    -0.2020592766646515
+    Attrib K11    -0.2895878928242315
+    Attrib K12    -0.1624073093906363
+    Attrib K13    0.09331764113869417
+    Attrib K14    -0.21675540798687543
+    Attrib K15    -0.5562602367597621
+    Attrib K16    0.1119993238167433
+    Attrib K17    0.04714775428903248
+    Attrib K18    -0.09399465536009419
+    Attrib K19    -0.02293735362719594
+    Attrib K20    0.4945489726530019
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.7524860833796347
+    Attrib K1    0.258045965372098
+    Attrib K2    -0.7057967262027539
+    Attrib K3    -0.25962464582270434
+    Attrib K4    -0.29406796828809695
+    Attrib K5    0.28994950148586707
+    Attrib K6    -0.4717644768084698
+    Attrib K7    -0.32158750182525264
+    Attrib K8    -0.15227125846214806
+    Attrib K9    -0.2529164269790771
+    Attrib K10    -0.22074492771996493
+    Attrib K11    -0.5210113591427217
+    Attrib K12    -0.37894275765988766
+    Attrib K13    0.11707873264103176
+    Attrib K14    -0.1256800802273493
+    Attrib K15    -0.8494937997575764
+    Attrib K16    0.10497164619146493
+    Attrib K17    0.10725867236893691
+    Attrib K18    -0.21621379441349878
+    Attrib K19    0.0734626019150289
+    Attrib K20    0.7935217731996604
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.9243908375894179
+    Attrib K1    0.23334989765735503
+    Attrib K2    -0.9338301169200327
+    Attrib K3    -0.36069614906583175
+    Attrib K4    -0.3596252498065639
+    Attrib K5    0.36590782128615934
+    Attrib K6    -0.4839403134822062
+    Attrib K7    -0.4022579146171658
+    Attrib K8    -0.09095865413889914
+    Attrib K9    -0.32171051850282883
+    Attrib K10    -0.2978395130742455
+    Attrib K11    -0.6664691734409424
+    Attrib K12    -0.41292247860644443
+    Attrib K13    0.24319252711338812
+    Attrib K14    -0.1933402168342067
+    Attrib K15    -0.9563409037594791
+    Attrib K16    0.07761813644324646
+    Attrib K17    0.060853065128228835
+    Attrib K18    -0.3139171146552481
+    Attrib K19    0.033244655093823974
+    Attrib K20    0.974124406982447
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    2.2012767727730993
+    Attrib K1    -1.3532354453489261
+    Attrib K2    2.6469294187191115
+    Attrib K3    1.1683882175025304
+    Attrib K4    1.5205703911769324
+    Attrib K5    -0.9168231830556977
+    Attrib K6    1.0620419065635764
+    Attrib K7    1.2854515788898884
+    Attrib K8    -0.2841308600624457
+    Attrib K9    1.5098102659426522
+    Attrib K10    0.3489842000689854
+    Attrib K11    2.214060828230216
+    Attrib K12    1.9485230683302088
+    Attrib K13    -0.8853897955616583
+    Attrib K14    -0.12137493359973169
+    Attrib K15    3.035459646015385
+    Attrib K16    -0.22642818337746962
+    Attrib K17    -0.7755106964620949
+    Attrib K18    1.460908357042104
+    Attrib K19    -0.6130086839379648
+    Attrib K20    -2.996066152424477
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    1.5482530328566193
+    Attrib K1    -0.9199381925865482
+    Attrib K2    1.7823399430921587
+    Attrib K3    0.7635374367302428
+    Attrib K4    1.0356941442413974
+    Attrib K5    -0.6138502306407341
+    Attrib K6    0.7684994159698081
+    Attrib K7    0.8676351175647145
+    Attrib K8    -0.13478587773176426
+    Attrib K9    0.9526579575355442
+    Attrib K10    0.23434415357687907
+    Attrib K11    1.4701134634120754
+    Attrib K12    1.2797123765585738
+    Attrib K13    -0.6202909707408532
+    Attrib K14    -0.013878759449046728
+    Attrib K15    2.0749229826169286
+    Attrib K16    -0.12389957078442296
+    Attrib K17    -0.4745170551297341
+    Attrib K18    0.941731220858889
+    Attrib K19    -0.3865787830298394
+    Attrib K20    -2.0385013202621582
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.3370117581225095
+    Attrib K1    -0.2549426713535439
+    Attrib K2    0.5397608247099116
+    Attrib K3    0.2803389996519612
+    Attrib K4    0.23122202629492608
+    Attrib K5    -0.19637377113565951
+    Attrib K6    0.24039375682123584
+    Attrib K7    0.2822088183363018
+    Attrib K8    -0.017974677351740062
+    Attrib K9    0.3186353772158337
+    Attrib K10    0.12915861178394847
+    Attrib K11    0.41641827654389474
+    Attrib K12    0.31233035690891175
+    Attrib K13    -0.2862571999220911
+    Attrib K14    -0.035478140871493896
+    Attrib K15    0.6157401355043158
+    Attrib K16    -0.019170019361600336
+    Attrib K17    -0.18613388399241035
+    Attrib K18    0.273416922189153
+    Attrib K19    -0.17088591829208863
+    Attrib K20    -0.6154872847590342
+Class M
+    Input
+    Node 0
+Class B
+    Input
+    Node 1
+
+
+Time taken to build model: 1.4 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         546               95.9578 %
+Incorrectly Classified Instances        23                4.0422 %
+Kappa statistic                          0.9133
+Mean absolute error                      0.0663
+Root mean squared error                  0.1745
+Relative absolute error                 14.1764 %
+Root relative squared error             36.094  %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 199  13 |   a = M
+  10 347 |   b = B
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         542               95.2548 %
+Incorrectly Classified Instances        27                4.7452 %
+Kappa statistic                          0.8976
+Mean absolute error                      0.0708
+Root mean squared error                  0.1858
+Relative absolute error                 15.1291 %
+Root relative squared error             38.4237 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 194  18 |   a = M
+   9 348 |   b = B
+

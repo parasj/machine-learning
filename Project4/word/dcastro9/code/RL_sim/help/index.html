@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+	<title>Reinforcement Learning Simulator -- User Manual</title>
+ 	<style>
+		div.footer {
+			clear: both;
+			text-align: center;
+		}
+		div.content {
+			margin: 0px;
+			MARGIN-RIGHT: 205px
+		}
+		div.menu {
+			border: 1px ridge rgb(139, 139, 174);
+			padding: 3px;
+			background-color: rgb(204, 204, 255);
+			float: right;
+		}
+		a, a:visited {
+			color: rgb(51, 102, 102);
+			font-family: Arial,Helvetica,sans-serif;
+			font-size: small;
+			line-height: 4px;
+ 		}
+		h1 {
+			text-align: center;
+		}
+		h3 {
+			background-color: rgb(204, 204, 255);
+			color: rgb(60, 60, 75);
+			letter-spacing: 1.2px;
+			font-weight: normal;
+			padding-left: 4px;
+		}
+		hr {
+			color: rgb(204, 204, 255);
+		}
+	</style>
+</head>
+
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
+<h1>Reinforcement Learning</h1>
+
+
+<div class="menu">
+<a href="index.html">Overview</a>
+<br>
+<a href="maze_editor.html">create your own maze</a> <br>
+<a href="ValueIter.html">Value Iteration</a> <br>
+<a href="PolicyIter.html">Policy Iteration</a> <br>
+<a href="QLearning.html">Q-Learning</a> <br>
+<a href="PSweeping.html">Prioritized Sweeping</a> <br>
+</div>
+
+<div class="content">
+<h3>Installation and Execution: </h3>
+<p>This tool is know to work with Java Runtime Environment(JRE)1.4.2 and above.
+To install JRE1.4.2 and above visit <a href="http://java.sun.com" target="new">http://java.sun.com</a>.
+</p>
+<p>
+Once java is installed and it is in path:
+<ol>
+	<li>Extract RL_sim.zip to appropriate directory. </li>
+	<li>On windows: Start command prompt,<br>
+	<li>On Linux: Start shell.</li>
+	<li>Change directory to directory where files are extracted. Then Change
+	directory to go in RL_sim directory.
+	<li>Execute the command <big style="color: rgb(0, 0, 153);">'java -jar rl_sim.jar'</big></li>
+</ol>	
+</p>	
+
+<p>To create a shortcut on windows:
+<ol>
+	<li> Right click on desktop, select new, select Shortcut. </li>
+	<li> Copy command <big style="color: rgb(0, 0, 153);">'java -jar rl_sim.jar'</big> as location of item and click next. </li>
+	<li> Specify RLSim as name of shortcut and click finish.</li>
+	<li> Right click on the shortcut and select properties.</li>
+	<li> In Start in box, specify the absolute path of directory in which RL_sim.jar exists.</li>
+	<li> Press Apply and Ok. The shortcut is ready for use :) </li>
+</ol>
+</p>
+<p>If you want to recompile and execute from the source code the main
+class is called <big style="color: rgb(0, 0, 153);">MainUI.java </big>
+</p>
+
+<h3>Rules of the Game</h3>
+<p>The experimental setup consists of an agent moving in a discrete
+state space represented by a maze where each state is represented by a 
+cell in the maze.
+The maze contains terminal states represented by goal states and
+obstacles represented by walls. The maze is bounded on all sides by walls.
+If the agent tries to transition from one state to another and hits a 
+wall instead then the agent receives a positive penalty and stays in the
+same state. There is a path cost of 1 unit associated with every transition
+that the agent makes from one state to another. The aim of the agent is
+to find that path to the goal state which has least cost associated with it.
+</p>
+<p>
+To model the noise in the environment a parameter named &lsquo;pjog&rsquo; 
+is used. Each state has a finite number of successors, N. If in a particular
+state s the agent decides to perform action a then the agent will end up in
+the valid successor of s with a probability equal to (1-pjog) and end up in
+any one of the N-1 successors of that state with a probability equal to pjog/ (N-1).
+</p>
+<p>
+For Q learning and prioritized sweeping another parameter, called &epsilon;,
+is used. This is specifically to implement the &epsilon;-greedy policy.
+Under this policy the agent decides to perform the best action with a probability
+of (1- &epsilon;) and performs any random action with a probability equal to &epsilon;/(N-1).<br>
+
+<h3>Credits</h3>
+
+<p>This tool has been developed by 
+<a href="http://rohit.freeshell.org/" target="new">Rohit Kelkar</a> and 
+<a href="http://vivekm.freeshell.org/" target="new">Vivek Mehta</a>,
+as part of the Extended Course Project for
+MS in Information Technology with specialization in Robotics Technology,
+at <a href="http://www.ri.cmu.edu">Robotics Institute</a>,
+<a href="http://www.cmu.edu">Carnegie Mellon University</a>.
+</p>
+
+<p>
+<b>Advisor: <a href="http://www-2.cs.cmu.edu/~awm/" target="new">Prof. Andrew Moore</a></b>
+</p>
+
+<h3>Contact</h3>
+
+<p>For any query regarding this tool, send us an email.<br>
+<a href="http://rohit.freeshell.org/" target="new">Rohit Kelkar</a>: rohitkelkar28 [AT] yahoo [DOT] com <br>
+<a href="http://vivekm.freeshell.org/" target="new">Vivek Mehta</a>: vivekm [AT] gmail [DOT] com </p>
+
+</div>
+
+
+<div class="footer">
+<hr style="height: 1px; width: 70%;" noshade="noshade"></div>
+
+</body></html>

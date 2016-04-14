@@ -1,0 +1,153 @@
+
+
+=== Clustering stats for training data ===
+
+
+EM
+==
+
+Number of clusters: 2
+Number of iterations performed: 4
+
+
+                              Cluster
+Attribute                           0        1
+                                (0.6)    (0.4)
+===============================================
+word_freq_all
+  mean                          0.1844   0.4256
+  std. dev.                       0.42   0.5797
+
+word_freq_3d
+  mean                               0   0.1639
+  std. dev.                     0.0008   2.2041
+
+word_freq_our
+  mean                          0.1386   0.5735
+  std. dev.                      0.355   0.9107
+
+word_freq_over
+  mean                          0.0376   0.1837
+  std. dev.                     0.1538   0.3733
+
+word_freq_remove
+  mean                          0.0061   0.2768
+  std. dev.                     0.0526   0.5792
+
+word_freq_receive
+  mean                          0.0058   0.1411
+  std. dev.                     0.0445   0.2962
+
+word_freq_people
+  mean                          0.0348   0.1829
+  std. dev.                     0.1428   0.4279
+
+word_freq_report
+  mean                          0.0086   0.1339
+  std. dev.                     0.0934   0.5087
+
+word_freq_addresses
+  mean                          0.0014   0.1211
+  std. dev.                     0.0228    0.398
+
+word_freq_business
+  mean                          0.0212   0.3253
+  std. dev.                     0.1038   0.6496
+
+word_freq_email
+  mean                          0.0862    0.333
+  std. dev.                     0.3309   0.7107
+
+word_freq_credit
+  mean                          0.0006   0.2134
+  std. dev.                     0.0076   0.7896
+
+word_freq_your
+  mean                          0.3956    1.433
+  std. dev.                      0.748   1.4568
+
+word_freq_000
+  mean                          0.0023   0.2511
+  std. dev.                     0.0258   0.5187
+
+word_freq_money
+  mean                          0.0056   0.2276
+  std. dev.                     0.0544   0.6757
+
+word_freq_650
+  mean                          0.2023   0.0083
+  std. dev.                      0.681   0.0766
+
+word_freq_415
+  mean                           0.079    0.001
+  std. dev.                     0.4218    0.019
+
+word_freq_direct
+  mean                           0.084   0.0361
+  std. dev.                     0.4336   0.1494
+
+word_freq_original
+  mean                          0.0675   0.0138
+  std. dev.                     0.2764   0.0936
+
+word_freq_edu
+  mean                          0.2919   0.0113
+  std. dev.                     1.1599   0.0847
+
+word_freq_conference
+  mean                          0.0527   0.0005
+  std. dev.                     0.3671   0.0083
+
+char_freq_;
+  mean                          0.0551   0.0137
+  std. dev.                     0.3094   0.0579
+
+char_freq_(
+  mean                          0.1637    0.102
+  std. dev.                     0.3269   0.1414
+
+char_freq_[
+  mean                          0.0226   0.0085
+  std. dev.                     0.1355    0.047
+
+char_freq_!
+  mean                          0.2013   0.3711
+  std. dev.                     0.9728    0.474
+
+char_freq_$
+  mean                          0.0171   0.1642
+  std. dev.                        0.1   0.3512
+
+char_freq_#
+  mean                          0.0468   0.0404
+  std. dev.                     0.5392   0.1553
+
+capital_run_length_average
+  mean                          2.6287   9.0479
+  std. dev.                     5.5446  49.4987
+
+capital_run_length_longest
+  mean                         22.9682  96.1186
+  std. dev.                    191.641   191.41
+
+Clustered Instances
+
+0      2800 ( 61%)
+1      1801 ( 39%)
+
+
+Log likelihood: -3.96826
+
+
+Class attribute: class
+Classes to Clusters:
+
+    0    1  <-- assigned to cluster
+ 2410  378 | 0
+  390 1423 | 1
+
+Cluster 0 <-- 0
+Cluster 1 <-- 1
+
+Incorrectly clustered instances :	768.0	 16.692  %
+

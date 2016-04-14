@@ -1,0 +1,64 @@
+=== Run information ===
+
+Scheme:weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 100
+Relation:     mammographic_classification-weka.filters.unsupervised.attribute.RandomProjection-N3-R42-DSparse1
+Instances:    961
+Attributes:   4
+              K1
+              K2
+              K3
+Ignored:
+              severity
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+EM
+==
+
+Number of clusters: 2
+
+
+             Cluster
+Attribute          0        1
+              (0.37)   (0.63)
+==============================
+K1
+  mean        13.9423   6.3505
+  std. dev.    1.3691   3.4854
+
+K2
+  mean       105.9021  89.5483
+  std. dev.   23.6688  25.3009
+
+K3
+  mean        12.1244   7.4862
+  std. dev.     2.931   2.3796
+
+
+
+Time taken to build model (full training data) : 0.07 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      416 ( 43%)
+1      545 ( 57%)
+
+
+Log likelihood: -9.57693
+
+
+Class attribute: severity
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  92 424 | 0
+ 324 121 | 1
+
+Cluster 0 <-- 1
+Cluster 1 <-- 0
+
+Incorrectly clustered instances : 213.0  22.1644 %
+

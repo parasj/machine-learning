@@ -1,0 +1,17 @@
+apply plugin: 'application'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile 'org.apache.commons:commons-math3:3.6'
+	compile group: 'com.google.guava', name: 'guava', version: '17.0'
+	compile 'nz.ac.waikato.cms.weka:weka-stable:3.6.10'
+	compile files('libs/ABAGAIL.jar')
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+mainClassName = 'com.proj3.Main'

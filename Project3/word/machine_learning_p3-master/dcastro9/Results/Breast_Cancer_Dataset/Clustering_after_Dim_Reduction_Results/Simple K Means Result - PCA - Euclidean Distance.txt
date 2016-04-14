@@ -1,0 +1,70 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 10
+Relation:     breastcancerdiagnostic_principal components-weka.filters.unsupervised.attribute.PrincipalComponents-R0.95-A5-M-1
+Instances:    569
+Attributes:   11
+              0.261concavePointsMean+0.258concavityMean+0.251concavePointsWorst+0.239compactnessMean+0.237perimeterWorst...
+              0.367fractalDimensionMean+0.28 fractalDimensionSE+0.275fractalDimensionWorst-0.234radiusMean+0.233compactnessSE...
+              0.375textureSE+0.309smoothnessSE+0.289symmetrySE-0.271symmetryWorst+0.268radiusSE...
+              0.633textureWorst+0.603textureMean+0.36 textureSE-0.159smoothnessMean-0.108areaSE...
+              -0.365smoothnessMean+0.354concavitySE-0.324smoothnessWorst-0.306symmetryMean+0.28 compactnessSE...
+              -0.499symmetryWorst-0.49symmetrySE+0.369smoothnessWorst-0.356symmetryMean+0.343smoothnessSE...
+              -0.375fractalDimensionWorst+0.37 concavePointsSE-0.347areaSE-0.315perimeterSE-0.312radiusSE...
+              -0.573smoothnessSE+0.475textureSE+0.289smoothnessMean+0.232symmetryMean-0.228symmetryWorst...
+              -0.358concavitySE+0.304symmetrySE-0.273concavePointsSE-0.256symmetryMean-0.25radiusSE...
+              -0.572symmetryMean-0.368fractalDimensionSE+0.317symmetrySE+0.312concavityWorst+0.289textureSE...
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 7
+Within cluster sum of squared errors: 62.942742219221245
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                                                                                                  Cluster#
+Attribute                                                                                                             Full Data          0          1
+                                                                                                                          (569)      (374)      (195)
+=====================================================================================================================================================
+0.261concavePointsMean+0.258concavityMean+0.251concavePointsWorst+0.239compactnessMean+0.237perimeterWorst...                 0    -2.2317     4.2802
+0.367fractalDimensionMean+0.28 fractalDimensionSE+0.275fractalDimensionWorst-0.234radiusMean+0.233compactnessSE...            0     0.0418    -0.0801
+0.375textureSE+0.309smoothnessSE+0.289symmetrySE-0.271symmetryWorst+0.268radiusSE...                                          0     0.1139    -0.2185
+0.633textureWorst+0.603textureMean+0.36 textureSE-0.159smoothnessMean-0.108areaSE...                                          0    -0.0467     0.0895
+-0.365smoothnessMean+0.354concavitySE-0.324smoothnessWorst-0.306symmetryMean+0.28 compactnessSE...                            0    -0.0169     0.0325
+-0.499symmetryWorst-0.49symmetrySE+0.369smoothnessWorst-0.356symmetryMean+0.343smoothnessSE...                                0     0.0242    -0.0463
+-0.375fractalDimensionWorst+0.37 concavePointsSE-0.347areaSE-0.315perimeterSE-0.312radiusSE...                                0    -0.0245     0.0471
+-0.573smoothnessSE+0.475textureSE+0.289smoothnessMean+0.232symmetryMean-0.228symmetryWorst...                                 0       0.02    -0.0383
+-0.358concavitySE+0.304symmetrySE-0.273concavePointsSE-0.256symmetryMean-0.25radiusSE...                                      0    -0.0059     0.0112
+-0.572symmetryMean-0.368fractalDimensionSE+0.317symmetrySE+0.312concavityWorst+0.289textureSE...                              0    -0.0018     0.0035
+
+
+
+
+Time taken to build model (full training data) : 0.01 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      374 ( 66%)
+1      195 ( 34%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  32 180 | M
+ 342  15 | B
+
+Cluster 0 <-- B
+Cluster 1 <-- M
+
+Incorrectly clustered instances : 47.0    8.2601 %
+

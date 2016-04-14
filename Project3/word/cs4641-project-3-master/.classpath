@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="src/" kind="src" path=""/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/weka/weka.jar" sourcepath="/weka/weka-src.jar"/>
+	<classpathentry kind="lib" path="/AbagailFork/ABAGAIL.jar" sourcepath="/AbagailFork/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

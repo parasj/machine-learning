@@ -1,0 +1,587 @@
+
+Options: -L 0.3 -M 0.1 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    4.88920367598868
+    Node 2    -4.199874394623098
+    Node 3    -8.2050853575141
+    Node 4    -1.2423345842311482
+    Node 5    -6.48430431703048
+    Node 6    -1.7558060916304252
+    Node 7    -3.2644749006708897
+    Node 8    -6.352228185787995
+    Node 9    2.628785176355004
+    Node 10    -4.040838831813967
+    Node 11    -7.172812091895851
+    Node 12    -3.9628296847801368
+    Node 13    -1.961606220991284
+    Node 14    2.92864737045132
+    Node 15    10.16143309914181
+    Node 16    2.4637445036907186
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -4.871603645276611
+    Node 2    4.156320903609887
+    Node 3    8.198111473103836
+    Node 4    1.2644671708928552
+    Node 5    6.528702294277896
+    Node 6    1.747129513927767
+    Node 7    3.276326030150472
+    Node 8    6.347536120976084
+    Node 9    -2.638331382798125
+    Node 10    4.02627447782523
+    Node 11    7.166916504322728
+    Node 12    3.9248419706332203
+    Node 13    2.004313052592319
+    Node 14    -2.9447371489462957
+    Node 15    -10.157147841807483
+    Node 16    -2.473649719353186
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.0201704409140764
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -7.001114003992545
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -11.481752983093948
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -0.9707329589356805
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -1.342373632468963
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.7180179909857151
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -3.1906472061942703
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    -0.6079342738010889
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -1.3633124417720137
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -2.9384668124694375
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -0.9472053783739304
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -2.55219410534379
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -0.9013075494131496
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    -0.9196440927445446
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    1.2912714531059561
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    0.6200664935179364
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -1.4236868388751618
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    -0.3926109205041139
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    -0.1262969598432738
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.3623173132185849
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    0.8719704611716355
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    1.952230922689547
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    0.10309647157860712
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    6.241811496585638E-4
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    -0.2770241954700017
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.6227770015881053
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    0.5929074451350947
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.28582470503405094
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    1.1834204217702367
+    Attrib class=1    -0.4919782302589399
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    1.2423033066738063
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -12.98179020640608
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -27.78740963055918
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -1.4712150114605935
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -0.47550613722212776
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    0.9871716846084974
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -7.436387663812539
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    -2.4676537503339224
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -2.3970364446843972
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -6.855233818852922
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -0.403904690618223
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -6.0962090745490745
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -1.782045085641292
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    -2.635817503945493
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    -2.220150722596071
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    3.0256384632728657
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -2.2837536471480644
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    -4.050689176774691
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    -2.6403883029038613
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.28214932788228153
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    1.648579426443668
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    1.532689464584522
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    1.1780524248577913
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    -5.863673955932818
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    1.4352062539467716
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    0.23026300971635977
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    2.5891837583394914
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    1.6726819393774928
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    0.5411601350485404
+    Attrib class=1    1.4653315957489013
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.14789301196949817
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -1.6604784452614227
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -1.4528381484558854
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -0.3476849874891184
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -0.4161191457718466
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.2329339806368671
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -0.19764951466213007
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    0.0908399778993155
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -0.15489342262108297
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -0.1354818044334606
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -0.3742676512174497
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -0.27011838063829746
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -0.10974123698239102
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    0.05972957676461775
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    0.5160780704786994
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    0.11663204068538448
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -0.1275679417887207
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    0.09600372962087032
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    0.08673036805947583
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.16586085295898037
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    0.028741262728373233
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    0.2948437965918208
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    -0.35969786750752386
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    0.7184423564143301
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    -0.08771100711580208
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.27553054006374794
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    -0.08891852255591785
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.2052896576585832
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    0.20037407306858232
+    Attrib class=1    -1.0628732876446936
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    1.8603109664566224
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -11.817711802121698
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -21.29378874024361
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -1.8082348688258352
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -2.159446451673875
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.6060585841951702
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -5.46664396744752
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    -1.0273277727030374
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -2.2756274705640345
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -5.118290832102201
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -1.5400140408198246
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -4.371044867443456
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -1.768621944888981
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    -1.8172788667425626
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    1.4077858953161866
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    1.0398639198651698
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -2.9344396668016954
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    -1.3476220493235371
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    -0.6136530338073711
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.6376547941144749
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    1.6030857235692788
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    3.041421179784194
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    0.8664045722774516
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    -1.383855602261424
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    -0.12460860304114608
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.6989162846917656
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    1.367961145938759
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    0.1564070261356473
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    1.5623873019002994
+    Attrib class=1    -0.3278757177305503
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.015495620994548851
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -2.1519089762958714
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -1.9180259579106624
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -0.43951258671178384
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -0.6019363198602717
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.4201344082079241
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -0.344684882051081
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    0.05936345410474804
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -0.10031499984441528
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -0.27589869700608666
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -0.46258048476850794
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -0.43490902232268563
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -0.2702140476089065
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    0.12409088198221119
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    0.8083575231997759
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    0.1614283490995238
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -0.22935844563861552
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    0.22319942372029292
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    0.2860192666945258
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.23551865431955205
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    0.14406156926655778
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    0.5501358652507918
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    -0.4175729617849454
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    1.0373539549261435
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    -0.15953792039335324
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.43882591206373395
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    -0.14311105326443924
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.3334925077145163
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    0.3801784292151507
+    Attrib class=1    -1.2403429223909803
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.6583882539096992
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -4.8702102200053625
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -6.752132781865739
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -0.7464309252977233
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -1.0175395642345137
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.7927207532614493
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -1.8172285974967084
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    -0.2838870082926789
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -0.7406613807668041
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -1.8301279553835204
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -0.7235574779576494
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -1.5930610786792931
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -0.5353418785068244
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    -0.42627818320575095
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    1.323377640526272
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    0.3215425167245079
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -0.7087776214950366
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    0.15932716428184052
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    0.25587041328199434
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.2880406761592776
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    0.5198381165952735
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    1.4470131165628586
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    -0.274645657792698
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    0.6563157898534492
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    -0.39069774099588156
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.6742661724650292
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    0.22818445007041183
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.47374111205590497
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    0.9165225620803257
+    Attrib class=1    -0.7339606887950542
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    1.7337809450705912
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -11.660177317583829
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -21.959863164183787
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -1.7278184644421777
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -2.1011274091957794
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.1624250687835732
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -5.491962706626513
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    -1.1730357439189838
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -2.0689914861640952
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -4.964865310442074
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -1.5071408566419018
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -4.335387537378469
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -1.9974368842618937
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    -1.940639519840842
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    1.0063558983170158
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    1.265495839007346
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -3.147656367065343
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    -1.728731567340144
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    -0.9183656714452474
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.5530549091431805
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    1.4340247148907133
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    2.7600582139468544
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    1.056897715353746
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    -2.0822926838485842
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    0.08939736552695877
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.5234722496587976
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    1.6153985773631612
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    0.3988936556860602
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    1.3140823186527417
+    Attrib class=1    -0.3048821291728903
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.8071981429572441
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    4.896385173185955
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    8.786387819865853
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    0.611051789021274
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    0.6997070967142617
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.08534286150442218
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    2.4038224689569043
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    0.5979560181577436
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    0.5927968533849984
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    2.1381229971940097
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    0.3436537666650685
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    1.7932948059133673
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    1.1325262842511992
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    1.0390699202007154
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    -0.23668273605024095
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    -0.5649456617105321
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    1.6402223146099384
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    0.8245896872213024
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    0.5709912790402597
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    -0.16595302827388342
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    -0.6719763557370013
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    -1.1641949415094754
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    -0.5809128634861095
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    1.232550177617049
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    0.07198282991339072
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    0.08836909301047953
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    -0.7407274958790236
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.12270295998808024
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    -0.5063749405063832
+    Attrib class=1    -0.3952005355977715
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    1.0259741856755826
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -6.826611288324855
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -11.04890160090342
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -0.9923149769567093
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -1.422559927567269
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.6469413695797094
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -2.877846088838952
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    -0.5294848588870475
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -1.277171655613623
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -2.797111325099803
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -0.9173377446404457
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -2.500118104791058
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -0.9054913570016092
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    -0.8369274075990236
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    1.2199186283296435
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    0.48184992448656594
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -1.4441711973464617
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    -0.318343695645771
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    -0.11406662374532946
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.3309236054532641
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    0.8115260335370683
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    1.902711996115398
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    0.14464113475936224
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    -0.09820734904994076
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    -0.2404229432636428
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.5882285853920092
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    0.5160387744343867
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.14317639044155756
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    1.0542115732242083
+    Attrib class=1    -0.4900131978134025
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    2.0205846436312425
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -12.94596581698044
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -23.243304311735848
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -1.8708951451704017
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -2.2405969247692776
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.8232032397367637
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -6.367485756303141
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    -1.2144224698644266
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -2.4975553175945597
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -5.667312587710352
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -1.8014897047607479
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -4.968767503964967
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -1.76929926820441
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    -1.9130617214926375
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    1.5860971478192605
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    1.2198330066377936
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -3.001383308503537
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    -1.4218695750220989
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    -0.6316784534805343
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.7062804873231722
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    1.6958009895816821
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    3.33603706225838
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    0.811905957736214
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    -1.3306276022722126
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    -0.1200192752302609
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.7233746062546239
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    1.6513537822657152
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.07861036336561761
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    1.9371150582305796
+    Attrib class=1    -0.30380171960116586
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.9767820127600475
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -6.391555419300248
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -10.00099639453408
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -0.9155641348578766
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -1.3079002877674846
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.8032540265873251
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -2.8517289137687736
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    -0.4923826083476083
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -1.2409221512293616
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -2.6093531962671723
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -0.94177115838135
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -2.2910979860108767
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -0.7494207652530547
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    -0.8066977849116731
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    1.3354377112828644
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    0.46863329058300796
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -1.1224038934812872
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    -0.17672431956818907
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    -0.019299088224233592
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.4139799539040119
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    0.819575691692917
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    1.8201464641201843
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    -0.05087413796652599
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    0.22840729067371224
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    -0.40565712554975986
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.643567506140444
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    0.4771777808989891
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.3627721237795719
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    1.0576912280814714
+    Attrib class=1    -0.56065362260232
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    0.07687342519754092
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    -2.5293708296432955
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    -2.603680172062881
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    -0.45754995641178914
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -0.6882110386439778
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.46401743097732195
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    -0.5426085506179597
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    0.09682738869262894
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    -0.21441633670738247
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    -0.49434346551034514
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    -0.47948465777791704
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    -0.5582112042625982
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    -0.3827997211495635
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    0.021184970988479632
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    0.9311625421678996
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    0.15746058827075352
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    -0.30589506305024067
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    0.21197762503917605
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    0.23736314899144276
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.2065118980397398
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    0.13395792580231924
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    0.7174534384549482
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    -0.3615380949656949
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    0.9597205315736533
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    -0.20736942925345697
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.4873256439240664
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    -0.07898061913466217
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.37824014222395863
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    0.4651175438020191
+    Attrib class=1    -1.1084061178488873
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.8209440534880066
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    5.521480147496604
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    9.448299456096631
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    0.5525582321453983
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    0.5736640221754831
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -0.11081493148752242
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    2.5277246774213733
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    0.684072013005718
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    0.6629304041090607
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    2.633475154059639
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    0.19803808734707945
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    2.196514035158719
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    1.2978343808041541
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    1.4243518134644455
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    -0.015867080466734622
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    -0.5386399425897904
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    1.910884130990942
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    1.058665176582101
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    0.5504066194640567
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    -0.32271230271036033
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    -0.6668196811174386
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    -1.2380993466802162
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    -0.6651606860554643
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    1.5433872699390503
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    0.3818915305951393
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -0.06239338318330119
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    -0.7691063795913446
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.053344081812565405
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    -0.535342437903077
+    Attrib class=1    -0.5381112817381493
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -0.005325170229252015
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    12.319835245722004
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    29.376350848104376
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    1.754969125594409
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    -0.0691373857206717
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    -3.5817886609535137
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    6.204454957049449
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    2.906532007033357
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    0.5412546247277825
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    3.7988299094352214
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    1.2815766673585753
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    5.035979562786613
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    3.479230750645274
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    2.748050687111367
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    3.7429198811038265
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    -3.662110585996518
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    5.957073598246734
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    6.6078394529915006
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    3.14255055305706
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    0.2911448775400949
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    -0.31240783771432207
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    0.7299248025406194
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    -3.1666526968100945
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    6.980320096499121
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    -3.5560308691410136
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    -1.1618912039051452
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    -5.451076511545148
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -1.4675020319933256
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    2.274500740635547
+    Attrib class=1    -2.6115258824545755
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.8191531871295423
+    Attrib -0.348word_freq_857-0.348word_freq_415-0.32word_freq_direct-0.317word_freq_technology-0.312word_freq_telnet...    4.37680011059822
+    Attrib 0.272word_freq_your+0.252capital_run_length_longest+0.248word_freq_000+0.236char_freq_$+0.235word_freq_order...    7.789874058126857
+    Attrib -0.445capital_run_length_longest-0.372capital_run_length_total-0.292char_freq_(-0.285capital_run_length_average+0.248word_freq_you...    0.4863463466914332
+    Attrib 0.403word_freq_original+0.394word_freq_1999+0.304word_freq_pm-0.295word_freq_font+0.246word_freq_cs...    0.7807915769012964
+    Attrib 0.534word_freq_meeting+0.332word_freq_will+0.31 word_freq_lab+0.27 word_freq_our-0.256word_freq_font...    0.0853278288201495
+    Attrib 0.303word_freq_font+0.299word_freq_business+0.299char_freq_;-0.29word_freq_addresses+0.274word_freq_credit...    2.0399899022772883
+    Attrib -0.43word_freq_font-0.406char_freq_;+0.284capital_run_length_average-0.254word_freq_000-0.247word_freq_meeting...    0.33400502977050883
+    Attrib -0.323word_freq_edu-0.305word_freq_you-0.257word_freq_cs-0.239char_freq_!+0.237word_freq_internet...    0.49568561166894637
+    Attrib 0.368word_freq_edu+0.35 word_freq_cs-0.291word_freq_make+0.28 word_freq_our+0.258word_freq_remove...    1.7775675665012964
+    Attrib 0.359word_freq_cs+0.353word_freq_edu-0.289word_freq_re-0.265word_freq_pm-0.262char_freq_!...    0.433533835661279
+    Attrib -0.326word_freq_email-0.262word_freq_will-0.258word_freq_all+0.248word_freq_george-0.23word_freq_hpl...    1.4698319607483001
+    Attrib 0.355word_freq_money+0.305word_freq_free+0.262word_freq_make-0.257word_freq_re-0.24char_freq_!...    1.0848947306282906
+    Attrib 0.334word_freq_parts-0.314word_freq_address-0.27word_freq_mail+0.259word_freq_hp-0.254word_freq_will...    1.0255321975105147
+    Attrib -0.529word_freq_data-0.345char_freq_[+0.246word_freq_people+0.219word_freq_hp+0.198word_freq_hpl...    -0.43418105771106436
+    Attrib 0.399word_freq_table-0.361word_freq_project+0.272word_freq_re+0.223word_freq_order-0.22word_freq_will...    -0.36820479153590113
+    Attrib -0.428word_freq_address+0.373word_freq_george-0.307word_freq_mail-0.297word_freq_report+0.255word_freq_conference...    1.6537578550867005
+    Attrib -0.504word_freq_table+0.359char_freq_[-0.277word_freq_report-0.261word_freq_project+0.246char_freq_!...    0.6252894166376631
+    Attrib -0.453word_freq_3d-0.403word_freq_project-0.332word_freq_parts-0.243word_freq_re+0.225word_freq_free...    0.2374902599660459
+    Attrib 0.686word_freq_3d-0.428word_freq_parts+0.187word_freq_lab-0.167word_freq_people-0.167word_freq_address...    -0.34527873249234914
+    Attrib -0.602word_freq_conference+0.532word_freq_project+0.258char_freq_#-0.17word_freq_3d+0.168word_freq_make...    -0.5212369988337531
+    Attrib 0.447word_freq_address-0.388char_freq_#-0.295word_freq_conference-0.284word_freq_re-0.275word_freq_mail...    -1.1075919223929993
+    Attrib -0.43char_freq_#-0.327word_freq_address-0.256word_freq_over-0.247word_freq_conference+0.24 capital_run_length_average...    -0.46655436346617696
+    Attrib 0.407word_freq_conference+0.407char_freq_!+0.387word_freq_project+0.339word_freq_table+0.284word_freq_free...    0.8580714771797832
+    Attrib 0.326word_freq_mail+0.321char_freq_(+0.31 word_freq_internet-0.261char_freq_[+0.26 word_freq_free...    0.3071800876009408
+    Attrib 0.404word_freq_people+0.357word_freq_money+0.298word_freq_email-0.294word_freq_report-0.253word_freq_000...    0.17254853709780837
+    Attrib -0.45word_freq_table-0.386word_freq_make+0.315word_freq_all+0.283word_freq_report-0.227word_freq_000...    -0.601556770987777
+    Attrib -0.335word_freq_email+0.323word_freq_over+0.269word_freq_mail-0.255word_freq_re-0.249word_freq_data...    -0.03786018425302786
+    Attrib -0.412char_freq_#+0.306word_freq_free-0.261word_freq_data-0.254word_freq_pm-0.218word_freq_all...    -0.7022216295039074
+    Attrib class=1    -0.3687848452498474
+Class cluster1
+    Input
+    Node 0
+Class cluster2
+    Input
+    Node 1
+
+
+Time taken to build model: 21.23 seconds
+Time taken to test model on training split: 0.06 seconds
+
+=== Error on training split ===
+
+Correctly Classified Instances        3171               98.4477 %
+Incorrectly Classified Instances        50                1.5523 %
+Kappa statistic                          0.9572
+Mean absolute error                      0.0169
+Root mean squared error                  0.1154
+Relative absolute error                  4.5685 %
+Root relative squared error             26.8011 %
+Coverage of cases (0.95 level)          99.4412 %
+Mean rel. region size (0.95 level)      51.0556 %
+Total Number of Instances             3221     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.937    0.000    1.000      0.937    0.967      0.958    1.000     1.000     cluster1
+                 1.000    0.063    0.980      1.000    0.990      0.958    1.000     1.000     cluster2
+Weighted Avg.    0.984    0.048    0.985      0.984    0.984      0.958    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  742   50 |    a = cluster1
+    0 2429 |    b = cluster2
+
+
+=== Error on test split ===
+
+Correctly Classified Instances        1356               98.2609 %
+Incorrectly Classified Instances        24                1.7391 %
+Kappa statistic                          0.9505
+Mean absolute error                      0.017 
+Root mean squared error                  0.1154
+Relative absolute error                  4.6404 %
+Root relative squared error             27.1531 %
+Coverage of cases (0.95 level)          99.4203 %
+Mean rel. region size (0.95 level)      51.087  %
+Total Number of Instances             1380     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.926    0.000    1.000      0.926    0.962      0.952    1.000     1.000     cluster1
+                 1.000    0.074    0.978      1.000    0.989      0.952    1.000     1.000     cluster2
+Weighted Avg.    0.983    0.056    0.983      0.983    0.982      0.952    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  302   24 |    a = cluster1
+    0 1054 |    b = cluster2
+

@@ -1,0 +1,72 @@
+
+
+=== Clustering stats for training data ===
+
+
+kMeans
+======
+
+Number of iterations: 7
+Within cluster sum of squared errors: 356.35215021398363
+
+Initial starting points (random):
+
+Cluster 0: 0.48,0,0.48,0.48,0.48,0,0,0,0,0.96,0,0,0.96,0,0,0,0,0,0,0,0,0,0.163,0,0.163,0,0,1.696,17
+Cluster 1: 0,0,0,0,0,0,0,0,0,0.27,0,0,0,0,0,0,0,0,0,0,0,0.128,0,0,0,0,0,1.197,6
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                          Cluster#
+Attribute                     Full Data          0          1
+                               (4601.0)   (1486.0)   (3115.0)
+=============================================================
+word_freq_all                    0.2807     0.6321      0.113
+word_freq_3d                     0.0654     0.0801     0.0584
+word_freq_our                    0.3122     0.5443     0.2015
+word_freq_over                   0.0959     0.1794     0.0561
+word_freq_remove                 0.1142      0.251     0.0489
+word_freq_receive                0.0598     0.1582     0.0129
+word_freq_people                 0.0939     0.1704     0.0574
+word_freq_report                 0.0586     0.0961     0.0407
+word_freq_addresses              0.0492     0.1385     0.0066
+word_freq_business               0.1426     0.3222     0.0569
+word_freq_email                  0.1847     0.3804     0.0914
+word_freq_credit                 0.0856     0.2105      0.026
+word_freq_your                   0.8098     1.9678     0.2573
+word_freq_000                    0.1016     0.2627     0.0248
+word_freq_money                  0.0943     0.2095     0.0393
+word_freq_650                    0.1248     0.0278     0.1711
+word_freq_415                    0.0478     0.0066     0.0675
+word_freq_direct                 0.0648     0.0441     0.0747
+word_freq_original               0.0461     0.0153     0.0608
+word_freq_edu                    0.1798     0.0359     0.2485
+word_freq_conference             0.0319     0.0068     0.0438
+char_freq_;                      0.0386     0.0146       0.05
+char_freq_(                       0.139      0.103     0.1562
+char_freq_[                       0.017     0.0085      0.021
+char_freq_!                      0.2691     0.4529     0.1814
+char_freq_$                      0.0758     0.1722     0.0298
+char_freq_#                      0.0442      0.045     0.0439
+capital_run_length_average       5.1915     8.6772     3.5287
+capital_run_length_longest      52.1728   100.4886    29.1239
+
+
+Clustered Instances
+
+0      1486 ( 32%)
+1      3115 ( 68%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+    0    1  <-- assigned to cluster
+  309 2479 | 0
+ 1177  636 | 1
+
+Cluster 0 <-- 1
+Cluster 1 <-- 0
+
+Incorrectly clustered instances :	945.0	 20.539  %
+

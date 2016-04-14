@@ -1,0 +1,100 @@
+
+
+=== Clustering stats for training data ===
+
+
+EM
+==
+
+Number of clusters: 2
+
+
+                                          Cluster
+Attribute                                       0        1
+                                           (0.46)   (0.54)
+===========================================================
+handicapped-infants
+  n                                       157.9757  92.0243
+  y                                        45.1194 143.8806
+  [total]                                 203.0951 235.9049
+water-project-cost-sharing
+  n                                         81.378  112.622
+  y                                       121.7171 123.2829
+  [total]                                 203.0951 235.9049
+adoption-of-the-budget-resolution
+  n                                       157.7281  15.2719
+  y                                         45.367  220.633
+  [total]                                 203.0951 235.9049
+physician-fee-freeze
+  n                                        33.2504 226.7496
+  y                                       169.8447   9.1553
+  [total]                                 203.0951 235.9049
+el-salvador-aid
+  n                                         2.8443 207.1557
+  y                                       200.2508  28.7492
+  [total]                                 203.0951 235.9049
+religious-groups-in-schools
+  n                                        12.8433 141.1567
+  y                                       190.2518  94.7482
+  [total]                                 203.0951 235.9049
+anti-satellite-test-ban
+  n                                       158.0015  25.9985
+  y                                        45.0936 209.9064
+  [total]                                 203.0951 235.9049
+aid-to-nicaraguan-contras
+  n                                       171.6025   8.3975
+  y                                        31.4926 227.5074
+  [total]                                 203.0951 235.9049
+mx-missile
+  n                                       180.6622  27.3378
+  y                                        22.4329 208.5671
+  [total]                                 203.0951 235.9049
+immigration
+  n                                       100.6993 113.3007
+  y                                       102.3958 122.6042
+  [total]                                 203.0951 235.9049
+synfuels-corporation-cutback
+  n                                       151.7034 135.2966
+  y                                        51.3918 100.6082
+  [total]                                 203.0951 235.9049
+education-spending
+  n                                        49.8577 216.1423
+  y                                       153.2374  19.7626
+  [total]                                 203.0951 235.9049
+superfund-right-to-sue
+  n                                        23.6164 179.3836
+  y                                       179.4787  56.5213
+  [total]                                 203.0951 235.9049
+crime
+  n                                         5.8926 166.1074
+  y                                       197.2025  69.7975
+  [total]                                 203.0951 235.9049
+duty-free-exports
+  n                                       182.0643  80.9357
+  y                                        21.0308 154.9692
+  [total]                                 203.0951 235.9049
+export-administration-act-south-africa
+  n                                        61.8371   2.1629
+  y                                        141.258  233.742
+  [total]                                 203.0951 235.9049
+Clustered Instances
+
+0      203 ( 47%)
+1      232 ( 53%)
+
+
+Log likelihood: -7.69067
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  44 223 | democrat
+ 159   9 | republican
+
+Cluster 0 <-- republican
+Cluster 1 <-- democrat
+
+Incorrectly clustered instances :	53.0	 12.1839 %
+

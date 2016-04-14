@@ -1,0 +1,100 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.ManhattanDistance -R first-last" -I 500 -S 10
+Relation:     breastcancerdiagnostic-weka.filters.unsupervised.attribute.RandomProjection-N25-R42-DSparse1
+Instances:    569
+Attributes:   26
+              K1
+              K2
+              K3
+              K4
+              K5
+              K6
+              K7
+              K8
+              K9
+              K10
+              K11
+              K12
+              K13
+              K14
+              K15
+              K16
+              K17
+              K18
+              K19
+              K20
+              K21
+              K22
+              K23
+              K24
+              K25
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 10
+Sum of within cluster distances: 906.2235064500858
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                       Cluster#
+Attribute   Full Data         0         1
+                (569)     (149)     (420)
+=========================================
+K1          1102.2678 2106.3955  968.3156
+K2           190.3716  291.1337  173.7644
+K3          1172.5918 2733.5206  987.1831
+K4          -922.5891-1862.7509 -799.5095
+K5           -43.9882  -48.7205   -40.951
+K6           136.3011  191.1029   127.355
+K7          1151.8468 2595.5545  965.3404
+K8            24.1031   34.4513   22.4701
+K9          -980.8145-1926.5437 -852.3696
+K10          126.7842  186.4084  117.5216
+K11           -0.0086   -0.5051    0.0885
+K12         -796.2198-1619.4396 -684.5292
+K13         -195.7538 -361.6705 -177.4485
+K14          148.8483  212.3366  138.9554
+K15          173.5696  270.3428  158.7801
+K16        -2010.8971-4413.2604-1703.3745
+K17          -44.7695 -130.9371  -37.6178
+K18         -981.1018-1933.8848  -849.958
+K19          -54.8878 -129.4142  -47.9089
+K20          -29.6568  -48.1794  -27.3429
+K21            2.2341    3.7543    1.9516
+K22          176.5476  255.1172  163.8847
+K23        -1016.5451-2495.3021 -845.4434
+K24           59.5756   78.8216   55.6492
+K25         -182.4228 -284.9515 -164.5031
+
+
+
+
+Time taken to build model (full training data) : 0.04 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      149 ( 26%)
+1      420 ( 74%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 147  65 | M
+   2 355 | B
+
+Cluster 0 <-- M
+Cluster 1 <-- B
+
+Incorrectly clustered instances : 67.0   11.775  %
+

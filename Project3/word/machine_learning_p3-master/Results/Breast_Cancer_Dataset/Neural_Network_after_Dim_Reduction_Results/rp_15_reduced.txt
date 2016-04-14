@@ -1,0 +1,218 @@
+
+Options: -L 0.03 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.142122527090254
+    Node 2    -1.0173527550484358
+    Node 3    -2.419417531011794
+    Node 4    -1.8983031482652326
+    Node 5    3.3371722086110567
+    Node 6    5.292238114261314
+    Node 7    -2.464400285923212
+    Node 8    -2.090524852975768
+    Node 9    -3.8825831189540816
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.1405061404365173
+    Node 2    1.0044834664412898
+    Node 3    2.424669495253678
+    Node 4    1.88209471375519
+    Node 5    -3.3371096594413525
+    Node 6    -5.295103120023152
+    Node 7    2.4775736495895035
+    Node 8    2.125148338257456
+    Node 9    3.8583480376249906
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.7265740523750407
+    Attrib K1    0.22849508402573768
+    Attrib K2    -0.866900036890664
+    Attrib K3    -0.3174914276370157
+    Attrib K4    -0.28061605753448693
+    Attrib K5    0.29458095209580953
+    Attrib K6    -0.4262949885546531
+    Attrib K7    -0.35623194983042883
+    Attrib K8    -0.12137870893382889
+    Attrib K9    -0.32097454059885133
+    Attrib K10    -0.30283015726181517
+    Attrib K11    -0.2617543130319513
+    Attrib K12    -0.45260868491645656
+    Attrib K13    0.35610295378498746
+    Attrib K14    -0.16011639700549304
+    Attrib K15    -0.9334707330032773
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -1.5224896908313683
+    Attrib K1    0.7201479781820886
+    Attrib K2    -1.7069904438279058
+    Attrib K3    -0.7556718443120031
+    Attrib K4    -0.8283201413703024
+    Attrib K5    0.6704843687202174
+    Attrib K6    -0.7441406802951093
+    Attrib K7    -0.7404143261016859
+    Attrib K8    -0.10099433520819454
+    Attrib K9    -0.7687131955161984
+    Attrib K10    -0.4221973831132725
+    Attrib K11    -0.6672831224946957
+    Attrib K12    -1.1179764794837523
+    Attrib K13    0.8243899921872494
+    Attrib K14    0.024263199004657593
+    Attrib K15    -2.058047214690783
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.238485067133213
+    Attrib K1    0.5219105491770085
+    Attrib K2    -1.4141730246284847
+    Attrib K3    -0.6023980740674635
+    Attrib K4    -0.6622089777390368
+    Attrib K5    0.4758009706634935
+    Attrib K6    -0.6201218635986951
+    Attrib K7    -0.616835557366385
+    Attrib K8    -0.08098591223042512
+    Attrib K9    -0.620749434293553
+    Attrib K10    -0.3256262210198656
+    Attrib K11    -0.5222869031763255
+    Attrib K12    -0.8274695774572843
+    Attrib K13    0.6436411804689757
+    Attrib K14    -0.012696173644032164
+    Attrib K15    -1.65314146437815
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    1.522319422102206
+    Attrib K1    -1.0099140783343818
+    Attrib K2    2.058571183927299
+    Attrib K3    0.906907001391588
+    Attrib K4    1.0303344612928467
+    Attrib K5    -0.4810679146008661
+    Attrib K6    0.6110297069225342
+    Attrib K7    0.8944977122405389
+    Attrib K8    -0.05038424016977133
+    Attrib K9    1.0610065599709069
+    Attrib K10    0.378815115064466
+    Attrib K11    0.5121171700821711
+    Attrib K12    1.4193658209480275
+    Attrib K13    -1.3566080635210047
+    Attrib K14    -0.23534744360879106
+    Attrib K15    2.491847148911853
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    2.3207450320389014
+    Attrib K1    -1.6304424661843955
+    Attrib K2    3.215101612781157
+    Attrib K3    1.5519517674168193
+    Attrib K4    1.7041992729107995
+    Attrib K5    -0.8572144630553185
+    Attrib K6    0.9937894661369684
+    Attrib K7    1.3581098223529735
+    Attrib K8    -0.23557136029848483
+    Attrib K9    1.736933903990606
+    Attrib K10    0.5517230124069381
+    Attrib K11    0.9748156273492335
+    Attrib K12    2.236212578716022
+    Attrib K13    -2.183082694745061
+    Attrib K14    -0.4282345972674644
+    Attrib K15    4.025174761922145
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -1.569363296558904
+    Attrib K1    0.7296354646297346
+    Attrib K2    -1.7809997728075915
+    Attrib K3    -0.7609617734728646
+    Attrib K4    -0.7984734861472029
+    Attrib K5    0.6608151148647887
+    Attrib K6    -0.6994109202132215
+    Attrib K7    -0.738184835776217
+    Attrib K8    -0.10778295443299402
+    Attrib K9    -0.8215007956487972
+    Attrib K10    -0.3467061008522519
+    Attrib K11    -0.6223850411479053
+    Attrib K12    -1.154343517261816
+    Attrib K13    0.8775676929605193
+    Attrib K14    -0.02204629995569299
+    Attrib K15    -2.0824705867881117
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -1.361337678491023
+    Attrib K1    0.6693321548909013
+    Attrib K2    -1.5744071254649734
+    Attrib K3    -0.6379774786485581
+    Attrib K4    -0.6946326399960708
+    Attrib K5    0.5772024624417188
+    Attrib K6    -0.6882094247707901
+    Attrib K7    -0.6480860915697767
+    Attrib K8    -0.07876165931564766
+    Attrib K9    -0.6509297306055708
+    Attrib K10    -0.3032126072912182
+    Attrib K11    -0.5668100723643265
+    Attrib K12    -0.9316044334595879
+    Attrib K13    0.7150171199784178
+    Attrib K14    -1.787132764202509E-4
+    Attrib K15    -1.8225506232019069
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -2.327121724905504
+    Attrib K1    1.2503105866678013
+    Attrib K2    -2.6347816516468496
+    Attrib K3    -1.0867116888693187
+    Attrib K4    -1.272028309683955
+    Attrib K5    1.2338794968599716
+    Attrib K6    -1.0412087048537928
+    Attrib K7    -1.0433354495047567
+    Attrib K8    -0.001361064586535634
+    Attrib K9    -1.306602236105131
+    Attrib K10    -0.5017103546901379
+    Attrib K11    -0.8556679440048143
+    Attrib K12    -1.6875006808221134
+    Attrib K13    1.3849993449111029
+    Attrib K14    0.07868781624415097
+    Attrib K15    -3.1238894981676575
+Class M
+    Input
+    Node 0
+Class B
+    Input
+    Node 1
+
+
+Time taken to build model: 0.91 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         546               95.9578 %
+Incorrectly Classified Instances        23                4.0422 %
+Kappa statistic                          0.9133
+Mean absolute error                      0.0681
+Root mean squared error                  0.1768
+Relative absolute error                 14.5665 %
+Root relative squared error             36.5744 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 199  13 |   a = M
+  10 347 |   b = B
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         543               95.4306 %
+Incorrectly Classified Instances        26                4.5694 %
+Kappa statistic                          0.9013
+Mean absolute error                      0.0753
+Root mean squared error                  0.1912
+Relative absolute error                 16.1084 %
+Root relative squared error             39.5488 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 194  18 |   a = M
+   8 349 |   b = B
+

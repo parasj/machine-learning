@@ -1,0 +1,64 @@
+=== Run information ===
+
+Scheme:weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 100
+Relation:     mammographic_classification-weka.filters.unsupervised.attribute.RandomSubset-N0.5-S2
+Instances:    961
+Attributes:   4
+              age
+              margin
+              density
+Ignored:
+              severity
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+EM
+==
+
+Number of clusters: 2
+
+
+            Cluster
+Attribute         0       1
+             (0.63)  (0.37)
+============================
+age
+  mean       60.0602 47.7481
+  std. dev.  12.5269 14.1472
+
+margin
+  mean        3.8576       1
+  std. dev.   0.8199  1.5269
+
+density
+  mean        2.9395  2.8621
+  std. dev.   0.3382  0.4014
+
+
+
+Time taken to build model (full training data) : 0.03 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      569 ( 59%)
+1      392 ( 41%)
+
+
+Log likelihood: -6.20125
+
+
+Class attribute: severity
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 181 335 | 0
+ 388  57 | 1
+
+Cluster 0 <-- 1
+Cluster 1 <-- 0
+
+Incorrectly clustered instances : 238.0  24.7659 %
+

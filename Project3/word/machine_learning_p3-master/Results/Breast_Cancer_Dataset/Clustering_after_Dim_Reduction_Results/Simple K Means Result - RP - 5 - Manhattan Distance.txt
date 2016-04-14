@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.ManhattanDistance -R first-last" -I 500 -S 10
+Relation:     breastcancerdiagnostic-weka.filters.unsupervised.attribute.RandomProjection-N5-R42-DSparse1
+Instances:    569
+Attributes:   6
+              K1
+              K2
+              K3
+              K4
+              K5
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 11
+Sum of within cluster distances: 208.71807247303047
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                       Cluster#
+Attribute   Full Data         0         1
+                (569)     (144)     (425)
+=========================================
+K1          1102.2678  2135.762  969.7278
+K2           190.3716  292.6512  174.2293
+K3          1172.5918 2761.5316  990.8346
+K4          -922.5891-1881.4335 -801.1099
+K5           -43.9882  -48.9507  -40.9617
+
+
+
+
+Time taken to build model (full training data) : 0.01 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      144 ( 25%)
+1      425 ( 75%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 142  70 | M
+   2 355 | B
+
+Cluster 0 <-- M
+Cluster 1 <-- B
+
+Incorrectly clustered instances : 72.0   12.6538 %
+

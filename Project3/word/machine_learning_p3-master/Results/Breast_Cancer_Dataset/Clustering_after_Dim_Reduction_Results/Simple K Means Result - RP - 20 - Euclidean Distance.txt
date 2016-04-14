@@ -1,0 +1,90 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 10
+Relation:     breastcancerdiagnostic-weka.filters.unsupervised.attribute.RandomProjection-N20-R42-DSparse1
+Instances:    569
+Attributes:   21
+              K1
+              K2
+              K3
+              K4
+              K5
+              K6
+              K7
+              K8
+              K9
+              K10
+              K11
+              K12
+              K13
+              K14
+              K15
+              K16
+              K17
+              K18
+              K19
+              K20
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 8
+Within cluster sum of squared errors: 86.74513591933146
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                       Cluster#
+Attribute   Full Data         0         1
+                (569)     (136)     (433)
+=========================================
+K1          1293.5547 2255.4211  991.4443
+K2            208.255  303.8285  178.2365
+K3          1505.1822 2975.8175 1043.2737
+K4         -1102.7109-1998.3609 -821.3982
+K5           -44.5172  -50.0782  -42.7706
+K6           144.6802  198.2111  127.8668
+K7          1454.4099 2829.3204 1022.5673
+K8            25.6907     35.31   22.6693
+K9         -1165.6352-2069.7363 -881.6681
+K10          136.3461  192.8242   118.607
+K11           -0.1349   -0.6885     0.039
+K12         -957.5975-1760.4392 -705.4348
+K13         -233.9735 -392.8013 -184.0877
+K14          158.4151  219.3103  139.2887
+K15          191.6156  282.7177  163.0016
+K16        -2504.5021-4814.2702-1779.0322
+K17          -72.0256 -165.0277  -42.8148
+K18        -1162.4529-2075.1256 -875.7936
+K19          -77.4405  -162.182  -50.8242
+K20          -33.4483  -50.4535  -28.1072
+
+
+
+
+Time taken to build model (full training data) : 0.02 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      136 ( 24%)
+1      433 ( 76%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 134  78 | M
+   2 355 | B
+
+Cluster 0 <-- M
+Cluster 1 <-- B
+
+Incorrectly clustered instances : 80.0   14.0598 %
+

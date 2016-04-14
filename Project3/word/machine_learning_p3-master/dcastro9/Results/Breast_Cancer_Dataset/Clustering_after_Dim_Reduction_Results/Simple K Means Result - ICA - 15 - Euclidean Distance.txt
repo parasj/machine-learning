@@ -1,0 +1,80 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 10
+Relation:     breastcancerdiagnostic-weka.filters.unsupervised.attribute.RandomProjection-N15-R42-DSparse1
+Instances:    569
+Attributes:   16
+              K1
+              K2
+              K3
+              K4
+              K5
+              K6
+              K7
+              K8
+              K9
+              K10
+              K11
+              K12
+              K13
+              K14
+              K15
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 8
+Within cluster sum of squared errors: 71.28828933272888
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                       Cluster#
+Attribute   Full Data         0         1
+                (569)     (142)     (427)
+=========================================
+K1          1293.5547 2226.4461  983.3192
+K2            208.255  301.3305  177.3025
+K3          1505.1822 2928.7707  1031.764
+K4         -1102.7109-1970.9252 -813.9839
+K5           -44.5172  -50.3563  -42.5754
+K6           144.6802   197.065  127.2595
+K7          1454.4099 2787.3423 1011.1396
+K8            25.6907   35.0498   22.5782
+K9         -1165.6352-2042.4702 -874.0413
+K10          136.3461  191.2383  118.0915
+K11           -0.1349   -0.6537    0.0376
+K12         -957.5975-1736.2023 -698.6704
+K13         -233.9735 -386.4564 -183.2649
+K14          158.4151  217.7281  138.6905
+K15          191.6156  280.2195  162.1502
+
+
+
+
+Time taken to build model (full training data) : 0.02 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      142 ( 25%)
+1      427 ( 75%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 140  72 | M
+   2 355 | B
+
+Cluster 0 <-- M
+Cluster 1 <-- B
+
+Incorrectly clustered instances : 74.0   13.0053 %
+

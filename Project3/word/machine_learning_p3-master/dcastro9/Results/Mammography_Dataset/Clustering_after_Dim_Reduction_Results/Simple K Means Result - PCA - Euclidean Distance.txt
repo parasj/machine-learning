@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.ManhattanDistance -R first-last" -I 500 -S 10
+Relation:     mammographic_classification_principal components-weka.filters.unsupervised.attribute.PrincipalComponents-R0.95-A5-M-1
+Instances:    961
+Attributes:   6
+              0.609margin+0.599shape+0.448age+0.236biRadsAssessment+0.115density
+              0.961density-0.191age+0.185biRadsAssessment-0.069shape-0.045margin
+              -0.945biRadsAssessment+0.23 density+0.19 age+0.12 margin+0.064shape
+              0.85 age-0.394shape-0.307margin+0.13 biRadsAssessment+0.101density
+              -0.72margin+0.69 shape+0.06 age+0.032density-0.024biRadsAssessment
+Ignored:
+              severity
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 10
+Sum of within cluster distances: 324.6540332866282
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                                                   Cluster#
+Attribute                                                              Full Data          0          1
+                                                                           (961)      (452)      (509)
+======================================================================================================
+0.609margin+0.599shape+0.448age+0.236biRadsAssessment+0.115density        0.2896    -1.4184     1.2147
+0.961density-0.191age+0.185biRadsAssessment-0.069shape-0.045margin        0.1654     0.3304     0.0717
+-0.945biRadsAssessment+0.23 density+0.19 age+0.12 margin+0.064shape       0.0106    -0.0629     0.1022
+0.85 age-0.394shape-0.307margin+0.13 biRadsAssessment+0.101density        -0.024     0.2269    -0.1784
+-0.72margin+0.69 shape+0.06 age+0.032density-0.024biRadsAssessment        0.0554    -0.1106     0.1473
+
+
+
+
+Time taken to build model (full training data) : 0.01 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      452 ( 47%)
+1      509 ( 53%)
+
+
+Class attribute: severity
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 379 137 | 0
+  73 372 | 1
+
+Cluster 0 <-- 0
+Cluster 1 <-- 1
+
+Incorrectly clustered instances :	210.0	 21.8522 %
+

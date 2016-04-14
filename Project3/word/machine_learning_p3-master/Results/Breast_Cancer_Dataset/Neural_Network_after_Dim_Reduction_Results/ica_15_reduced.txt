@@ -1,0 +1,218 @@
+
+Options: -L 0.03 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    4.0343457140335675
+    Node 2    2.6652767649596267
+    Node 3    -4.593095181566241
+    Node 4    -1.670836002260908
+    Node 5    -1.1226282621790047
+    Node 6    4.518617890010425
+    Node 7    -1.956072325835526
+    Node 8    -2.849001079996221
+    Node 9    -0.06744284434784137
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -4.022477650280646
+    Node 2    -2.6855768394115556
+    Node 3    4.590759870217079
+    Node 4    1.6455304029081015
+    Node 5    1.1389428237082593
+    Node 6    -4.500603529132928
+    Node 7    1.9578881118045415
+    Node 8    2.874671111215811
+    Node 9    0.025281709000470522
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.5803378555307905
+    Attrib ica0    0.6613538891869597
+    Attrib ica1    0.512711766085829
+    Attrib ica2    0.44241167603308956
+    Attrib ica3    -0.4928625450221237
+    Attrib ica4    -0.6911571221411988
+    Attrib ica5    1.649283161530228
+    Attrib ica6    0.6547604217609823
+    Attrib ica7    -0.2195618513340173
+    Attrib ica8    -0.5778629225774283
+    Attrib ica9    -1.1338811663028354
+    Attrib ica10    1.1698990627903103
+    Attrib ica11    -0.9710622941051665
+    Attrib ica12    -0.14583405648495928
+    Attrib ica13    -0.5958698546979692
+    Attrib ica14    -0.4427478862991104
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -2.963731223936435
+    Attrib ica0    0.8276700007150647
+    Attrib ica1    -1.636767766418262
+    Attrib ica2    -2.1314904102480723
+    Attrib ica3    1.2352846959425474
+    Attrib ica4    2.8079010154674
+    Attrib ica5    -4.048967613763121
+    Attrib ica6    -1.005565298954708
+    Attrib ica7    -0.592676552731794
+    Attrib ica8    0.7640053325302074
+    Attrib ica9    2.627081879600373
+    Attrib ica10    -4.995287624499881
+    Attrib ica11    1.9884777974601806
+    Attrib ica12    -0.2522906856363592
+    Attrib ica13    3.9430875853548746
+    Attrib ica14    0.6823879826754332
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.5540116346997492
+    Attrib ica0    -0.9158439223309476
+    Attrib ica1    -0.8234948709877623
+    Attrib ica2    -0.7238129720283852
+    Attrib ica3    0.4629083949660063
+    Attrib ica4    1.09114885161534
+    Attrib ica5    -1.9643108808221932
+    Attrib ica6    -0.7252694817549935
+    Attrib ica7    0.17531689660101765
+    Attrib ica8    0.6824717654992492
+    Attrib ica9    1.5325050750241367
+    Attrib ica10    -1.7918875710242554
+    Attrib ica11    1.0331032108245377
+    Attrib ica12    0.11077513581626926
+    Attrib ica13    1.0451014034305597
+    Attrib ica14    0.5250986442270824
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.1978729032299629
+    Attrib ica0    -0.6897577240062618
+    Attrib ica1    -0.6225867504852726
+    Attrib ica2    -0.5534045267388644
+    Attrib ica3    0.36911231370270925
+    Attrib ica4    0.8311620389686893
+    Attrib ica5    -1.4265939714936458
+    Attrib ica6    -0.39713722005699614
+    Attrib ica7    0.1854044018286543
+    Attrib ica8    0.5617388256012459
+    Attrib ica9    1.2807801358734145
+    Attrib ica10    -1.344672838046458
+    Attrib ica11    0.8880230100925017
+    Attrib ica12    0.11870746570690933
+    Attrib ica13    0.7632147188293269
+    Attrib ica14    0.448225495526427
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    2.384825298513718
+    Attrib ica0    0.3933712155908783
+    Attrib ica1    1.0695615749455711
+    Attrib ica2    1.0503997285250246
+    Attrib ica3    -1.0229088643470339
+    Attrib ica4    -1.933935094275624
+    Attrib ica5    3.5088164639257395
+    Attrib ica6    1.2254576302163664
+    Attrib ica7    0.2324023430347377
+    Attrib ica8    -0.6027165341622478
+    Attrib ica9    -1.8295659762982888
+    Attrib ica10    3.4481261037293893
+    Attrib ica11    -1.4310462674800821
+    Attrib ica12    0.09351450230702535
+    Attrib ica13    -2.511553934681686
+    Attrib ica14    -0.4348455406693259
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -1.6369648748162746
+    Attrib ica0    -1.044929855725465
+    Attrib ica1    -0.8680925650814626
+    Attrib ica2    -0.8347341303085211
+    Attrib ica3    0.5979925117479211
+    Attrib ica4    1.279284830707556
+    Attrib ica5    -2.255315023364653
+    Attrib ica6    -0.875949402411994
+    Attrib ica7    0.15320755912465917
+    Attrib ica8    0.7654813493264199
+    Attrib ica9    1.7448375612266565
+    Attrib ica10    -2.1186350614465463
+    Attrib ica11    1.0580267873976354
+    Attrib ica12    0.15670523574799186
+    Attrib ica13    1.275310239961994
+    Attrib ica14    0.6191971446283995
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -2.095122220465741
+    Attrib ica0    -1.0243580708057982
+    Attrib ica1    -1.128367140705066
+    Attrib ica2    -0.9678865129639378
+    Attrib ica3    0.7694663395004183
+    Attrib ica4    1.8104533430046803
+    Attrib ica5    -3.1578120294051235
+    Attrib ica6    -1.2018789243885155
+    Attrib ica7    0.0418955666451593
+    Attrib ica8    0.9376077979322452
+    Attrib ica9    2.1200492616327153
+    Attrib ica10    -3.1362562906112963
+    Attrib ica11    1.3399348391882722
+    Attrib ica12    0.1853017558210762
+    Attrib ica13    2.10808740865391
+    Attrib ica14    0.6224566638402381
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.5422372621618728
+    Attrib ica0    -0.20670982522653197
+    Attrib ica1    -0.36488345778147396
+    Attrib ica2    -0.18168306533325437
+    Attrib ica3    0.19856551357570967
+    Attrib ica4    0.3480026107512287
+    Attrib ica5    -0.4059611007323744
+    Attrib ica6    0.032548410681190326
+    Attrib ica7    0.067031713934341
+    Attrib ica8    0.2431318983994222
+    Attrib ica9    0.6227135883137846
+    Attrib ica10    -0.4669046705100882
+    Attrib ica11    0.44122707762664265
+    Attrib ica12    0.14757604351735412
+    Attrib ica13    0.2787221718689544
+    Attrib ica14    0.24522059839197027
+Class 0.000000
+    Input
+    Node 0
+Class 1.000000
+    Input
+    Node 1
+
+
+Time taken to build model: 0.87 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         470               82.6011 %
+Incorrectly Classified Instances        99               17.3989 %
+Kappa statistic                          0.6072
+Mean absolute error                      0.2677
+Root mean squared error                  0.3722
+Relative absolute error                 57.24   %
+Root relative squared error             76.9862 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 135  77 |   a = 0.000000
+  22 335 |   b = 1.000000
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         456               80.1406 %
+Incorrectly Classified Instances       113               19.8594 %
+Kappa statistic                          0.5479
+Mean absolute error                      0.2826
+Root mean squared error                  0.3854
+Relative absolute error                 60.4356 %
+Root relative squared error             79.7002 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 124  88 |   a = 0.000000
+  25 332 |   b = 1.000000
+

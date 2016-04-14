@@ -1,0 +1,52 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -S 10
+Relation:     bcica1
+Instances:    569
+Attributes:   2
+              ica0
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 8
+Within cluster sum of squared errors: 0.22726061798974442
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1
+                 (569)        (2)      (567)
+============================================
+ica0                 0   -15.5775     0.0549
+
+
+
+
+Time taken to build model (full training data) : 0 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0        2 (  0%)
+1      567 (100%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+   2 210 | 0.000000
+   0 357 | 1.000000
+
+Cluster 0 <-- 0.000000
+Cluster 1 <-- 1.000000
+
+Incorrectly clustered instances : 210.0  36.9069 %
+

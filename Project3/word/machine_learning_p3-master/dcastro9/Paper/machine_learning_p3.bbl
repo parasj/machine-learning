@@ -1,0 +1,27 @@
+\begin{thebibliography}{\protect\citename{Frank and Asuncion }2010}
+
+\bibitem[\protect\citename{Castro }2013a]{Castro2:2013}
+{\sc Castro, D.}, 2013.
+\newblock Randomized optimization analysis.
+
+\bibitem[\protect\citename{Castro }2013b]{Castro1:2013}
+{\sc Castro, D.}, 2013.
+\newblock Supervised learning analysis and report.
+
+\bibitem[\protect\citename{Elter et~al\mbox{.} }2007]{elter2007prediction}
+{\sc Elter, M., Schulz-Wendtland, R., and Wittenberg, T.}
+\newblock 2007.
+\newblock The prediction of breast cancer biopsy outcomes using two cad
+  approaches that both emphasize an intelligible decision process.
+\newblock {\em Medical Physics 34\/}, 4164.
+
+\bibitem[\protect\citename{Frank and Asuncion }2010]{Frank+Asuncion:2010}
+{\sc Frank, A., and Asuncion, A.}, 2010.
+\newblock {UCI} machine learning repository.
+
+\bibitem[\protect\citename{Hall et~al\mbox{.} }2010]{Hall_weka:2010}
+{\sc Hall, M., Frank, E., Holmes, G., Pfahringer, B., Reutemann, P., and
+  Witten, I.~H.}, 2010.
+\newblock The weka data mining software: An update.
+
+\end{thebibliography}

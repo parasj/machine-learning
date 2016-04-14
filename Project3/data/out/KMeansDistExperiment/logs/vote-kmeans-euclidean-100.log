@@ -1,0 +1,249 @@
+
+
+=== Clustering stats for training data ===
+
+
+kMeans
+======
+
+Number of iterations: 5
+Within cluster sum of squared errors: 324.0
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                      Cluster#
+Attribute                                 Full Data          0          1          2          3          4          5          6          7          8          9         10         11         12         13         14         15         16         17         18         19         20         21         22         23         24         25         26         27         28         29         30         31         32         33         34         35         36         37         38         39         40         41         42         43         44         45         46         47         48         49         50         51         52         53         54         55         56         57         58         59         60         61         62         63         64         65         66         67         68         69         70         71         72         73         74         75         76         77         78         79         80         81         82         83         84         85         86         87         88         89         90         91         92         93         94         95         96         97         98         99
+                                              (435)        (2)        (4)        (5)       (16)        (7)        (2)        (5)        (7)        (4)        (3)        (1)        (2)        (2)        (6)        (4)        (3)       (25)       (14)        (8)        (5)        (3)        (8)        (4)        (1)       (11)       (11)        (8)        (7)        (6)        (3)        (6)        (6)        (1)        (1)       (10)        (2)        (1)        (3)        (3)       (15)        (1)        (6)        (1)        (1)        (5)        (9)        (4)        (1)        (1)        (3)        (3)        (5)        (6)        (3)       (20)        (7)        (2)        (3)        (3)        (6)        (3)        (1)        (1)        (3)        (1)        (1)        (3)        (2)        (1)        (3)        (2)        (2)        (9)        (3)        (1)        (1)        (5)        (3)        (1)        (9)        (5)        (1)        (1)        (1)        (2)        (1)        (1)        (2)        (5)        (1)        (1)        (4)        (1)        (4)        (6)        (1)        (6)        (1)        (1)       (10)
+===============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+handicapped-infants                               n          n          n          n          y          n          y          n          n          n          n          y          n          n          n          n          y          n          y          y          y          y          n          n          n          y          n          y          y          n          n          y          n          n          n          n          n          y          n          y          y          n          y          y          y          y          n          y          n          n          n          y          y          n          y          n          y          n          n          n          y          n          n          n          y          y          n          n          n          y          y          n          n          n          n          n          y          y          n          n          n          y          n          n          y          y          n          y          n          y          n          y          y          y          n          n          n          n          n          n          n
+water-project-cost-sharing                        y          n          n          y          n          y          n          n          n          n          y          n          y          n          y          y          y          y          y          y          n          y          y          y          y          n          n          y          n          n          y          y          n          n          n          n          n          y          n          n          y          n          n          y          y          y          n          n          y          y          y          y          y          n          y          y          y          n          y          y          y          y          n          y          y          y          y          y          y          y          n          n          y          y          y          n          n          n          n          y          n          n          y          n          y          n          y          y          n          n          n          n          y          y          y          y          n          n          y          y          y
+adoption-of-the-budget-resolution                 y          y          y          y          y          y          y          y          y          n          y          y          y          y          y          n          y          n          y          n          n          y          n          n          y          y          n          y          y          n          y          y          n          n          y          n          y          y          y          y          y          y          y          y          n          y          y          y          n          y          y          y          y          y          y          n          n          n          y          y          y          y          y          y          y          y          y          y          y          n          y          y          n          n          n          n          y          y          n          y          n          y          y          n          y          y          n          y          y          y          n          y          n          y          y          y          y          y          n          n          n
+physician-fee-freeze                              n          n          n          n          n          n          n          n          n          y          n          n          n          n          y          n          n          y          n          y          n          n          y          y          y          n          y          n          n          y          n          n          y          y          n          y          n          n          n          n          n          n          n          n          y          n          n          n          n          n          n          n          n          n          n          y          y          y          n          n          n          n          n          y          n          y          y          n          n          n          n          n          y          y          n          y          n          n          y          y          y          n          n          n          y          y          y          n          n          n          y          n          y          n          n          n          n          n          y          y          y
+el-salvador-aid                                   y          y          n          y          n          y          n          n          n          n          n          y          y          n          y          y          n          y          n          y          y          y          y          y          y          n          y          n          n          y          n          y          y          y          y          y          y          n          n          n          n          n          n          y          y          n          n          n          y          y          n          n          y          n          n          y          y          y          n          n          n          n          n          y          n          y          y          n          y          y          n          n          y          y          n          y          n          y          y          y          y          n          n          y          y          y          y          y          n          n          y          n          y          y          y          n          n          n          y          y          y
+religious-groups-in-schools                       y          y          n          y          n          y          n          y          y          n          n          y          y          n          y          y          n          y          n          y          y          y          y          y          y          n          y          n          n          y          y          y          y          n          y          y          y          n          n          n          n          n          n          y          y          y          n          y          y          y          y          n          y          y          y          y          y          y          y          n          n          y          y          y          n          y          y          n          y          y          y          n          y          y          n          y          n          y          n          y          y          n          n          y          n          y          y          y          y          n          y          y          y          y          y          y          y          n          n          y          y
+anti-satellite-test-ban                           y          n          y          y          y          y          y          y          y          y          y          n          n          y          n          y          y          n          y          n          y          y          n          n          n          y          n          y          y          y          y          n          n          y          n          n          n          y          y          y          y          y          y          n          n          y          y          y          n          n          y          y          n          y          y          n          n          n          y          n          y          n          n          n          y          n          y          y          n          n          y          y          n          n          y          n          y          y          y          y          n          y          y          n          y          y          y          y          y          y          y          y          y          n          y          y          y          y          n          n          n
+aid-to-nicaraguan-contras                         y          n          y          y          y          y          y          y          y          y          y          n          n          y          n          n          y          n          y          n          n          y          n          n          n          y          n          y          y          y          y          y          n          y          n          n          n          y          y          y          y          y          y          n          y          y          y          y          n          n          y          y          y          y          y          n          n          n          y          y          y          y          y          n          y          n          y          y          y          n          y          y          y          n          y          n          y          n          n          n          n          y          y          n          n          y          n          y          y          y          n          y          y          n          y          y          y          y          n          n          n
+mx-missile                                        y          n          y          n          y          y          n          y          y          y          y          n          n          y          n          n          y          n          y          n          n          n          n          n          n          y          n          y          y          y          n          n          n          n          n          n          n          n          y          y          y          n          y          n          n          y          y          y          n          n          y          y          n          y          y          n          n          n          y          y          y          y          y          n          y          y          y          y          n          n          y          y          n          n          y          n          y          y          n          y          n          y          n          n          n          n          n          y          y          y          n          n          n          n          y          y          y          y          n          n          n
+immigration                                       y          n          n          n          y          y          y          n          n          n          n          n          n          n          y          n          y          y          n          y          n          y          n          y          y          n          n          n          y          y          y          n          y          y          n          n          n          y          y          y          n          y          n          n          n          y          y          n          y          n          y          n          y          y          y          n          n          y          y          n          n          n          y          y          y          n          n          y          n          n          y          n          n          n          y          n          y          y          y          y          y          n          n          y          n          y          n          n          n          y          y          y          n          y          y          y          n          n          n          n          y
+synfuels-corporation-cutback                      n          n          n          y          n          y          y          y          y          n          n          n          y          y          n          y          n          n          y          n          n          y          y          n          y          n          n          n          y          n          n          y          n          n          n          n          y          n          n          y          n          y          n          y          y          n          y          n          y          y          n          n          n          n          n          n          y          y          n          y          y          n          n          n          n          y          n          n          n          y          y          n          n          n          y          y          y          n          n          n          n          y          y          y          n          n          n          n          n          n          n          y          n          y          n          y          y          n          n          n          n
+education-spending                                n          n          n          n          n          n          n          n          y          y          n          n          n          n          y          y          n          y          n          y          n          n          y          n          y          n          y          n          n          y          n          n          y          y          n          y          y          n          n          n          n          n          n          n          y          n          n          n          n          n          n          n          n          n          n          y          n          y          n          n          n          n          n          n          n          n          y          n          n          y          n          n          n          y          n          y          y          n          n          y          y          n          n          y          y          y          n          n          n          n          y          n          y          n          n          n          n          n          n          n          y
+superfund-right-to-sue                            y          y          n          y          n          y          n          n          n          y          n          n          y          n          y          n          y          y          n          y          n          n          y          y          y          n          y          n          n          y          n          y          n          y          y          y          y          n          y          n          n          n          n          y          y          y          n          n          y          n          n          y          y          n          n          y          y          y          n          n          n          y          n          n          n          y          y          y          n          y          n          n          y          y          n          y          n          y          n          y          y          n          n          y          y          n          y          n          n          n          y          y          y          y          y          y          n          n          y          y          y
+crime                                             y          y          y          n          n          y          n          y          y          y          n          n          n          n          y          y          n          y          n          y          y          n          y          y          y          n          y          n          n          y          n          y          y          y          y          y          y          n          n          y          n          n          n          n          y          n          n          y          y          n          n          n          y          y          n          y          y          y          n          n          n          y          y          y          n          y          y          n          n          y          n          y          y          y          n          y          y          y          y          y          y          n          n          y          y          y          y          n          n          y          y          y          y          y          y          y          n          n          y          y          y
+duty-free-exports                                 n          y          n          y          y          n          n          y          y          n          y          n          n          y          n          n          n          n          y          n          n          y          n          n          y          y          n          n          y          n          y          n          n          n          n          n          n          n          y          n          y          y          n          n          n          n          y          n          n          y          y          y          n          n          y          n          n          n          n          y          n          n          n          n          y          n          n          y          n          y          n          y          n          n          y          n          n          n          y          n          n          y          y          n          n          y          n          y          y          y          n          y          n          n          n          y          y          y          n          n          n
+export-administration-act-south-africa            y          y          y          y          y          y          y          y          y          y          y          y          n          y          y          y          y          y          y          y          y          y          n          n          y          y          y          y          y          y          y          y          y          y          n          n          y          y          y          y          y          y          y          y          n          y          y          y          n          y          y          y          y          y          y          y          y          y          y          y          y          y          y          y          y          n          y          y          y          n          y          y          y          n          y          y          y          y          y          y          n          y          y          y          y          y          n          y          y          y          y          y          y          y          y          y          y          y          n          n          n
+
+
+Clustered Instances
+
+  0        2 (  0%)
+  1        4 (  1%)
+  2        5 (  1%)
+  3       16 (  4%)
+  4        7 (  2%)
+  5        2 (  0%)
+  6        5 (  1%)
+  7        7 (  2%)
+  8        4 (  1%)
+  9        3 (  1%)
+ 10        1 (  0%)
+ 11        2 (  0%)
+ 12        2 (  0%)
+ 13        6 (  1%)
+ 14        4 (  1%)
+ 15        3 (  1%)
+ 16       25 (  6%)
+ 17       14 (  3%)
+ 18        8 (  2%)
+ 19        5 (  1%)
+ 20        3 (  1%)
+ 21        8 (  2%)
+ 22        4 (  1%)
+ 23        1 (  0%)
+ 24       11 (  3%)
+ 25       11 (  3%)
+ 26        8 (  2%)
+ 27        7 (  2%)
+ 28        6 (  1%)
+ 29        3 (  1%)
+ 30        6 (  1%)
+ 31        6 (  1%)
+ 32        1 (  0%)
+ 33        1 (  0%)
+ 34       10 (  2%)
+ 35        2 (  0%)
+ 36        1 (  0%)
+ 37        3 (  1%)
+ 38        3 (  1%)
+ 39       15 (  3%)
+ 40        1 (  0%)
+ 41        6 (  1%)
+ 42        1 (  0%)
+ 43        1 (  0%)
+ 44        5 (  1%)
+ 45        9 (  2%)
+ 46        4 (  1%)
+ 47        1 (  0%)
+ 48        1 (  0%)
+ 49        3 (  1%)
+ 50        3 (  1%)
+ 51        5 (  1%)
+ 52        6 (  1%)
+ 53        3 (  1%)
+ 54       20 (  5%)
+ 55        7 (  2%)
+ 56        2 (  0%)
+ 57        3 (  1%)
+ 58        3 (  1%)
+ 59        6 (  1%)
+ 60        3 (  1%)
+ 61        1 (  0%)
+ 62        1 (  0%)
+ 63        3 (  1%)
+ 64        1 (  0%)
+ 65        1 (  0%)
+ 66        3 (  1%)
+ 67        2 (  0%)
+ 68        1 (  0%)
+ 69        3 (  1%)
+ 70        2 (  0%)
+ 71        2 (  0%)
+ 72        9 (  2%)
+ 73        3 (  1%)
+ 74        1 (  0%)
+ 75        1 (  0%)
+ 76        5 (  1%)
+ 77        3 (  1%)
+ 78        1 (  0%)
+ 79        9 (  2%)
+ 80        5 (  1%)
+ 81        1 (  0%)
+ 82        1 (  0%)
+ 83        1 (  0%)
+ 84        2 (  0%)
+ 85        1 (  0%)
+ 86        1 (  0%)
+ 87        2 (  0%)
+ 88        5 (  1%)
+ 89        1 (  0%)
+ 90        1 (  0%)
+ 91        4 (  1%)
+ 92        1 (  0%)
+ 93        4 (  1%)
+ 94        6 (  1%)
+ 95        1 (  0%)
+ 96        6 (  1%)
+ 97        1 (  0%)
+ 98        1 (  0%)
+ 99       10 (  2%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99  <-- assigned to cluster
+   2   4   4  16   7   2   5   7   1   3   1   2   2   2   3   3   0  14   1   3   3   3   1   1  11   1   8   7   0   3   6   0   0   1   0   2   1   3   1  15   1   6   1   0   5   9   4   1   1   3   3   3   4   3   3   3   0   3   3   6   2   1   0   3   1   0   3   2   1   3   1   0   0   3   0   1   4   0   0   0   5   1   1   0   0   0   1   2   4   0   1   0   1   2   6   1   6   0   0   0 | democrat
+   0   0   1   0   0   0   0   0   3   0   0   0   0   4   1   0  25   0   7   2   0   5   3   0   0  10   0   0   6   0   0   6   1   0  10   0   0   0   2   0   0   0   0   1   0   0   0   0   0   0   0   2   2   0  17   4   2   0   0   0   1   0   1   0   0   1   0   0   0   0   1   2   9   0   1   0   1   3   1   9   0   0   0   1   2   1   0   0   1   1   0   4   0   2   0   0   0   1   1  10 | republican
+
+Cluster   0 <-- No class
+Cluster   1 <-- No class
+Cluster   2 <-- No class
+Cluster   3 <-- democrat
+Cluster   4 <-- No class
+Cluster   5 <-- No class
+Cluster   6 <-- No class
+Cluster   7 <-- No class
+Cluster   8 <-- No class
+Cluster   9 <-- No class
+Cluster  10 <-- No class
+Cluster  11 <-- No class
+Cluster  12 <-- No class
+Cluster  13 <-- No class
+Cluster  14 <-- No class
+Cluster  15 <-- No class
+Cluster  16 <-- republican
+Cluster  17 <-- No class
+Cluster  18 <-- No class
+Cluster  19 <-- No class
+Cluster  20 <-- No class
+Cluster  21 <-- No class
+Cluster  22 <-- No class
+Cluster  23 <-- No class
+Cluster  24 <-- No class
+Cluster  25 <-- No class
+Cluster  26 <-- No class
+Cluster  27 <-- No class
+Cluster  28 <-- No class
+Cluster  29 <-- No class
+Cluster  30 <-- No class
+Cluster  31 <-- No class
+Cluster  32 <-- No class
+Cluster  33 <-- No class
+Cluster  34 <-- No class
+Cluster  35 <-- No class
+Cluster  36 <-- No class
+Cluster  37 <-- No class
+Cluster  38 <-- No class
+Cluster  39 <-- No class
+Cluster  40 <-- No class
+Cluster  41 <-- No class
+Cluster  42 <-- No class
+Cluster  43 <-- No class
+Cluster  44 <-- No class
+Cluster  45 <-- No class
+Cluster  46 <-- No class
+Cluster  47 <-- No class
+Cluster  48 <-- No class
+Cluster  49 <-- No class
+Cluster  50 <-- No class
+Cluster  51 <-- No class
+Cluster  52 <-- No class
+Cluster  53 <-- No class
+Cluster  54 <-- No class
+Cluster  55 <-- No class
+Cluster  56 <-- No class
+Cluster  57 <-- No class
+Cluster  58 <-- No class
+Cluster  59 <-- No class
+Cluster  60 <-- No class
+Cluster  61 <-- No class
+Cluster  62 <-- No class
+Cluster  63 <-- No class
+Cluster  64 <-- No class
+Cluster  65 <-- No class
+Cluster  66 <-- No class
+Cluster  67 <-- No class
+Cluster  68 <-- No class
+Cluster  69 <-- No class
+Cluster  70 <-- No class
+Cluster  71 <-- No class
+Cluster  72 <-- No class
+Cluster  73 <-- No class
+Cluster  74 <-- No class
+Cluster  75 <-- No class
+Cluster  76 <-- No class
+Cluster  77 <-- No class
+Cluster  78 <-- No class
+Cluster  79 <-- No class
+Cluster  80 <-- No class
+Cluster  81 <-- No class
+Cluster  82 <-- No class
+Cluster  83 <-- No class
+Cluster  84 <-- No class
+Cluster  85 <-- No class
+Cluster  86 <-- No class
+Cluster  87 <-- No class
+Cluster  88 <-- No class
+Cluster  89 <-- No class
+Cluster  90 <-- No class
+Cluster  91 <-- No class
+Cluster  92 <-- No class
+Cluster  93 <-- No class
+Cluster  94 <-- No class
+Cluster  95 <-- No class
+Cluster  96 <-- No class
+Cluster  97 <-- No class
+Cluster  98 <-- No class
+Cluster  99 <-- No class
+
+Incorrectly clustered instances :	394.0	 90.5747 %
+

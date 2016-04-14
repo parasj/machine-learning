@@ -1,0 +1,218 @@
+
+Options: -L 0.03 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    3.855098994641848
+    Node 2    -3.0716767757515777
+    Node 3    -2.3679821109181503
+    Node 4    -1.9801491397739965
+    Node 5    4.019793354022752
+    Node 6    2.4467418602723328
+    Node 7    -3.149819998047637
+    Node 8    -1.0139299072370356
+    Node 9    -2.679895899978335
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -3.8606659742054603
+    Node 2    3.0693043937047717
+    Node 3    2.3732650834414293
+    Node 4    1.9648457359247322
+    Node 5    -4.024479018327074
+    Node 6    -2.43637200073804
+    Node 7    3.1672056471815955
+    Node 8    1.0439107415512265
+    Node 9    2.651964305290055
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.083250019396792
+    Attrib textureMean    -0.26631720017097815
+    Attrib perimeterMean    -1.3006488128255853
+    Attrib smoothnessMean    -0.5541827600311051
+    Attrib concavityMean    -1.8217634491820034
+    Attrib perimeterSE    -0.6106112448744225
+    Attrib areaSE    -0.3574038889169018
+    Attrib compactnessSE    0.7818380289830875
+    Attrib concavitySE    0.5649566313501847
+    Attrib concavePointsSE    0.6975296536356924
+    Attrib symmetrySE    -0.8674423669916963
+    Attrib fractalDimensionSE    1.8145372649507179
+    Attrib textureWorst    -1.186855099700384
+    Attrib perimeterWorst    -3.134154219454379
+    Attrib concavePointsWorst    -1.788766741969497
+    Attrib fractalDimensionWorst    -0.17574081064184097
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -1.7110339740184726
+    Attrib textureMean    -0.28152953098477407
+    Attrib perimeterMean    -1.063490502747366
+    Attrib smoothnessMean    -0.4955785467303505
+    Attrib concavityMean    -1.5185934810532844
+    Attrib perimeterSE    -0.4766140174375935
+    Attrib areaSE    -0.25360129955466704
+    Attrib compactnessSE    0.6092506098751391
+    Attrib concavitySE    0.46656807119286503
+    Attrib concavePointsSE    0.598234518428238
+    Attrib symmetrySE    -0.617946440097195
+    Attrib fractalDimensionSE    1.418497158865919
+    Attrib textureWorst    -1.0077297541970551
+    Attrib perimeterWorst    -2.5800874062883805
+    Attrib concavePointsWorst    -1.5067906028926423
+    Attrib fractalDimensionWorst    -0.10819647950356909
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.5420452639622144
+    Attrib textureMean    -0.3015509682309278
+    Attrib perimeterMean    -1.011001330584903
+    Attrib smoothnessMean    -0.4325827062019243
+    Attrib concavityMean    -1.3251950756420046
+    Attrib perimeterSE    -0.398610686467674
+    Attrib areaSE    -0.22686143543294282
+    Attrib compactnessSE    0.49675165869128035
+    Attrib concavitySE    0.4352833247094454
+    Attrib concavePointsSE    0.47344163636931685
+    Attrib symmetrySE    -0.4770289224166382
+    Attrib fractalDimensionSE    1.2313195741850156
+    Attrib textureWorst    -0.8607597305150042
+    Attrib perimeterWorst    -2.211672657806058
+    Attrib concavePointsWorst    -1.3433331065066438
+    Attrib fractalDimensionWorst    -0.12768857217481044
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    2.057783225553343
+    Attrib textureMean    0.0200950293505855
+    Attrib perimeterMean    0.7372598620716369
+    Attrib smoothnessMean    0.4817084506925363
+    Attrib concavityMean    1.5945812084491313
+    Attrib perimeterSE    0.7520055502424309
+    Attrib areaSE    0.45076406056726387
+    Attrib compactnessSE    -0.8141515336159891
+    Attrib concavitySE    -0.3138108343276982
+    Attrib concavePointsSE    -0.9025050927057823
+    Attrib symmetrySE    1.0943775555117372
+    Attrib fractalDimensionSE    -1.824195741347061
+    Attrib textureWorst    0.9674577020771779
+    Attrib perimeterWorst    2.9527946119764157
+    Attrib concavePointsWorst    1.1190619704772453
+    Attrib fractalDimensionWorst    0.39626571807425864
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    1.163162353537835
+    Attrib textureMean    0.0018161397325051297
+    Attrib perimeterMean    0.27875140417234906
+    Attrib smoothnessMean    0.28478216203689144
+    Attrib concavityMean    0.8342251019794088
+    Attrib perimeterSE    0.3838351236305851
+    Attrib areaSE    0.3002156159892802
+    Attrib compactnessSE    -0.5022632047554495
+    Attrib concavitySE    -0.18015616132807208
+    Attrib concavePointsSE    -0.476281171710244
+    Attrib symmetrySE    0.6654853003820714
+    Attrib fractalDimensionSE    -0.9414995010073209
+    Attrib textureWorst    0.495912865750684
+    Attrib perimeterWorst    1.5847052053749013
+    Attrib concavePointsWorst    0.4658702329944826
+    Attrib fractalDimensionWorst    0.24538378060828853
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -2.1332185322770534
+    Attrib textureMean    -0.2877177774837572
+    Attrib perimeterMean    -1.3237352532943132
+    Attrib smoothnessMean    -0.6158598190630401
+    Attrib concavityMean    -1.852154566042743
+    Attrib perimeterSE    -0.6893947810689565
+    Attrib areaSE    -0.32398916112239956
+    Attrib compactnessSE    0.7834267100220877
+    Attrib concavitySE    0.5221917569965256
+    Attrib concavePointsSE    0.7530990013553499
+    Attrib symmetrySE    -0.834863563631737
+    Attrib fractalDimensionSE    1.862115069174507
+    Attrib textureWorst    -1.2006935989530765
+    Attrib perimeterWorst    -3.210807887609673
+    Attrib concavePointsWorst    -1.8248420561106686
+    Attrib fractalDimensionWorst    -0.16209246529997695
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.9852797720675018
+    Attrib textureMean    -0.19459286137329485
+    Attrib perimeterMean    -0.7531189235834729
+    Attrib smoothnessMean    -0.27578370362955984
+    Attrib concavityMean    -0.8500293668501967
+    Attrib perimeterSE    -0.18883897570148503
+    Attrib areaSE    -0.12270280786343803
+    Attrib compactnessSE    0.30286186409267946
+    Attrib concavitySE    0.3155017851634958
+    Attrib concavePointsSE    0.2917766775146675
+    Attrib symmetrySE    -0.1657170034202352
+    Attrib fractalDimensionSE    0.7522268364310929
+    Attrib textureWorst    -0.602330449729399
+    Attrib perimeterWorst    -1.4114818618677787
+    Attrib concavePointsWorst    -1.0030131573050267
+    Attrib fractalDimensionWorst    -0.057563904363390594
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -1.8920197785749069
+    Attrib textureMean    -0.2533785501031421
+    Attrib perimeterMean    -1.211921621388918
+    Attrib smoothnessMean    -0.5212831176704831
+    Attrib concavityMean    -1.6131661108949606
+    Attrib perimeterSE    -0.5282579084932368
+    Attrib areaSE    -0.33735266434904393
+    Attrib compactnessSE    0.6810056299168087
+    Attrib concavitySE    0.4935639308069609
+    Attrib concavePointsSE    0.6058137292330448
+    Attrib symmetrySE    -0.7120077362185098
+    Attrib fractalDimensionSE    1.6171687846275475
+    Attrib textureWorst    -1.0589701111096557
+    Attrib perimeterWorst    -2.792167883361556
+    Attrib concavePointsWorst    -1.6542601743810743
+    Attrib fractalDimensionWorst    -0.17114135981573206
+Class M
+    Input
+    Node 0
+Class B
+    Input
+    Node 1
+
+
+Time taken to build model: 0.9 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         558               98.0668 %
+Incorrectly Classified Instances        11                1.9332 %
+Kappa statistic                          0.9583
+Mean absolute error                      0.0383
+Root mean squared error                  0.1361
+Relative absolute error                  8.1935 %
+Root relative squared error             28.1446 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 202  10 |   a = M
+   1 356 |   b = B
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         550               96.6608 %
+Incorrectly Classified Instances        19                3.3392 %
+Kappa statistic                          0.9281
+Mean absolute error                      0.0473
+Root mean squared error                  0.159 
+Relative absolute error                 10.1068 %
+Root relative squared error             32.8833 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 199  13 |   a = M
+   6 351 |   b = B
+

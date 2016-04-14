@@ -1,0 +1,58 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.ManhattanDistance -R first-last" -I 500 -S 10
+Relation:     mammographic_classification-weka.filters.unsupervised.attribute.RandomProjection-N4-R42-DSparse1
+Instances:    961
+Attributes:   5
+              K1
+              K2
+              K3
+              K4
+Ignored:
+              severity
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 3
+Sum of within cluster distances: 277.1025173637429
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1
+                 (961)      (488)      (473)
+============================================
+K1             10.3923     5.1962    13.8564
+K2             98.7269    84.8705   107.3872
+K3              8.6603     6.9282    12.1244
+K4              6.9282     6.9282     8.6603
+
+
+
+
+Time taken to build model (full training data) : 0.01 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      488 ( 51%)
+1      473 ( 49%)
+
+
+Class attribute: severity
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 404 112 | 0
+  84 361 | 1
+
+Cluster 0 <-- 0
+Cluster 1 <-- 1
+
+Incorrectly clustered instances : 196.0  20.3954 %
+

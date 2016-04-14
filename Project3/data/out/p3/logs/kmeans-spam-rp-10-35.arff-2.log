@@ -1,0 +1,53 @@
+
+
+=== Clustering stats for training data ===
+
+
+kMeans
+======
+
+Number of iterations: 9
+Within cluster sum of squared errors: 96.39337311116878
+
+Initial starting points (random):
+
+Cluster 0: 3.043213,3.325538,-7.764784,29.444864,-25.675921,3.043213,25.837002,-7.200135,28.048831,-4.156922
+Cluster 1: 1.420282,1.939897,-3.131548,11.327612,-3.036285,1.420282,8.452408,-7.912008,10.392305,0.467654
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1
+              (4601.0)   (2026.0)   (2575.0)
+============================================
+K1             -0.9659     0.4615    -2.0889
+K2               2.652     2.4726     2.7931
+K3             -4.0163    -7.1048    -1.5863
+K4             88.9457   112.1122    70.7183
+K5            -78.9121  -100.7829   -61.7042
+K6              0.9166     1.3394     0.5839
+K7             88.0365   109.5211    71.1325
+K8             -5.8526    -10.748    -2.0009
+K9             88.5313   110.4826    71.2601
+K10            -2.5502    -4.3866    -1.1054
+
+
+Clustered Instances
+
+0      2026 ( 44%)
+1      2575 ( 56%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+    0    1  <-- assigned to cluster
+  983 1805 | 0
+ 1043  770 | 1
+
+Cluster 0 <-- 1
+Cluster 1 <-- 0
+
+Incorrectly clustered instances :	1753.0	 38.1004 %
+

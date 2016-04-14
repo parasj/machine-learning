@@ -1,0 +1,148 @@
+
+Options: -L 0.03 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    3.0364268132931334
+    Node 2    -5.51778839154938
+    Node 3    3.0101236871860526
+    Node 4    -3.750933675879295
+    Node 5    -3.2534205529068294
+    Node 6    -2.216626145898763
+    Node 7    2.9949047261416997
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -3.0147056901210303
+    Node 2    5.535669441448572
+    Node 3    -3.0649621418141306
+    Node 4    3.7373309318585095
+    Node 5    3.2351697805402426
+    Node 6    2.206719134485967
+    Node 7    -2.963234345115053
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -2.8869506752910485
+    Attrib K1    2.1973035940234014
+    Attrib K2    -5.449818327496336
+    Attrib K3    -2.3514563333615004
+    Attrib K4    -2.3267113173774447
+    Attrib K5    1.402146824092995
+    Attrib K6    -1.5976952568273668
+    Attrib K7    -2.0267961827827428
+    Attrib K8    -0.03279343238067453
+    Attrib K9    -2.4252475581099704
+    Attrib K10    -1.1885359049408022
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    1.1115651446505326
+    Attrib K1    -1.1496841218614808
+    Attrib K2    2.7314643526972753
+    Attrib K3    1.3376401382582315
+    Attrib K4    1.1557133194639406
+    Attrib K5    -0.18214522998091082
+    Attrib K6    0.7057483686866207
+    Attrib K7    1.0919218429766122
+    Attrib K8    -0.06292859511395671
+    Attrib K9    1.1831333600223193
+    Attrib K10    0.6110421724158834
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -2.135240755218664
+    Attrib K1    1.5179735821307712
+    Attrib K2    -3.819793939844237
+    Attrib K3    -1.6297792176596584
+    Attrib K4    -1.678982883558244
+    Attrib K5    0.9577356044201605
+    Attrib K6    -1.1692760080825313
+    Attrib K7    -1.5044132880781071
+    Attrib K8    -0.11299042728335215
+    Attrib K9    -1.6523433692336
+    Attrib K10    -0.8387902114393363
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.9009812771500552
+    Attrib K1    1.3110946515946218
+    Attrib K2    -3.364882616176073
+    Attrib K3    -1.4161376719335685
+    Attrib K4    -1.4711483877646618
+    Attrib K5    0.8124383993325069
+    Attrib K6    -1.0463407727525256
+    Attrib K7    -1.3229375426565766
+    Attrib K8    -0.14272520330773963
+    Attrib K9    -1.457046819724012
+    Attrib K10    -0.7390988896167197
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -1.45065037777386
+    Attrib K1    0.8793923400192218
+    Attrib K2    -2.425553436542371
+    Attrib K3    -1.0077561482661221
+    Attrib K4    -0.9711639590656086
+    Attrib K5    0.5108984218579046
+    Attrib K6    -0.785190114757023
+    Attrib K7    -0.8647381424223439
+    Attrib K8    -0.1075899459617066
+    Attrib K9    -1.0524915213845631
+    Attrib K10    -0.5357799278446925
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    1.0211744914642689
+    Attrib K1    -1.1277509688932126
+    Attrib K2    2.7372975363325978
+    Attrib K3    1.2324425166478565
+    Attrib K4    1.1487898354709756
+    Attrib K5    -0.20237838135028316
+    Attrib K6    0.6234640962401286
+    Attrib K7    1.0986029597228806
+    Attrib K8    -0.029747940643089468
+    Attrib K9    1.2144349437800799
+    Attrib K10    0.5497709833363369
+Class M
+    Input
+    Node 0
+Class B
+    Input
+    Node 1
+
+
+Time taken to build model: 0.64 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         540               94.9033 %
+Incorrectly Classified Instances        29                5.0967 %
+Kappa statistic                          0.8903
+Mean absolute error                      0.0748
+Root mean squared error                  0.1857
+Relative absolute error                 15.9883 %
+Root relative squared error             38.4008 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 194  18 |   a = M
+  11 346 |   b = B
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         539               94.7276 %
+Incorrectly Classified Instances        30                5.2724 %
+Kappa statistic                          0.8861
+Mean absolute error                      0.0835
+Root mean squared error                  0.1974
+Relative absolute error                 17.8609 %
+Root relative squared error             40.8315 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 192  20 |   a = M
+  10 347 |   b = B
+

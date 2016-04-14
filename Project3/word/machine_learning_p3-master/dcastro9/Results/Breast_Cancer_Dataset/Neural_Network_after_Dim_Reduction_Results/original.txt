@@ -1,0 +1,618 @@
+
+Options: -L 0.03 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.55492026182556
+    Node 2    -2.895455211160753
+    Node 3    -1.4056360723913903
+    Node 4    -0.5045310618976131
+    Node 5    3.320352464151934
+    Node 6    0.9812088505807564
+    Node 7    1.5621182753914542
+    Node 8    -2.624214564441163
+    Node 9    -2.7111678902750502
+    Node 10    2.751432529935654
+    Node 11    1.4488043216378053
+    Node 12    -1.9322140656734874
+    Node 13    2.600386831909295
+    Node 14    -0.30863814352082036
+    Node 15    1.5769160895516223
+    Node 16    -0.8059348482889982
+    Node 17    1.247480484638231
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.5286959483560065
+    Node 2    2.863008595418211
+    Node 3    1.4696296823848993
+    Node 4    0.5562232755663213
+    Node 5    -3.2907644767451014
+    Node 6    -0.999650088006574
+    Node 7    -1.6250536647517875
+    Node 8    2.6217743768019295
+    Node 9    2.697651945779312
+    Node 10    -2.744613885438016
+    Node 11    -1.4252951901591042
+    Node 12    1.8527033636845247
+    Node 13    -2.6032973514595925
+    Node 14    0.31866095004341793
+    Node 15    -1.6255173139439536
+    Node 16    0.8304173349925353
+    Node 17    -1.3154140821106408
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.9237598853280806
+    Attrib radiusMean    -0.40832025828804286
+    Attrib textureMean    -0.21145221240193532
+    Attrib perimeterMean    -0.3852548499745147
+    Attrib areaMean    0.0663065603705293
+    Attrib smoothnessMean    0.0699435790496169
+    Attrib compactnessMean    0.574579439475269
+    Attrib concavityMean    -1.3022841039849578
+    Attrib concavePointsMean    -0.7170610563678267
+    Attrib symmetryMean    -0.3632997909014597
+    Attrib fractalDimensionMean    0.3837130219457173
+    Attrib radiusSE    -0.7677737291359407
+    Attrib textureSE    0.8090850627077987
+    Attrib perimeterSE    -0.10526448565743549
+    Attrib areaSE    0.25648885464454163
+    Attrib smoothnessSE    -0.45181575685007325
+    Attrib compactnessSE    0.11049870719734124
+    Attrib concavitySE    0.5019447279786955
+    Attrib concavePointsSE    0.10385909044861105
+    Attrib symmetrySE    0.22380902660240215
+    Attrib fractalDimensionSE    1.057465556919068
+    Attrib radiusWorst    -1.662638577549355
+    Attrib textureWorst    -1.4771454814600529
+    Attrib perimeterWorst    -1.218877623266523
+    Attrib areaWorst    -0.7063116237311619
+    Attrib smoothnessWorst    -1.0269436874189557
+    Attrib compactnessWorst    0.7859278223745247
+    Attrib concavityWorst    -0.9172279235359458
+    Attrib concavePointsWorst    -0.7566225400035633
+    Attrib symmetryWorst    -0.8763798812577941
+    Attrib fractalDimensionWorst    0.31331987061075406
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.9665571439204466
+    Attrib radiusMean    -0.2097655025125552
+    Attrib textureMean    -0.15083574125525354
+    Attrib perimeterMean    -0.26344835960440016
+    Attrib areaMean    -0.04220977749788477
+    Attrib smoothnessMean    -0.011417469599808919
+    Attrib compactnessMean    0.23894200686206662
+    Attrib concavityMean    -0.6565501819685094
+    Attrib concavePointsMean    -0.4458228849897095
+    Attrib symmetryMean    -0.2420782654996566
+    Attrib fractalDimensionMean    0.18266096123377726
+    Attrib radiusSE    -0.36779216701677747
+    Attrib textureSE    0.4626630908524655
+    Attrib perimeterSE    -0.08244750229163997
+    Attrib areaSE    0.13269777012220735
+    Attrib smoothnessSE    -0.1822480214630318
+    Attrib compactnessSE    0.07952262525282085
+    Attrib concavitySE    0.2978552632190743
+    Attrib concavePointsSE    0.06817218378464157
+    Attrib symmetrySE    0.132390670934964
+    Attrib fractalDimensionSE    0.558580771551342
+    Attrib radiusWorst    -0.8868115579823529
+    Attrib textureWorst    -0.8391284392114519
+    Attrib perimeterWorst    -0.7185686929837347
+    Attrib areaWorst    -0.42181989060755914
+    Attrib smoothnessWorst    -0.595830584613523
+    Attrib compactnessWorst    0.2993827686016245
+    Attrib concavityWorst    -0.4917509123612093
+    Attrib concavePointsWorst    -0.4738871032946301
+    Attrib symmetryWorst    -0.5263529041265683
+    Attrib fractalDimensionWorst    0.11004486048079504
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.4253274429874859
+    Attrib radiusMean    -0.21907304906941608
+    Attrib textureMean    -0.14029835862194273
+    Attrib perimeterMean    -0.21780598092001727
+    Attrib areaMean    -0.07678528350754632
+    Attrib smoothnessMean    -0.03791103081679038
+    Attrib compactnessMean    0.05877172399259415
+    Attrib concavityMean    -0.3279206287447929
+    Attrib concavePointsMean    -0.2855469203510525
+    Attrib symmetryMean    -0.13775887062621053
+    Attrib fractalDimensionMean    0.08871320890266958
+    Attrib radiusSE    -0.21324774495563614
+    Attrib textureSE    0.12722665485397172
+    Attrib perimeterSE    -0.04779639483918094
+    Attrib areaSE    0.07710185076679262
+    Attrib smoothnessSE    -0.12165098679412922
+    Attrib compactnessSE    -0.006235224481723539
+    Attrib concavitySE    0.11173268192126053
+    Attrib concavePointsSE    -0.03755773325153192
+    Attrib symmetrySE    0.03309033585907171
+    Attrib fractalDimensionSE    0.17562170101207553
+    Attrib radiusWorst    -0.42496518169039993
+    Attrib textureWorst    -0.3024406290232734
+    Attrib perimeterWorst    -0.2826891727056291
+    Attrib areaWorst    -0.16980982016089158
+    Attrib smoothnessWorst    -0.2160774061799382
+    Attrib compactnessWorst    0.038643238340622575
+    Attrib concavityWorst    -0.2776118285519884
+    Attrib concavePointsWorst    -0.28661476556858073
+    Attrib symmetryWorst    -0.1680320443971931
+    Attrib fractalDimensionWorst    0.006696844807165797
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    1.969011863878344
+    Attrib radiusMean    0.2769128184094964
+    Attrib textureMean    0.058832598933608204
+    Attrib perimeterMean    0.18472851000785145
+    Attrib areaMean    -0.11175594097369793
+    Attrib smoothnessMean    -0.1536803980683611
+    Attrib compactnessMean    -0.7174066664106323
+    Attrib concavityMean    1.238146544443443
+    Attrib concavePointsMean    0.615883917957749
+    Attrib symmetryMean    0.3497851014584172
+    Attrib fractalDimensionMean    -0.21580705599090302
+    Attrib radiusSE    0.8310246834220644
+    Attrib textureSE    -0.8058216611602292
+    Attrib perimeterSE    0.15268429693523475
+    Attrib areaSE    -0.15388152802284755
+    Attrib smoothnessSE    0.5863398853494958
+    Attrib compactnessSE    -0.11089876612711286
+    Attrib concavitySE    -0.46601313011786766
+    Attrib concavePointsSE    -0.07916873227156038
+    Attrib symmetrySE    -0.22768426825025834
+    Attrib fractalDimensionSE    -1.0324740410309103
+    Attrib radiusWorst    1.6346337890192248
+    Attrib textureWorst    1.4796656085229747
+    Attrib perimeterWorst    1.172898531921012
+    Attrib areaWorst    0.7179672622660292
+    Attrib smoothnessWorst    0.9615183675858392
+    Attrib compactnessWorst    -0.8870645403116187
+    Attrib concavityWorst    0.8860920449291008
+    Attrib concavePointsWorst    0.49215690683944746
+    Attrib symmetryWorst    0.9319715599495041
+    Attrib fractalDimensionWorst    -0.2822860526768162
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    0.3986861669384051
+    Attrib radiusMean    0.03779052148058182
+    Attrib textureMean    0.007595218616240979
+    Attrib perimeterMean    0.04915768213771211
+    Attrib areaMean    -0.03633585480137423
+    Attrib smoothnessMean    0.0060872119487025604
+    Attrib compactnessMean    -0.1686159333451976
+    Attrib concavityMean    0.334492111498619
+    Attrib concavePointsMean    0.17746756103863806
+    Attrib symmetryMean    0.08937752485609561
+    Attrib fractalDimensionMean    -0.010088533116740909
+    Attrib radiusSE    0.29289747513096115
+    Attrib textureSE    -0.09604540006823797
+    Attrib perimeterSE    0.13453049737599568
+    Attrib areaSE    0.032262429152714475
+    Attrib smoothnessSE    0.27182307069441886
+    Attrib compactnessSE    0.09606572107121596
+    Attrib concavitySE    -0.03054719440529724
+    Attrib concavePointsSE    0.09363725152213524
+    Attrib symmetrySE    -0.006876011125140131
+    Attrib fractalDimensionSE    -0.19645588546724796
+    Attrib radiusWorst    0.366965343445696
+    Attrib textureWorst    0.31083114335102746
+    Attrib perimeterWorst    0.2471557182872856
+    Attrib areaWorst    0.16070720544704867
+    Attrib smoothnessWorst    0.20253616600615243
+    Attrib compactnessWorst    -0.19551949166241755
+    Attrib concavityWorst    0.2597936110992965
+    Attrib concavePointsWorst    0.07743608782426825
+    Attrib symmetryWorst    0.19289911910477514
+    Attrib fractalDimensionWorst    -0.014638459399231113
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.8168267859797703
+    Attrib radiusMean    0.08922038329455789
+    Attrib textureMean    0.050947997715373575
+    Attrib perimeterMean    0.12763986313602574
+    Attrib areaMean    -0.10226899276519043
+    Attrib smoothnessMean    -0.00600224955163871
+    Attrib compactnessMean    -0.3586225232880105
+    Attrib concavityMean    0.5253173463760896
+    Attrib concavePointsMean    0.22655749055591845
+    Attrib symmetryMean    0.1290500089367967
+    Attrib fractalDimensionMean    -0.05691968242969335
+    Attrib radiusSE    0.4325453125269216
+    Attrib textureSE    -0.2714641979585503
+    Attrib perimeterSE    0.07378299269571978
+    Attrib areaSE    -0.05583697569359557
+    Attrib smoothnessSE    0.3232362687905599
+    Attrib compactnessSE    -0.03932244025769275
+    Attrib concavitySE    -0.1365072671561329
+    Attrib concavePointsSE    0.028082923033840426
+    Attrib symmetrySE    -0.03721256843278468
+    Attrib fractalDimensionSE    -0.4343570941112873
+    Attrib radiusWorst    0.7409887222621825
+    Attrib textureWorst    0.6392890097425104
+    Attrib perimeterWorst    0.4574248122427429
+    Attrib areaWorst    0.2805250024235222
+    Attrib smoothnessWorst    0.43059668520547106
+    Attrib compactnessWorst    -0.36634004952224114
+    Attrib concavityWorst    0.4118747499456372
+    Attrib concavePointsWorst    0.2067667321850927
+    Attrib symmetryWorst    0.4662328211751396
+    Attrib fractalDimensionWorst    -0.041361112060340904
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -1.7796041579857935
+    Attrib radiusMean    -0.4089799708409995
+    Attrib textureMean    -0.18036588016259675
+    Attrib perimeterMean    -0.40434818035334275
+    Attrib areaMean    0.029167161935522427
+    Attrib smoothnessMean    0.12152499987598535
+    Attrib compactnessMean    0.5543614033392699
+    Attrib concavityMean    -1.1659849783038485
+    Attrib concavePointsMean    -0.6564522255179215
+    Attrib symmetryMean    -0.3282293443296317
+    Attrib fractalDimensionMean    0.2494134369290118
+    Attrib radiusSE    -0.6874736783621782
+    Attrib textureSE    0.7153639232053952
+    Attrib perimeterSE    -0.16087238984733668
+    Attrib areaSE    0.2358259925618087
+    Attrib smoothnessSE    -0.367575101182575
+    Attrib compactnessSE    0.0828569729163716
+    Attrib concavitySE    0.49566445077303195
+    Attrib concavePointsSE    0.0384110680461159
+    Attrib symmetrySE    0.23293089097868763
+    Attrib fractalDimensionSE    1.0211178114811457
+    Attrib radiusWorst    -1.5134788804373576
+    Attrib textureWorst    -1.3817308297691597
+    Attrib perimeterWorst    -1.1559230855971845
+    Attrib areaWorst    -0.6224339768302659
+    Attrib smoothnessWorst    -0.9460275405730044
+    Attrib compactnessWorst    0.6704588841451157
+    Attrib concavityWorst    -0.80653623573787
+    Attrib concavePointsWorst    -0.7143701081552608
+    Attrib symmetryWorst    -0.8361103862269712
+    Attrib fractalDimensionWorst    0.2869438790811253
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -1.816855692484619
+    Attrib radiusMean    -0.3883540353970443
+    Attrib textureMean    -0.1809554782126364
+    Attrib perimeterMean    -0.36570626790781285
+    Attrib areaMean    0.0517772743449654
+    Attrib smoothnessMean    0.11407272716607261
+    Attrib compactnessMean    0.6024620220242026
+    Attrib concavityMean    -1.222775875150842
+    Attrib concavePointsMean    -0.675481090495933
+    Attrib symmetryMean    -0.3739163886991791
+    Attrib fractalDimensionMean    0.319221363906488
+    Attrib radiusSE    -0.7640955224657316
+    Attrib textureSE    0.7560691793976686
+    Attrib perimeterSE    -0.08544118469871334
+    Attrib areaSE    0.1673792395061999
+    Attrib smoothnessSE    -0.3749074656115898
+    Attrib compactnessSE    0.10692012595227343
+    Attrib concavitySE    0.5237222570954758
+    Attrib concavePointsSE    0.046624669915543676
+    Attrib symmetrySE    0.23663311642326199
+    Attrib fractalDimensionSE    1.0333447915750271
+    Attrib radiusWorst    -1.5630046950910244
+    Attrib textureWorst    -1.3967138322374393
+    Attrib perimeterWorst    -1.13797364639924
+    Attrib areaWorst    -0.6453901954219529
+    Attrib smoothnessWorst    -0.9732547683389325
+    Attrib compactnessWorst    0.7250644792299223
+    Attrib concavityWorst    -0.8919284933438048
+    Attrib concavePointsWorst    -0.6739955727082354
+    Attrib symmetryWorst    -0.8615063809627191
+    Attrib fractalDimensionWorst    0.2739895861206014
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    1.5246134380276308
+    Attrib radiusMean    0.2354093154917993
+    Attrib textureMean    0.0748330715443619
+    Attrib perimeterMean    0.2016569112466177
+    Attrib areaMean    -0.15417237966761654
+    Attrib smoothnessMean    -0.10816245055694015
+    Attrib compactnessMean    -0.5946698690059978
+    Attrib concavityMean    1.060084525271385
+    Attrib concavePointsMean    0.5489845545821933
+    Attrib symmetryMean    0.24846347945567795
+    Attrib fractalDimensionMean    -0.20781473631566874
+    Attrib radiusSE    0.7008062500873804
+    Attrib textureSE    -0.6782962516479282
+    Attrib perimeterSE    0.13913819826563872
+    Attrib areaSE    -0.16710245390417836
+    Attrib smoothnessSE    0.441054609457998
+    Attrib compactnessSE    -0.08464952120587016
+    Attrib concavitySE    -0.36980781309948524
+    Attrib concavePointsSE    -0.08055263598696448
+    Attrib symmetrySE    -0.1656087644094791
+    Attrib fractalDimensionSE    -0.8616260892945651
+    Attrib radiusWorst    1.3570889344067507
+    Attrib textureWorst    1.232251112932132
+    Attrib perimeterWorst    0.9317969468592335
+    Attrib areaWorst    0.5949349527479844
+    Attrib smoothnessWorst    0.7764903834282202
+    Attrib compactnessWorst    -0.7068680431782857
+    Attrib concavityWorst    0.7310440107759782
+    Attrib concavePointsWorst    0.3586076071177755
+    Attrib symmetryWorst    0.8170732431352632
+    Attrib fractalDimensionWorst    -0.2511274021557492
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    0.6665561153788777
+    Attrib radiusMean    0.06212218034283578
+    Attrib textureMean    0.024226891528769237
+    Attrib perimeterMean    0.06964003484130629
+    Attrib areaMean    -0.010154286499932167
+    Attrib smoothnessMean    -0.10402077175768826
+    Attrib compactnessMean    -0.2960698711531407
+    Attrib concavityMean    0.5159594801922526
+    Attrib concavePointsMean    0.21660155002227238
+    Attrib symmetryMean    0.08392309244961406
+    Attrib fractalDimensionMean    -0.034639948775961105
+    Attrib radiusSE    0.3906926190367035
+    Attrib textureSE    -0.2848360381544213
+    Attrib perimeterSE    0.14095524456353561
+    Attrib areaSE    -0.05057904876273722
+    Attrib smoothnessSE    0.3183643645468463
+    Attrib compactnessSE    0.05721997806691809
+    Attrib concavitySE    -0.17256950523869333
+    Attrib concavePointsSE    0.01675517115787423
+    Attrib symmetrySE    -0.08550432877713172
+    Attrib fractalDimensionSE    -0.35075893887716775
+    Attrib radiusWorst    0.5980099066987286
+    Attrib textureWorst    0.5397439654007629
+    Attrib perimeterWorst    0.41054333024319745
+    Attrib areaWorst    0.3114502336577067
+    Attrib smoothnessWorst    0.3852616218526694
+    Attrib compactnessWorst    -0.3701638180335393
+    Attrib concavityWorst    0.3533887480797275
+    Attrib concavePointsWorst    0.11212847044180764
+    Attrib symmetryWorst    0.3769445273247883
+    Attrib fractalDimensionWorst    -0.08819764762664967
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -1.3556823807657188
+    Attrib radiusMean    -0.33257629596556487
+    Attrib textureMean    -0.1751642988533412
+    Attrib perimeterMean    -0.34800418646195985
+    Attrib areaMean    -0.003013421714090568
+    Attrib smoothnessMean    0.0051944594766559484
+    Attrib compactnessMean    0.36171395421054275
+    Attrib concavityMean    -0.8968491649938886
+    Attrib concavePointsMean    -0.5660274530890411
+    Attrib symmetryMean    -0.30523226987855573
+    Attrib fractalDimensionMean    0.2053167959466173
+    Attrib radiusSE    -0.45500648875813976
+    Attrib textureSE    0.5102155863868518
+    Attrib perimeterSE    -0.06228447484316209
+    Attrib areaSE    0.15136430840685747
+    Attrib smoothnessSE    -0.3075557916135469
+    Attrib compactnessSE    0.0772849514341476
+    Attrib concavitySE    0.3664702719855926
+    Attrib concavePointsSE    0.03310399445662151
+    Attrib symmetrySE    0.13185276991369294
+    Attrib fractalDimensionSE    0.7298015208568169
+    Attrib radiusWorst    -1.129495201364677
+    Attrib textureWorst    -1.0215498961461966
+    Attrib perimeterWorst    -0.8621973247506638
+    Attrib areaWorst    -0.5151928557893065
+    Attrib smoothnessWorst    -0.6710004332130222
+    Attrib compactnessWorst    0.4275463443318694
+    Attrib concavityWorst    -0.6097759516129031
+    Attrib concavePointsWorst    -0.5554987102773221
+    Attrib symmetryWorst    -0.6083751193107105
+    Attrib fractalDimensionWorst    0.21914538613113851
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    1.4473986443051283
+    Attrib radiusMean    0.13716623985435353
+    Attrib textureMean    0.0805199432047618
+    Attrib perimeterMean    0.19386342254179234
+    Attrib areaMean    -0.12070524847607811
+    Attrib smoothnessMean    -0.16810333575905442
+    Attrib compactnessMean    -0.5782444362803889
+    Attrib concavityMean    0.9447185833383582
+    Attrib concavePointsMean    0.4881206890872344
+    Attrib symmetryMean    0.24471595394589862
+    Attrib fractalDimensionMean    -0.20874250729795313
+    Attrib radiusSE    0.6517227101041543
+    Attrib textureSE    -0.643993788517888
+    Attrib perimeterSE    0.17898526427352718
+    Attrib areaSE    -0.08846309739092094
+    Attrib smoothnessSE    0.4581933257893105
+    Attrib compactnessSE    -0.055715797498342476
+    Attrib concavitySE    -0.35346736550590274
+    Attrib concavePointsSE    -0.04837932701726528
+    Attrib symmetrySE    -0.17828897490991327
+    Attrib fractalDimensionSE    -0.8258842839760712
+    Attrib radiusWorst    1.298011752153575
+    Attrib textureWorst    1.1282477110750035
+    Attrib perimeterWorst    0.8927432461989713
+    Attrib areaWorst    0.5744196156340903
+    Attrib smoothnessWorst    0.7279304930516145
+    Attrib compactnessWorst    -0.7136331611853406
+    Attrib concavityWorst    0.6951215048279158
+    Attrib concavePointsWorst    0.40175871109072614
+    Attrib symmetryWorst    0.6783511537264046
+    Attrib fractalDimensionWorst    -0.17683247392271245
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -0.25914872469583944
+    Attrib radiusMean    -0.10933021240160157
+    Attrib textureMean    -0.13744305495848622
+    Attrib perimeterMean    -0.18879542227450077
+    Attrib areaMean    -0.054058746770624035
+    Attrib smoothnessMean    0.01629582483257458
+    Attrib compactnessMean    -0.02462176146474485
+    Attrib concavityMean    -0.21731766723222853
+    Attrib concavePointsMean    -0.18208407963156217
+    Attrib symmetryMean    -0.1252273129107985
+    Attrib fractalDimensionMean    0.0980957431993477
+    Attrib radiusSE    -0.09416610466397415
+    Attrib textureSE    0.10630473119681444
+    Attrib perimeterSE    -0.09439542711534335
+    Attrib areaSE    -0.040237396263612175
+    Attrib smoothnessSE    -0.07703247896536924
+    Attrib compactnessSE    0.022867083176413033
+    Attrib concavitySE    0.09306611082020987
+    Attrib concavePointsSE    -0.06719227715323986
+    Attrib symmetrySE    0.06603377475368896
+    Attrib fractalDimensionSE    0.15856292647367884
+    Attrib radiusWorst    -0.3196929989807572
+    Attrib textureWorst    -0.22028974744147264
+    Attrib perimeterWorst    -0.2399696693459317
+    Attrib areaWorst    -0.14589940566743978
+    Attrib smoothnessWorst    -0.14644928276723856
+    Attrib compactnessWorst    0.058977586153916656
+    Attrib concavityWorst    -0.19683374139547816
+    Attrib concavePointsWorst    -0.18878611648634194
+    Attrib symmetryWorst    -0.14583112059112605
+    Attrib fractalDimensionWorst    0.0031437735054802613
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    0.7755400685110554
+    Attrib radiusMean    0.06400100195297097
+    Attrib textureMean    0.0015755159658378056
+    Attrib perimeterMean    0.0814733054674985
+    Attrib areaMean    -0.0669653385833838
+    Attrib smoothnessMean    -0.04574544584611768
+    Attrib compactnessMean    -0.29279774622804444
+    Attrib concavityMean    0.5855725636691294
+    Attrib concavePointsMean    0.2638513591560096
+    Attrib symmetryMean    0.14839249385606937
+    Attrib fractalDimensionMean    -0.06554482603669967
+    Attrib radiusSE    0.4146055764498664
+    Attrib textureSE    -0.3455514795149677
+    Attrib perimeterSE    0.15002675697048873
+    Attrib areaSE    -0.0017326555457290458
+    Attrib smoothnessSE    0.27264815165908146
+    Attrib compactnessSE    -0.062276389452326726
+    Attrib concavitySE    -0.17847140962790284
+    Attrib concavePointsSE    -0.06899530491094379
+    Attrib symmetrySE    -0.06538274518376577
+    Attrib fractalDimensionSE    -0.45668382942181135
+    Attrib radiusWorst    0.7180512957272772
+    Attrib textureWorst    0.6309352250801262
+    Attrib perimeterWorst    0.5137098348700595
+    Attrib areaWorst    0.33011393796704513
+    Attrib smoothnessWorst    0.40128855649290485
+    Attrib compactnessWorst    -0.3585790680490093
+    Attrib concavityWorst    0.4168506850539191
+    Attrib concavePointsWorst    0.1416964404777589
+    Attrib symmetryWorst    0.45379806285193314
+    Attrib fractalDimensionWorst    -0.10157293443780678
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -0.5444550127087724
+    Attrib radiusMean    -0.19745985242177408
+    Attrib textureMean    -0.10072271852993141
+    Attrib perimeterMean    -0.21356157409715956
+    Attrib areaMean    -0.014793229433455823
+    Attrib smoothnessMean    -0.053172761043924224
+    Attrib compactnessMean    0.08460552981511506
+    Attrib concavityMean    -0.4538322297713745
+    Attrib concavePointsMean    -0.3711605885701617
+    Attrib symmetryMean    -0.13403642458132
+    Attrib fractalDimensionMean    0.13852201945291182
+    Attrib radiusSE    -0.24492777559990775
+    Attrib textureSE    0.23443223430613686
+    Attrib perimeterSE    -0.052274348516228204
+    Attrib areaSE    0.08683451025795784
+    Attrib smoothnessSE    -0.15382165856921412
+    Attrib compactnessSE    -0.023435515232488876
+    Attrib concavitySE    0.19774411094446753
+    Attrib concavePointsSE    0.014896275664559908
+    Attrib symmetrySE    0.10296077697077005
+    Attrib fractalDimensionSE    0.2659970191419568
+    Attrib radiusWorst    -0.5267114358775447
+    Attrib textureWorst    -0.5255077566952241
+    Attrib perimeterWorst    -0.460824676093331
+    Attrib areaWorst    -0.2935677072202051
+    Attrib smoothnessWorst    -0.3759266487069939
+    Attrib compactnessWorst    0.12531180071550274
+    Attrib concavityWorst    -0.3188474633167654
+    Attrib concavePointsWorst    -0.40182355552786925
+    Attrib symmetryWorst    -0.27685467806851904
+    Attrib fractalDimensionWorst    0.09301826959152777
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    0.6175811500940656
+    Attrib radiusMean    0.07035320441739172
+    Attrib textureMean    0.061470075998405406
+    Attrib perimeterMean    0.08379725459499313
+    Attrib areaMean    -0.051787882335740866
+    Attrib smoothnessMean    0.019129361002420898
+    Attrib compactnessMean    -0.19723256933463099
+    Attrib concavityMean    0.45898889893215855
+    Attrib concavePointsMean    0.22625389877389157
+    Attrib symmetryMean    0.10521218655454444
+    Attrib fractalDimensionMean    -0.023337470890728792
+    Attrib radiusSE    0.3112837769292335
+    Attrib textureSE    -0.21127186751290825
+    Attrib perimeterSE    0.1593675301331903
+    Attrib areaSE    -0.013636055417553252
+    Attrib smoothnessSE    0.2536138647267081
+    Attrib compactnessSE    0.0498006377364577
+    Attrib concavitySE    -0.07530501576907302
+    Attrib concavePointsSE    0.05082423408096521
+    Attrib symmetrySE    0.030499038745749503
+    Attrib fractalDimensionSE    -0.31814600257039966
+    Attrib radiusWorst    0.4988765365919143
+    Attrib textureWorst    0.47636015598437226
+    Attrib perimeterWorst    0.3263338954996433
+    Attrib areaWorst    0.28892774971093227
+    Attrib smoothnessWorst    0.37796884839547723
+    Attrib compactnessWorst    -0.2975554798338479
+    Attrib concavityWorst    0.29053058328669285
+    Attrib concavePointsWorst    0.12676441240020175
+    Attrib symmetryWorst    0.27806641792694203
+    Attrib fractalDimensionWorst    -0.0833992341244755
+Class M
+    Input
+    Node 0
+Class B
+    Input
+    Node 1
+
+
+Time taken to build model: 2.41 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         563               98.9455 %
+Incorrectly Classified Instances         6                1.0545 %
+Kappa statistic                          0.9774
+Mean absolute error                      0.027 
+Root mean squared error                  0.1097
+Relative absolute error                  5.7793 %
+Root relative squared error             22.6971 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 207   5 |   a = M
+   1 356 |   b = B
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances         557               97.891  %
+Incorrectly Classified Instances        12                2.109  %
+Kappa statistic                          0.9545
+Mean absolute error                      0.0357
+Root mean squared error                  0.1371
+Relative absolute error                  7.639  %
+Root relative squared error             28.3474 %
+Total Number of Instances              569     
+
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 202  10 |   a = M
+   2 355 |   b = B
+

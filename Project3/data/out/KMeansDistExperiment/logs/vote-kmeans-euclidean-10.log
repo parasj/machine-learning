@@ -1,0 +1,69 @@
+
+
+=== Clustering stats for training data ===
+
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 971.0
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                      Cluster#
+Attribute                                 Full Data          0          1          2          3          4          5          6          7          8          9
+                                              (435)      (146)       (28)       (18)       (90)       (33)       (27)       (18)        (7)       (27)       (41)
+=================================================================================================================================================================
+handicapped-infants                               n          n          n          n          y          n          y          n          n          n          y
+water-project-cost-sharing                        y          y          n          y          n          y          y          n          n          y          y
+adoption-of-the-budget-resolution                 y          n          y          y          y          y          y          y          y          n          y
+physician-fee-freeze                              n          y          n          n          n          n          n          n          n          y          n
+el-salvador-aid                                   y          y          n          y          n          y          n          n          n          y          n
+religious-groups-in-schools                       y          y          y          y          n          y          n          y          y          y          n
+anti-satellite-test-ban                           y          n          y          n          y          y          y          y          y          y          y
+aid-to-nicaraguan-contras                         y          n          y          y          y          y          y          y          y          y          y
+mx-missile                                        y          n          y          n          y          y          y          y          y          n          y
+immigration                                       y          y          n          n          y          y          y          n          n          n          n
+synfuels-corporation-cutback                      n          n          n          y          n          y          y          y          y          n          n
+education-spending                                n          y          n          n          n          n          n          n          y          y          n
+superfund-right-to-sue                            y          y          n          y          n          y          n          n          n          y          n
+crime                                             y          y          y          n          n          y          n          n          y          y          n
+duty-free-exports                                 n          n          n          y          y          n          n          y          y          n          y
+export-administration-act-south-africa            y          y          y          y          y          y          y          y          y          y          y
+
+
+Clustered Instances
+
+ 0      146 ( 34%)
+ 1       28 (  6%)
+ 2       18 (  4%)
+ 3       90 ( 21%)
+ 4       33 (  8%)
+ 5       27 (  6%)
+ 6       18 (  4%)
+ 7        7 (  2%)
+ 8       27 (  6%)
+ 9       41 (  9%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1   2   3   4   5   6   7   8   9  <-- assigned to cluster
+  22  22  18  84  28  26  18   6   2  41 | democrat
+ 124   6   0   6   5   1   0   1  25   0 | republican
+
+Cluster  0 <-- republican
+Cluster  1 <-- No class
+Cluster  2 <-- No class
+Cluster  3 <-- democrat
+Cluster  4 <-- No class
+Cluster  5 <-- No class
+Cluster  6 <-- No class
+Cluster  7 <-- No class
+Cluster  8 <-- No class
+Cluster  9 <-- No class
+
+Incorrectly clustered instances :	227.0	 52.1839 %
+

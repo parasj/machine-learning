@@ -1,0 +1,63 @@
+
+
+=== Clustering stats for training data ===
+
+
+kMeans
+======
+
+Number of iterations: 4
+Within cluster sum of squared errors: 1083.0
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                      Cluster#
+Attribute                                 Full Data          0          1          2          3          4          5          6
+                                              (435)      (173)       (46)       (22)      (101)       (32)       (32)       (29)
+================================================================================================================================
+handicapped-infants                               n          n          n          n          y          n          y          n
+water-project-cost-sharing                        y          y          n          y          n          y          y          n
+adoption-of-the-budget-resolution                 y          n          y          y          y          y          y          y
+physician-fee-freeze                              n          y          n          n          n          n          n          n
+el-salvador-aid                                   y          y          n          y          n          y          n          n
+religious-groups-in-schools                       y          y          n          y          n          y          n          y
+anti-satellite-test-ban                           y          n          y          n          y          y          y          y
+aid-to-nicaraguan-contras                         y          n          y          y          y          y          y          y
+mx-missile                                        y          n          y          n          y          y          y          y
+immigration                                       y          n          n          n          y          y          n          n
+synfuels-corporation-cutback                      n          n          n          y          n          y          y          y
+education-spending                                n          y          n          n          n          n          n          n
+superfund-right-to-sue                            y          y          n          y          n          y          n          n
+crime                                             y          y          y          n          n          y          n          y
+duty-free-exports                                 n          n          n          y          y          n          n          y
+export-administration-act-south-africa            y          y          y          y          y          y          y          y
+
+
+Clustered Instances
+
+0      173 ( 40%)
+1       46 ( 11%)
+2       22 (  5%)
+3      101 ( 23%)
+4       32 (  7%)
+5       32 (  7%)
+6       29 (  7%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1   2   3   4   5   6  <-- assigned to cluster
+  26  38  20  98  27  31  27 | democrat
+ 147   8   2   3   5   1   2 | republican
+
+Cluster 0 <-- republican
+Cluster 1 <-- No class
+Cluster 2 <-- No class
+Cluster 3 <-- democrat
+Cluster 4 <-- No class
+Cluster 5 <-- No class
+Cluster 6 <-- No class
+
+Incorrectly clustered instances :	190.0	 43.6782 %
+

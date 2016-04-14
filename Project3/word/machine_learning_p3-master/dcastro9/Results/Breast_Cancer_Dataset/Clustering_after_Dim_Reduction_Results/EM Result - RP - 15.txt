@@ -1,0 +1,124 @@
+=== Run information ===
+
+Scheme:weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 100
+Relation:     breastcancerdiagnostic-weka.filters.unsupervised.attribute.RandomProjection-N15-R42-DSparse1
+Instances:    569
+Attributes:   16
+              K1
+              K2
+              K3
+              K4
+              K5
+              K6
+              K7
+              K8
+              K9
+              K10
+              K11
+              K12
+              K13
+              K14
+              K15
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+EM
+==
+
+Number of clusters: 2
+
+
+              Cluster
+Attribute           0         1
+               (0.68)    (0.32)
+================================
+K1
+  mean        937.6529 2051.2962
+  std. dev.   230.5501  606.0995
+
+K2
+  mean        171.9764  285.4948
+  std. dev.      26.97   50.7102
+
+K3
+  mean        968.5408 2647.7319
+  std. dev.   282.4958  980.0088
+
+K4
+  mean       -772.2237-1806.3427
+  std. dev.   210.7709  573.2938
+
+K5
+  mean        -42.2138  -49.4214
+  std. dev.     9.9962    10.187
+
+K6
+  mean        124.0944  188.5088
+  std. dev.    17.4942   27.2795
+
+K7
+  mean        951.0923 2526.0106
+  std. dev.   275.2875  902.2192
+
+K8
+  mean         22.0292   33.4861
+  std. dev.      2.917    5.0447
+
+K9
+  mean       -831.7121-1876.5822
+  std. dev.   212.3223  574.9207
+
+K10
+  mean         114.849   182.115
+  std. dev.    16.7287   30.5906
+
+K11
+  mean          0.0566   -0.5426
+  std. dev.       0.23    0.6666
+
+K12
+  mean       -661.7963-1587.3804
+  std. dev.   187.6596   525.118
+
+K13
+  mean       -176.4222 -356.5046
+  std. dev.    28.7196  135.4363
+
+K14
+  mean        135.1519  207.9444
+  std. dev.    19.1674    31.958
+
+K15
+  mean        157.1514  264.9926
+  std. dev.     24.401   49.8195
+
+
+
+Time taken to build model (full training data) : 0.14 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      386 ( 68%)
+1      183 ( 32%)
+
+
+Log likelihood: -78.92387
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  40 172 | M
+ 346  11 | B
+
+Cluster 0 <-- B
+Cluster 1 <-- M
+
+Incorrectly clustered instances : 51.0    8.9631 %
+

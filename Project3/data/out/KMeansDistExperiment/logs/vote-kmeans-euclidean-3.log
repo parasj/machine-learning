@@ -1,0 +1,55 @@
+
+
+=== Clustering stats for training data ===
+
+
+kMeans
+======
+
+Number of iterations: 5
+Within cluster sum of squared errors: 1296.0
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                      Cluster#
+Attribute                                 Full Data          0          1          2
+                                              (435)      (198)      (186)       (51)
+====================================================================================
+handicapped-infants                               n          n          y          n
+water-project-cost-sharing                        y          y          n          y
+adoption-of-the-budget-resolution                 y          n          y          y
+physician-fee-freeze                              n          y          n          n
+el-salvador-aid                                   y          y          n          n
+religious-groups-in-schools                       y          y          n          y
+anti-satellite-test-ban                           y          n          y          y
+aid-to-nicaraguan-contras                         y          n          y          y
+mx-missile                                        y          n          y          y
+immigration                                       y          n          y          y
+synfuels-corporation-cutback                      n          n          n          y
+education-spending                                n          y          n          n
+superfund-right-to-sue                            y          y          n          y
+crime                                             y          y          n          y
+duty-free-exports                                 n          n          y          y
+export-administration-act-south-africa            y          y          y          y
+
+
+Clustered Instances
+
+0      198 ( 46%)
+1      186 ( 43%)
+2       51 ( 12%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1   2  <-- assigned to cluster
+  43 176  48 | democrat
+ 155  10   3 | republican
+
+Cluster 0 <-- republican
+Cluster 1 <-- democrat
+Cluster 2 <-- No class
+
+Incorrectly clustered instances :	104.0	 23.908  %
+

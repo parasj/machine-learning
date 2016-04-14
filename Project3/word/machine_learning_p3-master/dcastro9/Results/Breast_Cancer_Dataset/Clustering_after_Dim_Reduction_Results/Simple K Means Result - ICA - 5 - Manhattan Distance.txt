@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.ManhattanDistance -R first-last" -I 500 -S 10
+Relation:     bcica5
+Instances:    569
+Attributes:   6
+              ica0
+              ica1
+              ica2
+              ica3
+              ica4
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 23
+Sum of within cluster distances: 57.09320207678677
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                         Cluster#
+Attribute    Full Data          0          1
+                 (569)      (230)      (339)
+============================================
+ica0            0.0221     -0.236     0.1563
+ica1            0.0824     0.1962      0.008
+ica2           -0.0139    -0.3635     0.1603
+ica3           -0.0222    -0.0283    -0.0132
+ica4           -0.1011    -0.1889     -0.059
+
+
+
+
+Time taken to build model (full training data) : 0.02 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      230 ( 40%)
+1      339 ( 60%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  97 115 | 0.000000
+ 133 224 | 1.000000
+
+Cluster 0 <-- 0.000000
+Cluster 1 <-- 1.000000
+
+Incorrectly clustered instances : 248.0  43.5852 %
+

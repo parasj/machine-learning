@@ -1,0 +1,80 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.ManhattanDistance -R first-last" -I 500 -S 10
+Relation:     breastcancerdiagnostic-weka.filters.unsupervised.attribute.RandomSubset-N0.5-S3
+Instances:    569
+Attributes:   16
+              radiusMean
+              perimeterMean
+              compactnessMean
+              concavityMean
+              symmetryMean
+              fractalDimensionMean
+              radiusSE
+              textureSE
+              areaSE
+              smoothnessSE
+              symmetrySE
+              fractalDimensionSE
+              radiusWorst
+              areaWorst
+              concavePointsWorst
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 8
+Sum of within cluster distances: 658.1184862976281
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                  Cluster#
+Attribute              Full Data         0         1
+                           (569)     (388)     (181)
+====================================================
+radiusMean                 13.37    12.315     18.03
+perimeterMean              86.24     78.84     118.7
+compactnessMean           0.0926    0.0756    0.1469
+concavityMean             0.0615    0.0388     0.164
+symmetryMean              0.1792    0.1717    0.1931
+fractalDimensionMean      0.0615    0.0613    0.0622
+radiusSE                  0.3242    0.2613    0.5904
+textureSE                  1.108     1.119     1.075
+areaSE                     24.53     20.02     67.74
+smoothnessSE              0.0064    0.0065    0.0063
+symmetrySE                0.0187    0.0187    0.0188
+fractalDimensionSE        0.0032    0.0028     0.004
+radiusWorst                14.97     13.53     21.57
+areaWorst                  686.5     559.2      1426
+concavePointsWorst        0.0999    0.0791    0.1857
+
+
+
+
+Time taken to build model (full training data) : 0.02 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      388 ( 68%)
+1      181 ( 32%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+  37 175 | M
+ 351   6 | B
+
+Cluster 0 <-- B
+Cluster 1 <-- M
+
+Incorrectly clustered instances : 43.0    7.5571 %
+

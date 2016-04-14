@@ -1,0 +1,80 @@
+=== Run information ===
+
+Scheme:weka.clusterers.SimpleKMeans -N 2 -A "weka.core.ManhattanDistance -R first-last" -I 500 -S 10
+Relation:     breastcancerdiagnostic-weka.filters.unsupervised.attribute.RandomProjection-N15-R42-DSparse1
+Instances:    569
+Attributes:   16
+              K1
+              K2
+              K3
+              K4
+              K5
+              K6
+              K7
+              K8
+              K9
+              K10
+              K11
+              K12
+              K13
+              K14
+              K15
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+kMeans
+======
+
+Number of iterations: 9
+Sum of within cluster distances: 557.3258415995227
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                       Cluster#
+Attribute   Full Data         0         1
+                (569)     (148)     (421)
+=========================================
+K1          1102.2678 2112.2492  969.3109
+K2           190.3716  291.6197   173.948
+K3          1172.5918 2744.1698  989.1754
+K4          -922.5891-1866.9178 -799.9987
+K5           -43.9882  -48.6954  -40.9617
+K6           136.3011   191.482  127.4254
+K7          1151.8468 2600.0428  966.0077
+K8            24.1031   34.4942    22.477
+K9          -980.8145-1934.2489 -852.6327
+K10          126.7842  186.5167  117.6407
+K11           -0.0086   -0.4979    0.0887
+K12         -796.2198-1634.6681 -684.9115
+K13         -195.7538 -361.9231 -177.4601
+K14          148.8483   212.412  139.0365
+K15          173.5696  270.6144   158.969
+
+
+
+
+Time taken to build model (full training data) : 0.02 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      148 ( 26%)
+1      421 ( 74%)
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 145  67 | M
+   3 354 | B
+
+Cluster 0 <-- M
+Cluster 1 <-- B
+
+Incorrectly clustered instances : 70.0   12.3023 %
+

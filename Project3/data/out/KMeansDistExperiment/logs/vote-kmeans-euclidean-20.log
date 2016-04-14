@@ -1,0 +1,89 @@
+
+
+=== Clustering stats for training data ===
+
+
+kMeans
+======
+
+Number of iterations: 6
+Within cluster sum of squared errors: 721.0
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                      Cluster#
+Attribute                                 Full Data          0          1          2          3          4          5          6          7          8          9         10         11         12         13         14         15         16         17         18         19
+                                              (435)       (13)       (29)       (14)       (50)       (24)        (9)       (12)        (6)       (20)       (29)        (6)       (22)       (25)       (49)       (49)        (7)       (32)       (20)       (11)        (8)
+===============================================================================================================================================================================================================================================================================
+handicapped-infants                               n          y          n          n          y          n          y          n          n          n          y          n          n          n          n          n          y          n          y          y          y
+water-project-cost-sharing                        y          n          n          y          n          y          n          n          n          n          y          y          y          n          y          n          y          y          y          y          n
+adoption-of-the-budget-resolution                 y          y          y          y          y          y          y          y          y          n          y          y          y          y          n          n          y          n          y          n          n
+physician-fee-freeze                              n          n          n          n          n          n          n          n          n          y          n          n          n          n          y          y          n          y          n          y          n
+el-salvador-aid                                   y          y          n          y          n          n          n          n          n          y          n          y          y          n          y          y          n          y          n          y          y
+religious-groups-in-schools                       y          y          y          y          n          y          n          y          y          y          n          y          y          n          y          y          n          y          n          y          y
+anti-satellite-test-ban                           y          n          y          y          y          y          y          y          y          y          y          n          n          y          n          n          y          n          y          n          y
+aid-to-nicaraguan-contras                         y          n          y          y          y          y          y          y          y          y          y          y          n          y          n          n          y          n          y          n          n
+mx-missile                                        y          y          y          n          y          y          n          y          y          y          y          n          n          y          n          n          y          n          y          n          n
+immigration                                       y          n          y          y          y          y          y          n          n          y          n          n          n          n          y          n          y          n          n          y          n
+synfuels-corporation-cutback                      n          n          n          y          n          y          y          y          y          n          n          n          y          y          n          n          n          n          y          n          n
+education-spending                                n          n          n          n          n          n          n          n          y          y          n          n          n          n          y          y          n          y          n          y          n
+superfund-right-to-sue                            y          y          n          y          n          y          n          n          n          y          n          n          y          n          y          y          y          y          n          y          n
+crime                                             y          y          y          n          n          y          n          n          y          y          n          n          y          n          y          y          n          y          n          y          y
+duty-free-exports                                 n          n          n          y          y          n          n          y          y          n          y          n          n          y          n          n          y          n          y          n          n
+export-administration-act-south-africa            y          y          y          y          y          y          y          y          y          y          y          y          y          y          y          n          y          y          y          y          y
+
+
+Clustered Instances
+
+ 0       13 (  3%)
+ 1       29 (  7%)
+ 2       14 (  3%)
+ 3       50 ( 11%)
+ 4       24 (  6%)
+ 5        9 (  2%)
+ 6       12 (  3%)
+ 7        6 (  1%)
+ 8       20 (  5%)
+ 9       29 (  7%)
+10        6 (  1%)
+11       22 (  5%)
+12       25 (  6%)
+13       49 ( 11%)
+14       49 ( 11%)
+15        7 (  2%)
+16       32 (  7%)
+17       20 (  5%)
+18       11 (  3%)
+19        8 (  2%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+  0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19  <-- assigned to cluster
+ 12 25 13 49 21  9 12  5  1 29  5 20 25  2  3  7  4 20  1  4 | democrat
+  1  4  1  1  3  0  0  1 19  0  1  2  0 47 46  0 28  0 10  4 | republican
+
+Cluster  0 <-- No class
+Cluster  1 <-- No class
+Cluster  2 <-- No class
+Cluster  3 <-- democrat
+Cluster  4 <-- No class
+Cluster  5 <-- No class
+Cluster  6 <-- No class
+Cluster  7 <-- No class
+Cluster  8 <-- No class
+Cluster  9 <-- No class
+Cluster 10 <-- No class
+Cluster 11 <-- No class
+Cluster 12 <-- No class
+Cluster 13 <-- republican
+Cluster 14 <-- No class
+Cluster 15 <-- No class
+Cluster 16 <-- No class
+Cluster 17 <-- No class
+Cluster 18 <-- No class
+Cluster 19 <-- No class
+
+Incorrectly clustered instances :	339.0	 77.931  %
+

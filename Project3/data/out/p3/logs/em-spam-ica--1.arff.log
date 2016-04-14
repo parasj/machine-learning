@@ -1,0 +1,265 @@
+
+
+=== Clustering stats for training data ===
+
+
+EM
+==
+
+Number of clusters: 2
+Number of iterations performed: 19
+
+
+            Cluster
+Attribute         0       1
+              (0.3)   (0.7)
+============================
+Source_0
+  mean        -9.679 -0.8307
+  std. dev.  11.4241  0.6627
+
+Source_1
+  mean        1.4291  0.1223
+  std. dev.   1.6883  0.0977
+
+Source_2
+  mean       -1.5089 -0.1293
+  std. dev.   1.7814  0.1053
+
+Source_3
+  mean       -1.6268 -0.1394
+  std. dev.   1.9168  0.1116
+
+Source_4
+  mean       -3.8114 -0.3264
+  std. dev.   4.4976  0.2618
+
+Source_5
+  mean        1.2835  0.1107
+  std. dev.   1.5156  0.0886
+
+Source_6
+  mean       15.9043  1.3661
+  std. dev.  18.7732  1.0873
+
+Source_7
+  mean       -6.1234 -0.5259
+  std. dev.   7.2281  0.4197
+
+Source_8
+  mean        3.9915  0.3421
+  std. dev.   4.7096  0.2741
+
+Source_9
+  mean        5.2533  0.4519
+  std. dev.   6.2031  0.3599
+
+Source_10
+  mean       -3.5944 -0.3082
+  std. dev.   4.2426  0.2455
+
+Source_11
+  mean       -2.5994 -0.2207
+  std. dev.   3.0646  0.1799
+
+Source_12
+  mean        0.6759   0.057
+  std. dev.   0.7961  0.0485
+
+Source_13
+  mean        2.0616  0.1768
+  std. dev.   2.4336  0.1411
+
+Source_14
+  mean        -2.333 -0.1998
+  std. dev.    2.753  0.1603
+
+Source_15
+  mean       -7.0234 -0.6021
+  std. dev.   8.2885  0.4825
+
+Source_16
+  mean       -6.8797  -0.591
+  std. dev.   8.1209  0.4713
+
+Source_17
+  mean        6.0816  0.5232
+  std. dev.   7.1773  0.4164
+
+Source_18
+  mean        3.3027  0.2834
+  std. dev.      3.9  0.2268
+
+Source_19
+  mean       -0.4608 -0.0392
+  std. dev.   0.5435  0.0349
+
+Source_20
+  mean       -4.6076 -0.3955
+  std. dev.   5.4381  0.3149
+
+Source_21
+  mean        3.5759  0.3069
+  std. dev.   4.2193  0.2458
+
+Source_22
+  mean        3.8799  0.3339
+  std. dev.   4.5822  0.2641
+
+Source_23
+  mean       -1.6138 -0.1383
+  std. dev.   1.9082  0.1105
+
+Source_24
+  mean        1.5488  0.1324
+  std. dev.   1.8303  0.1071
+
+Source_25
+  mean        3.4486  0.2966
+  std. dev.   4.0708  0.2363
+
+Source_26
+  mean       -3.2502 -0.2789
+  std. dev.   3.8372  0.2235
+
+Source_27
+  mean       -2.2969 -0.1974
+  std. dev.   2.7098  0.1576
+
+Source_28
+  mean       -4.5633 -0.3909
+  std. dev.   5.3857   0.314
+
+Source_29
+  mean       -9.6989 -0.8319
+  std. dev.  11.4435  0.6663
+
+Source_30
+  mean        2.0538   0.177
+  std. dev.   2.4243  0.1415
+
+Source_31
+  mean        -4.658  -0.398
+  std. dev.   5.4956  0.3188
+
+Source_32
+  mean        2.9688  0.2545
+  std. dev.   3.5003  0.2046
+
+Source_33
+  mean       -0.9692  -0.082
+  std. dev.   1.1429  0.0691
+
+Source_34
+  mean       -2.5206 -0.2155
+  std. dev.   2.9742  0.1747
+
+Source_35
+  mean         0.924  0.0803
+  std. dev.   1.0898  0.0665
+
+Source_36
+  mean        0.8228  0.0706
+  std. dev.   0.9708  0.0587
+
+Source_37
+  mean       -5.9749 -0.5128
+  std. dev.   7.0519  0.4089
+
+Source_38
+  mean        2.0871  0.1796
+  std. dev.   2.4652  0.1456
+
+Source_39
+  mean        9.5661  0.8223
+  std. dev.  11.2932  0.6545
+
+Source_40
+  mean        0.8599  0.0731
+  std. dev.   1.0152  0.0603
+
+Source_41
+  mean        -1.878 -0.1618
+  std. dev.   2.2169  0.1309
+
+Source_42
+  mean       -1.4637 -0.1267
+  std. dev.   1.7289  0.1012
+
+Source_43
+  mean        2.4845  0.2143
+  std. dev.   2.9346  0.1711
+
+Source_44
+  mean       -1.1822 -0.1028
+  std. dev.   1.3974  0.0816
+
+Source_45
+  mean        2.5119  0.2149
+  std. dev.   2.9639  0.1729
+
+Source_46
+  mean       -1.2993 -0.1109
+  std. dev.   1.5343  0.0885
+
+Source_47
+  mean        3.8285  0.3264
+  std. dev.   4.5158  0.2648
+
+Source_48
+  mean       -7.2903 -0.6266
+  std. dev.   8.6076  0.4987
+
+Source_49
+  mean        1.2102  0.1042
+  std. dev.     1.43  0.0844
+
+Source_50
+  mean       -8.1023 -0.6952
+  std. dev.   9.5634  0.5548
+
+Source_51
+  mean        7.6474  0.6567
+  std. dev.   9.0269  0.5237
+
+Source_52
+  mean       -2.0083 -0.1723
+  std. dev.   2.3695  0.1389
+
+Source_53
+  mean        0.1261   0.011
+  std. dev.   0.1512  0.0169
+
+Source_54
+  mean        3.6203  0.3102
+  std. dev.    4.272  0.2481
+
+Source_55
+  mean       -1.2032 -0.1024
+  std. dev.   1.4186  0.0849
+
+Source_56
+  mean        4.4713  0.3838
+  std. dev.   5.2791  0.3076
+
+Clustered Instances
+
+0      1385 ( 30%)
+1      3216 ( 70%)
+
+
+Log likelihood: -33.8263
+
+
+Class attribute: class
+Classes to Clusters:
+
+    0    1  <-- assigned to cluster
+  501 2287 | 0
+  884  929 | 1
+
+Cluster 0 <-- 1
+Cluster 1 <-- 0
+
+Incorrectly clustered instances :	1430.0	 31.0802 %
+

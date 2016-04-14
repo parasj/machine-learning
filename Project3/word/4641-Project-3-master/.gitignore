@@ -1,0 +1,8 @@
+.classpath
+.project
+bin
+.DS_Store
+*.csv
+*.arff
+results/*.txt
+weka.jar

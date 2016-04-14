@@ -1,0 +1,99 @@
+=== Run information ===
+
+Scheme:weka.clusterers.EM -I 100 -N 2 -M 1.0E-6 -S 100
+Relation:     bcica10
+Instances:    569
+Attributes:   11
+              ica0
+              ica1
+              ica2
+              ica3
+              ica4
+              ica5
+              ica6
+              ica7
+              ica8
+              ica9
+Ignored:
+              class
+Test mode:Classes to clusters evaluation on training data 
+=== Model and evaluation on training set ===
+
+
+EM
+==
+
+Number of clusters: 2
+
+
+            Cluster
+Attribute         0       1
+             (0.29)  (0.71)
+============================
+ica0
+  mean        0.2025  -0.084
+  std. dev.   1.8084  0.1865
+
+ica1
+  mean        0.0258 -0.0107
+  std. dev.   0.6578  1.1112
+
+ica2
+  mean        0.2438 -0.1011
+  std. dev.   1.6674  0.4766
+
+ica3
+  mean        0.4383 -0.1817
+  std. dev.   1.6521  0.4126
+
+ica4
+  mean       -0.0171  0.0071
+  std. dev.   1.7066  0.4549
+
+ica5
+  mean        0.2665 -0.1105
+  std. dev.   1.7829  0.2347
+
+ica6
+  mean         -0.19  0.0788
+  std. dev.   1.7042  0.4351
+
+ica7
+  mean       -0.2695  0.1117
+  std. dev.   1.5784  0.5823
+
+ica8
+  mean        0.0541 -0.0224
+  std. dev.   1.6855  0.4849
+
+ica9
+  mean        0.0763 -0.0316
+  std. dev.   1.6728   0.501
+
+
+
+Time taken to build model (full training data) : 0.18 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      165 ( 29%)
+1      404 ( 71%)
+
+
+Log likelihood: -10.20604
+
+
+Class attribute: class
+Classes to Clusters:
+
+   0   1  <-- assigned to cluster
+ 118  94 | 0.000000
+  47 310 | 1.000000
+
+Cluster 0 <-- 0.000000
+Cluster 1 <-- 1.000000
+
+Incorrectly clustered instances : 141.0  24.7803 %
+

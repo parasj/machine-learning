@@ -1,0 +1,57 @@
+
+
+=== Clustering stats for training data ===
+
+
+kMeans
+======
+
+Number of iterations: 3
+Within cluster sum of squared errors: 1225.0
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                      Cluster#
+Attribute                                 Full Data          0          1          2          3
+                                              (435)      (167)       (52)       (61)      (155)
+===============================================================================================
+handicapped-infants                               n          n          n          n          y
+water-project-cost-sharing                        y          y          n          y          n
+adoption-of-the-budget-resolution                 y          n          y          y          y
+physician-fee-freeze                              n          y          n          n          n
+el-salvador-aid                                   y          y          n          y          n
+religious-groups-in-schools                       y          y          y          y          n
+anti-satellite-test-ban                           y          n          y          y          y
+aid-to-nicaraguan-contras                         y          n          y          y          y
+mx-missile                                        y          n          y          n          y
+immigration                                       y          y          n          n          y
+synfuels-corporation-cutback                      n          n          n          y          n
+education-spending                                n          y          n          n          n
+superfund-right-to-sue                            y          y          n          y          n
+crime                                             y          y          y          y          n
+duty-free-exports                                 n          n          n          n          y
+export-administration-act-south-africa            y          y          y          y          y
+
+
+Clustered Instances
+
+0      167 ( 38%)
+1       52 ( 12%)
+2       61 ( 14%)
+3      155 ( 36%)
+
+
+Class attribute: Class
+Classes to Clusters:
+
+   0   1   2   3  <-- assigned to cluster
+  22  45  52 148 | democrat
+ 145   7   9   7 | republican
+
+Cluster 0 <-- republican
+Cluster 1 <-- No class
+Cluster 2 <-- No class
+Cluster 3 <-- democrat
+
+Incorrectly clustered instances :	142.0	 32.6437 %
+

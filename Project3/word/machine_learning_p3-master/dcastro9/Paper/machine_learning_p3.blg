@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: machine_learning_p3.aux
+The style file: acmsiggraph.bst
+Database file #1: machine_learning_p3.bib
+You've used 5 entries,
+            2748 wiz_defined-function locations,
+            619 strings with 5106 characters,
+and the built_in function-call counts, 1650 in all, are:
+= -- 146
+> -- 84
+< -- 0
++ -- 30
+- -- 30
+* -- 121
+:= -- 278
+add.period$ -- 12
+call.type$ -- 5
+change.case$ -- 33
+chr.to.int$ -- 4
+cite$ -- 5
+duplicate$ -- 56
+empty$ -- 136
+format.name$ -- 33
+if$ -- 332
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 1
+newline$ -- 25
+num.names$ -- 15
+pop$ -- 50
+preamble$ -- 1
+purify$ -- 28
+quote$ -- 0
+skip$ -- 52
+stack$ -- 0
+substring$ -- 39
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 0
+while$ -- 14
+width$ -- 7
+write$ -- 56
