@@ -1,0 +1,10 @@
+\begin{equation}
+    \label{eq:mdptransition}
+    S_{n+1}(x) = 
+    \begin{cases}
+        x,& \text{with probability } 1-p\\
+        rotate(x, 90\degree),              & \text{with probability } \frac{p}{3}\\
+        rotate(x, -90\degree),              & \text{with probability } \frac{p}{3}\\
+        rotate(x, 180\degree),              & \text{with probability } \frac{p}{3}
+    \end{cases}
+\end{equation}

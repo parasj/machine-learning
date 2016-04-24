@@ -1,0 +1,42 @@
+\begin{table}[!htb]
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \textbf{Medium map}\\
+        \begin{tabular}{@{}c|cc@{}}
+        \toprule
+        \textbf{$p$} & \textbf{Iterations} & \textbf{Time taken (ms)} \\ \midrule
+        0.0     &   11      &    84  \\
+        0.1     &   6       &    155  \\
+        0.2     &   7       &    105  \\
+        0.3     &   7       &    59  \\
+        0.4     &   6       &    75  \\
+        0.5     &   15      &    82  \\
+        0.6     &   5       &    129  \\
+        0.7     &   5       &    164  \\
+        0.8     &   23      &    49  \\
+        0.9     &   24      &    199  \\
+        1.0     &   16      &    213  \\ \bottomrule
+        \end{tabular}
+    \end{minipage}
+    \hfillx
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \textbf{Large map}\\
+        \begin{tabular}{@{}c|cc@{}}
+        \toprule
+        \textbf{$p$} & \textbf{Iterations} & \textbf{Time taken (ms)} \\ \midrule
+        0.0     &    15      &   692  \\
+        0.1     &    13      &   672  \\
+        0.2     &    18      &   451  \\
+        0.3     &    15      &   523  \\
+        0.4     &    9       &   340  \\
+        0.5     &    8       &   560  \\
+        0.6     &    6       &   961  \\
+        0.7     &    7       &   1310  \\
+        0.8     &    57      &   1655  \\
+        0.9     &    312     &   2888  \\
+        1.0     &    18      &   1625  \\ \bottomrule
+        \end{tabular}
+    \end{minipage}
+    \caption{Policy iteration results for both maps. Note that $p$ is the probability of state transition error.}\label{table:policyitertable}
+\end{table}

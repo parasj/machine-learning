@@ -1,0 +1,42 @@
+\begin{table}[!htb]
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \textbf{Medium map}\\
+        \begin{tabular}{@{}c|cc@{}}
+        \toprule
+        \textbf{$p$} & \textbf{Iterations} & \textbf{Time taken (ms)} \\ \midrule
+        0.0          & 19                            & 51                       \\
+        0.1          & 40                            & 20                       \\
+        0.2          & 62                            & 29                       \\
+        0.3          & 90                            & 48                       \\
+        0.4          & 132                           & 85                       \\
+        0.5          & 203                           & 89                       \\
+        0.6          & 417                           & 196                      \\
+        0.7          & 1821                          & 907                      \\
+        0.8          & 2178                          & 1216                     \\
+        0.9          & 679                           & 299                      \\
+        1.0          & 708                           & 332                      \\ \bottomrule
+        \end{tabular}
+    \end{minipage}
+    \hfillx
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \textbf{Large map}\\
+        \begin{tabular}{@{}c|cc@{}}
+        \toprule
+        \textbf{$p$} & \textbf{Iterations} & \textbf{Time taken (ms)} \\ \midrule
+        0.0          & 18                  & 60                       \\
+        0.1          & 37                  & 128                      \\
+        0.2          & 54                  & 173                      \\
+        0.3          & 80                  & 259                      \\
+        0.4          & 127                 & 411                      \\
+        0.5          & 193                 & 622                      \\
+        0.6          & 420                 & 1397                     \\
+        0.7          & 1503                & 5113                     \\
+        0.8          & 1760                & 5910                     \\
+        0.9          & 678                 & 2224                     \\
+        1.0          & 471                 & 1560                     \\ \bottomrule
+        \end{tabular}
+    \end{minipage}
+    \caption{Value iteration results for both maps. Note that $p$ is the probability of state transition error.}\label{table:valueitertable}
+\end{table}

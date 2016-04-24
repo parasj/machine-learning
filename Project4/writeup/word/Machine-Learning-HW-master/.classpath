@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="common"/>
+	<classpathentry kind="src" path="Randomized_Optimization_HW"/>
+	<classpathentry kind="src" path="Supervised_Learning_HW"/>
+	<classpathentry kind="src" path="Unsupervised_Learning_HW"/>
+	<classpathentry kind="src" path="Markov_Decision_Processes_HW"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ABAGAIL-repo"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

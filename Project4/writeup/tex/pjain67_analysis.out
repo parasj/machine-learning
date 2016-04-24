@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Markov Decision Processes Chosen}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Problem instances}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{MDP Interest}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Phase 1 - Value Iteration/Policy Iteration}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Value Iteration}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Policy Iteration}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Value iteration versus Policy Iteration}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Phase 2 - Q-Learning and Prioritized Sweeping}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Q-Learning}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Parameter Hyperspace Analysis Experiment}{subsection.3.1}% 10
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Parameter Hyperspace Analysis Experiment Results}{subsection.3.1}% 11
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Comparision of Q-learning with model-based learners}{subsection.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Prioritized Sweeping}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Effect of p and \040on score}{subsection.3.2}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Effect of p and \040on runtime}{subsection.3.2}% 15
+\BOOKMARK [1][-]{section.4}{Conclusion}{}% 16
+\BOOKMARK [2][-]{subsection.4.1}{Value Iteration}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.2}{Policy Iteration}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.3}{Q-learning}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.4}{Prioritized Sweeping}{section.4}% 20
